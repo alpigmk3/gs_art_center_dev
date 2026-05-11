@@ -1,0 +1,1271 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="description" content="Interactive 3D walkthrough">
+
+  <link rel="icon" href="2026-05-08-17-27-21/favicon.ico">
+
+  <meta property="og:image" content="2026-05-08-17-27-21/thumbnail.jpg" />
+
+  <link href="2026-05-08-17-27-21/webwalk/style.css" rel="stylesheet" type="text/css">
+
+  <style>
+    @font-face {
+      font-family: 'Open Sans';
+      font-style: normal;
+      font-weight: 400;
+      src: local('Open Sans'), local('OpenSans'),
+        url('2026-05-08-17-27-21/webwalk/font/open-sans-v28-vietnamese_latin-ext_latin-regular.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('2026-05-08-17-27-21/webwalk/font/open-sans-v28-vietnamese_latin-ext_latin-regular.woff') format('woff');
+      /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    }
+
+    /* Original font awesome font-family names have been replaced to not rely on
+       font-weight when determining actual symbol, as it didn't work well
+       when rendering using 2D canvas features, and also to avoid spaces in
+       the names. */
+
+    @font-face {
+      font-family: 'FontAwesomeBrands';
+      src: url("2026-05-08-17-27-21/webwalk/font/fa-brands-400.woff2") format("woff2"),
+        url("2026-05-08-17-27-21/webwalk/font/fa-brands-400.woff") format("woff");
+    }
+
+    @font-face {
+      font-family: 'FontAwesomeRegular';
+      src: url("2026-05-08-17-27-21/webwalk/font/fa-regular-400.woff2") format("woff2"),
+        url("2026-05-08-17-27-21/webwalk/font/fa-regular-400.woff") format("woff");
+    }
+
+    @font-face {
+      font-family: 'FontAwesomeSolid';
+      src: url("2026-05-08-17-27-21/webwalk/font/fa-solid-900.woff2") format("woff2"),
+        url("2026-05-08-17-27-21/webwalk/font/fa-solid-900.woff") format("woff");
+    }
+
+    #cover-image {
+      background-image: url("2026-05-08-17-27-21/cover.jpg");
+    }
+
+    .ext-popup-close-button {
+      background-image: url("2026-05-08-17-27-21/webwalk/img/close.svg");
+    }
+
+    /* CUSTOM UI STYLES */
+    #custom-ui-container {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+      z-index: 105;
+      font-family: 'Open Sans', sans-serif;
+    }
+
+    #custom-ui-container>* {
+      pointer-events: auto;
+    }
+
+    .custom-ui-top-left {
+      position: absolute;
+      top: 40px;
+      left: 40px;
+      color: white;
+      font-size: 26px;
+      font-weight: 700;
+      letter-spacing: 1px;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+      display: flex;
+      align-items: center;
+    }
+
+    .custom-ui-top-left .bar {
+      color: #fff;
+      margin-right: 8px;
+    }
+
+    .custom-ui-top-right {
+      position: absolute;
+      top: 40px;
+      right: 40px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+    }
+
+    /* Common Button States (White -> Black) */
+    .auto-move-header,
+    .seat-btn,
+    .nav-text,
+    .stage-change-btn,
+    .util-btn,
+    .nav-arrow {
+      background-color: #ffffff;
+      color: #000000;
+      border: 1px solid #cccccc;
+      border-radius: 0;
+      box-shadow: none;
+      transition: background-color 0.2s, color 0.2s, border-color 0.2s;
+      cursor: pointer;
+    }
+
+    .auto-move-header:hover,
+    .seat-btn:hover,
+    .nav-text:hover,
+    .stage-change-btn:hover,
+    .util-btn:hover,
+    .nav-arrow:hover {
+      background-color: #e6e6e6;
+      /* 마우스오버 */
+    }
+
+    .auto-move-header:active,
+    .seat-btn:active,
+    .nav-text:active,
+    .stage-change-btn:active,
+    .util-btn:active,
+    .nav-arrow:active {
+      background-color: #999999;
+      /* 클릭 */
+      border-color: #999999;
+      color: #000000;
+    }
+
+    .auto-move-header.active,
+    .seat-btn.active,
+    .nav-text.active,
+    .stage-change-btn.active,
+    .util-btn.active,
+    .nav-arrow.active {
+      background-color: #000000;
+      /* 활성화 */
+      color: #ffffff;
+      border-color: #000000;
+    }
+
+    /* The vertical bar inside buttons */
+    .seat-btn::before,
+    .nav-text::before,
+    .stage-change-btn::before {
+      content: '';
+      position: absolute;
+      left: 12px;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 2px;
+      height: 14px;
+      background-color: currentColor;
+      /* Inherits black or white based on state */
+    }
+
+    /* Specific element adjustments */
+    .auto-move-header {
+      padding: 10px 18px;
+      font-size: 15px;
+      font-weight: 800;
+      margin-bottom: 12px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .auto-move-header .arrow {
+      font-size: 12px;
+      color: inherit;
+    }
+
+    .seat-list {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      align-items: flex-end;
+    }
+
+    .seat-btn {
+      padding: 10px 16px 10px 24px;
+      /* extra left padding for the bar */
+      font-size: 14px;
+      font-weight: 700;
+      text-align: right;
+      min-width: 180px;
+      position: relative;
+    }
+
+    .seat-btn span {
+      font-weight: 900;
+      color: inherit;
+      margin-right: 5px;
+    }
+
+    .custom-ui-bottom-left {
+      position: absolute;
+      bottom: 40px;
+      left: 40px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      align-items: flex-start;
+    }
+
+    .nav-control {
+      display: flex;
+      align-items: stretch;
+    }
+
+    .nav-arrow {
+      font-size: 20px;
+      font-weight: bold;
+      padding: 10px 16px;
+      z-index: 1;
+    }
+
+    .nav-text {
+      padding: 10px 20px 10px 28px;
+      /* extra padding for bar */
+      font-size: 15px;
+      font-weight: 700;
+      position: relative;
+      margin: 0 -1px;
+      /* Overlap borders with arrows */
+      z-index: 1;
+    }
+
+    .nav-text:hover,
+    .nav-text:active,
+    .nav-text.active,
+    .nav-arrow:hover,
+    .nav-arrow:active,
+    .nav-arrow.active {
+      z-index: 2;
+      /* Bring border above siblings */
+    }
+
+    .nav-text span {
+      font-weight: 900;
+      color: inherit;
+      margin-right: 5px;
+    }
+
+    .stage-change-btn {
+      padding: 12px 30px 12px 40px;
+      /* extra padding for bar */
+      font-size: 15px;
+      font-weight: 800;
+      text-align: center;
+      position: relative;
+      width: 100%;
+    }
+
+    .custom-ui-bottom-right {
+      position: absolute;
+      bottom: 40px;
+      right: 40px;
+      display: flex;
+      gap: 12px;
+    }
+
+    .util-btn {
+      width: 44px;
+      height: 44px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .util-btn svg {
+      width: 22px;
+      height: 22px;
+      fill: currentColor;
+    }
+
+    /* SEAT MAP POPUP STYLES */
+    .seatmap-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0);
+      z-index: 200;
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+      pointer-events: none;
+      transition: background-color 0.3s ease;
+      overflow: hidden;
+    }
+
+    .seatmap-overlay.active {
+      background-color: rgba(0, 0, 0, 0.6);
+      pointer-events: auto;
+    }
+
+    .seatmap-popup {
+      background-color: white;
+      width: 82%;
+      max-width: 1800px;
+      height: 86%;
+      max-height: 1200px;
+      border-radius: 0;
+      box-shadow: 0 -10px 30px rgba(0, 0, 0, 0.5);
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      padding: 30px;
+      transform: translateY(100%);
+      transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .seatmap-overlay.active .seatmap-popup {
+      transform: translateY(0);
+    }
+
+    .seatmap-close-btn {
+      position: absolute;
+      top: 5px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: none;
+      border: none;
+      cursor: pointer;
+      padding: 5px;
+    }
+
+    .seatmap-close-btn svg {
+      width: 40px;
+      height: 40px;
+      fill: #cccccc;
+      transition: fill 0.2s;
+    }
+
+    .seatmap-close-btn:hover svg {
+      fill: #666666;
+    }
+
+    .seatmap-header {
+      background-color: #999999;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      font-size: 24px;
+      font-weight: 700;
+      margin-top: 15px;
+      margin-bottom: 25px;
+    }
+
+    .seatmap-content {
+      display: flex;
+      flex: 1;
+      gap: 20px;
+      min-height: 0;
+    }
+
+    .seatmap-floor-selector {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      width: 70px;
+    }
+
+    .floor-btn {
+      background-color: white;
+      color: black;
+      border: 1px solid #cccccc;
+      padding: 15px 0;
+      font-size: 20px;
+      font-weight: 900;
+      cursor: pointer;
+      text-align: center;
+      transition: all 0.2s;
+    }
+
+    .floor-btn:hover {
+      background-color: #e6e6e6;
+    }
+
+    .floor-btn.active {
+      background-color: black;
+      color: white;
+      border-color: black;
+    }
+
+    .seatmap-map-container {
+      flex: 1;
+      border: 1px solid #cccccc;
+      background-color: #ffffff;
+      overflow: hidden;
+      position: relative;
+      cursor: grab;
+    }
+
+    .seatmap-map-container:active {
+      cursor: grabbing;
+    }
+
+    .seatmap-zoom-controls {
+      position: absolute;
+      top: 15px;
+      right: 15px;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      z-index: 10;
+    }
+
+    .seatmap-zoom-controls button {
+      width: 40px;
+      height: 40px;
+      border-radius: 4px;
+      background: rgba(255, 255, 255, 0.9);
+      border: 1px solid #cccccc;
+      color: #333;
+      font-size: 22px;
+      font-weight: bold;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      transition: all 0.2s;
+    }
+
+    .seatmap-zoom-controls button:hover {
+      background: #f0f0f0;
+    }
+
+    .seatmap-zoom-controls button:active {
+      background: #e0e0e0;
+      transform: scale(0.95);
+    }
+
+    #seatmap-zoom-reset {
+      font-size: 18px;
+    }
+
+    #seatmap-zoom-content {
+      transform-origin: center center;
+      transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+      position: relative;
+    }
+
+    #seatmap-zoom-content.dragging {
+      transition: none !important;
+    }
+
+    #seatmap-zoom-content img {
+      pointer-events: none;
+      user-select: none;
+      -webkit-user-drag: none;
+    }
+
+    .seatmap-section-selector {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      width: 160px;
+    }
+
+    .section-btn {
+      background-color: white;
+      color: black;
+      border: 1px solid #cccccc;
+      padding: 12px 10px 12px 24px;
+      font-size: 15px;
+      font-weight: 700;
+      cursor: pointer;
+      text-align: center;
+      position: relative;
+      transition: all 0.2s;
+    }
+
+    .section-btn::before {
+      content: '';
+      position: absolute;
+      left: 12px;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 2px;
+      height: 14px;
+      background-color: currentColor;
+    }
+
+    .section-btn:hover {
+      background-color: #e6e6e6;
+    }
+
+    .section-btn.active {
+      background-color: black;
+      color: white;
+      border-color: black;
+    }
+
+    .section-btn span {
+      font-weight: 900;
+      margin-right: 5px;
+      color: inherit;
+    }
+
+    
+    /* Seatmap Specific Styles */
+    #seatmap-zoom-content {
+      --seat-w: 26px;
+      --seat-h: 26px;
+      --gap: 3px;
+      --b-zone-width: 400px;
+      padding: 20px;
+      background: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    #seatmap-zoom-content .floor-section { margin-bottom: 20px; border-bottom: 1px solid #eee; padding-bottom: 20px; display: none; width: 100%; }
+    #seatmap-zoom-content .floor-section.active { display: block; }
+    #seatmap-zoom-content .floor-title { font-size: 20px; font-weight: bold; color: #1a73e8; margin-bottom: 25px; text-align: center; display: none; }
+    #seatmap-zoom-content .theater-layout { display: flex; justify-content: center; gap: 30px; align-items: flex-start; }
+    #seatmap-zoom-content .zone-box { display: flex; flex-direction: column; align-items: center; transition: transform 0.3s, box-shadow 0.3s; padding: 10px; border-radius: 8px; }
+    #seatmap-zoom-content .zone-box.active { box-shadow: 0 0 15px rgba(26, 115, 232, 0.5); transform: scale(1.02); background-color: #f8fbff; }
+    #seatmap-zoom-content .zone-label { font-weight: bold; margin-bottom: 15px; font-size: 12px; background: #444; color: #fff; padding: 3px 15px; border-radius: 3px; }
+    #seatmap-zoom-content .rows-wrap { display: flex; flex-direction: column; }
+    #seatmap-zoom-content .zone-B .rows-wrap { width: var(--b-zone-width); }
+    #seatmap-zoom-content .seat-row { display: flex; align-items: center; margin-bottom: var(--gap); height: var(--seat-h); }
+    #seatmap-zoom-content .row-num { font-size: 10px; color: #bbb; width: 40px; text-align: right; padding-right: 10px; flex-shrink: 0; }
+    
+    #seatmap-zoom-content .seatmap-seat-btn {
+        height: var(--seat-h);
+        background-color: #fff;
+        border: 1px solid #ddd;
+        border-radius: 3px;
+        font-size: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        box-sizing: border-box;
+        margin-right: var(--gap);
+        flex-shrink: 0;
+        padding: 0;
+        transition: all 0.2s;
+        color: #000;
+        min-width: unset; /* override index.html */
+        text-align: center;
+    }
+    #seatmap-zoom-content .seatmap-seat-btn:last-child { margin-right: 0; }
+    #seatmap-zoom-content .seatmap-seat-btn:hover { background-color: #e3f2fd; border-color: #2196f3; z-index: 10; }
+    #seatmap-zoom-content .seatmap-seat-btn:active { transform: scale(0.95); background-color: #bbdefb; border-color: #1976d2; }
+
+    #seatmap-zoom-content .zone-A .seatmap-seat-btn, #seatmap-zoom-content .zone-C .seatmap-seat-btn { width: var(--seat-w); }
+    #seatmap-zoom-content .zone-B .seatmap-seat-btn { flex-grow: 1; flex-basis: 0; }
+    
+    #seatmap-zoom-content .seatmap-seat-btn.none { visibility: hidden; pointer-events: none; border: none; }
+    #seatmap-zoom-content .has-extra .seatmap-seat-btn.none { display: none; }
+    #seatmap-zoom-content .seatmap-seat-btn.disability { background-color: #fff9c4; border-color: #fbc02d; color: #f57f17; font-weight: bold; }
+    #seatmap-zoom-content .seatmap-seat-btn.extra-27 { background-color: #ffebee; border-color: #ef9a9a; font-weight: bold; }
+    #seatmap-zoom-content .seatmap-seat-btn.extra-17 { background-color: #e3f2fd; border-color: #90caf9; font-weight: bold; }
+    
+    #seatmap-zoom-content .legend { display: flex; justify-content: center; gap: 15px; margin-bottom: 30px; font-size: 11px; width: 100%; }
+    #seatmap-zoom-content .legend-item { display: flex; align-items: center; gap: 5px; }
+    #seatmap-zoom-content .l-box { width: 12px; height: 12px; border: 1px solid #ccc; }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .seatmap-popup {
+        width: 95%;
+        height: 95%;
+        padding: 15px;
+      }
+
+      .seatmap-header {
+        font-size: 18px;
+        padding: 10px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+      }
+
+      .seatmap-content {
+        flex-direction: column;
+      }
+
+      .seatmap-floor-selector {
+        flex-direction: row;
+        width: 100%;
+      }
+
+      .floor-btn {
+        padding: 10px;
+        font-size: 16px;
+        flex: 1;
+      }
+
+      .seatmap-section-selector {
+        flex-direction: row;
+        width: 100%;
+        overflow-x: auto;
+      }
+
+      .section-btn {
+        padding: 10px 15px;
+        font-size: 14px;
+        white-space: nowrap;
+      }
+    }
+  </style>
+
+  <title>3D scene</title>
+</head>
+
+<body>
+  <noscript>
+    <div class="message error-message absolute-center">
+      Explore this interactive 3D walkthrough on desktop and mobile
+      devices or with a Virtual Reality headset. To start the virtual
+      tour just click the play button. You don't need to install any
+      application, but you need to enable JavaScript in your browser.
+    </div>
+  </noscript>
+
+  <div id="cover-image">
+  </div>
+
+  <!-- tabindex allows to give the canvas keyboard focus with a
+         focus() function -->
+  <canvas id="walk-canvas" tabindex="-1">
+  </canvas>
+
+  <div id="info-message" class="message info-message" style="display: none">
+  </div>
+
+  <div id="error-message" class="message error-message absolute-center" style="display: none">
+  </div>
+
+  <!-- Error messages in old IEs can not be shown from JS, because old
+       IEs fail to parse new JS constructs -->
+  <!--[if lte IE 9]>
+      <div class="message error-message absolute-center">
+        Old versions of the Internet Explorer browser do not support
+        <a href="https://khronos.org/webgl/wiki/Getting_a_WebGL_Implementation"
+           target="_blank">
+          WebGL</a>.
+        <br/>
+        <a href="https://get.webgl.org/" target="_blank">
+          Find out how to get it.</a>
+      </div>
+  <![endif]-->
+
+  <div id="info-bar" class="ui-top ui-left">
+    <div id="info-bar-slide">
+      <a id="author-logo" class="info-item ui-panel" style="display: none" target="_blank">
+        <img>
+      </a><!-- NS = no spaces
+   -->
+      <div id="info-text" class="info-item ui-panel" style="display: none">
+        <div>
+          <div id="info-title"></div>
+        </div>
+        <div>
+          <a id="info-author" target="_blank"></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="menu-bar" class="ui-bottom ui-right">
+    <div id="menu-bar-slide">
+      <div id="menu-bar-folder" class="menu-item ui-hoverable ui-panel" style="display: none">
+        <img src="2026-05-08-17-27-21/webwalk/img/fold-horizontal.svg">
+      </div><!-- NS
+   -->
+      <div id="menu-bar-content">
+        <div id="menu-buttons" style="display: none">
+          <div id="help-button" class="menu-button menu-item ui-hoverable ui-panel">
+            ?
+          </div><!-- NS
+       -->
+          <div id="minimap-button-toggle" class="menu-button menu-item ui-hoverable ui-panel" style="display:none">
+            <img src="2026-05-08-17-27-21/webwalk/img/map.svg">
+          </div><!-- NS
+       -->
+          <div id="tour-button" class="menu-button menu-item ui-hoverable ui-panel" style="display: none">
+            <img src="2026-05-08-17-27-21/webwalk/img/tour.svg">
+          </div><!-- NS
+       -->
+          <div id="vr-button" class="vr-specific menu-button menu-item ui-hoverable ui-panel" style="display: none">
+            VR
+          </div><!-- NS
+       -->
+          <div id="fullscreen-button" class="fullscreen-specific menu-button menu-item ui-hoverable
+                      ui-panel" style="display: none">
+            <img src="2026-05-08-17-27-21/webwalk/img/fullscreen.svg">
+          </div>
+        </div><!-- NS
+     --><a id="engine-logo" class="menu-item ui-panel" style="display: none" href="https://www.shapespark.com"
+          target="_blank">
+          <div id="engine-logo-text" style="display: none"></div><!-- NS
+       --><img src="2026-05-08-17-27-21/webwalk/img/shapespark-logo.svg">
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div id="view-list" class="ui-top ui-right" style="display: none">
+    <div id="view-list-slide">
+      <div id="view-list-items" class="ui-scrollbar">
+        <div class="view ui-hoverable ui-panel"></div>
+      </div>
+      <div id="view-list-folder" class="ui-folder-vertical ui-hoverable ui-panel">
+        <img src="2026-05-08-17-27-21/webwalk/img/fold-vertical.svg">
+      </div>
+    </div>
+  </div>
+
+  <div id="minimap-container" class="minimap-container-default" style="display: none">
+    <div id="minimap-wrapper" class="minimap-wrapper-default">
+      <div id="minimap-button-close" class="minimap-button minimap-button-close">
+        <img src="2026-05-08-17-27-21/webwalk/img/close.svg">
+      </div>
+      <div id="minimap-button-minimize" class="minimap-button minimap-button-minimize">
+        <img src="2026-05-08-17-27-21/webwalk/img/minimize.svg">
+      </div>
+      <div id="minimap-button-maximize" class="minimap-button minimap-button-maximize">
+        <img src="2026-05-08-17-27-21/webwalk/img/maximize.svg">
+      </div>
+      <div id="minimap-content-wrapper" class="minimap-content-wrapper">
+        <div id="minimap-content" class="minimap-content"></div>
+      </div>
+      <div id="minimap-tabs" class="minimap-tabs-default" style="display: none"></div>
+    </div>
+  </div>
+
+  <div id="view-mode" class="ui-top ui-center" style="display: none">
+    <div id="view-mode-slide">
+      <div class="view-mode-container">
+        <div id="view-mode-top" class="menu-item view-mode-item ui-hoverable ui-panel">
+          <img src="2026-05-08-17-27-21/webwalk/img/view-mode-top.svg">
+        </div>
+        <div id="view-mode-front" class="menu-item view-mode-item ui-hoverable ui-panel">
+          <img src="2026-05-08-17-27-21/webwalk/img/view-mode-front.svg">
+        </div>
+        <div id="view-mode-left" class="menu-item view-mode-item ui-hoverable ui-panel">
+          <img src="2026-05-08-17-27-21/webwalk/img/view-mode-left.svg">
+        </div>
+        <div id="view-mode-fps" class="menu-item view-mode-item ui-hoverable ui-panel">
+          <img src="2026-05-08-17-27-21/webwalk/img/view-mode-fps.svg">
+        </div>
+      </div>
+      <div class="view-mode-container">
+        <div id="view-mode-persp" class="menu-item view-mode-item ui-hoverable ui-panel">
+          <img src="2026-05-08-17-27-21/webwalk/img/view-mode-persp.svg">
+        </div>
+        <div id="view-mode-ortho" class="menu-item view-mode-item ui-hoverable ui-panel">
+          <img src="2026-05-08-17-27-21/webwalk/img/view-mode-ortho.svg">
+        </div>
+      </div>
+      <div class="view-mode-container">
+        <div id="view-mode-color" class="menu-item view-mode-item ui-hoverable ui-panel">
+          <img src="2026-05-08-17-27-21/webwalk/img/view-mode-color.svg">
+        </div>
+        <div id="view-mode-wireframe-opaque" class="menu-item view-mode-item ui-hoverable ui-panel">
+          <img src="2026-05-08-17-27-21/webwalk/img/view-mode-wireframe-opaque.svg">
+        </div>
+        <div id="view-mode-wireframe-transparent" class="menu-item view-mode-item ui-hoverable ui-panel">
+          <img src="2026-05-08-17-27-21/webwalk/img/view-mode-wireframe-transparent.svg">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <img id="play-button" class="absolute-center" src="2026-05-08-17-27-21/webwalk/img/play.svg" style="display: none">
+
+  <div id='interaction-prompt' class="ui-all-center ui-panel" style="display: none">
+    <div class='interaction-prompt-icon'>
+      <img class='interaction-prompt-icon-idle interaction-prompt-desktop'
+        src="2026-05-08-17-27-21/webwalk/img/pointer.svg" />
+      <img class='interaction-prompt-icon-pressed interaction-prompt-desktop'
+        src="2026-05-08-17-27-21/webwalk/img/pointer-pressed.svg" />
+      <img class='interaction-prompt-icon-idle interaction-prompt-mobile'
+        src="2026-05-08-17-27-21/webwalk/img/hand.svg" />
+      <img class='interaction-prompt-icon-pressed interaction-prompt-mobile'
+        src="2026-05-08-17-27-21/webwalk/img/hand-pressed.svg" />
+    </div>
+    <div data-strings="help.interactiveDesktop" class='interaction-prompt-indicator-text interaction-prompt-desktop'>
+    </div>
+    <div data-strings="help.interactiveMobile" class='interaction-prompt-indicator-text interaction-prompt-mobile'>
+    </div>
+  </div>
+
+  <!-- When the help is to be shown automatically during load (#help
+       hash), it is displayed above the primary progress indicator.
+       help-and-primary-progress is a wrapper for these two elements that
+       helps to lay them out consistently. -->
+  <div id="help-and-primary-progress" class="absolute-center">
+
+    <div id="desktop-help" class="help ui-panel" style="display: none">
+      <img id="close-desktop-help-button" class="close-help-button ui-close-hoverable"
+        src="2026-05-08-17-27-21/webwalk/img/close.svg">
+      <div id="desktop-help-switch">
+        <div data-strings="help.basic" id="basic-desktop-help-option">
+        </div><!-- NS = no spaces
+     -->
+        <div data-strings="help.advanced" id="advanced-desktop-help-option">
+        </div>
+      </div>
+
+      <div id="desktop-help-content">
+
+        <div id="desktop-basic-help" class="help-columns" style="display: none">
+          <div class="help-column3">
+            <h1 data-strings="help.mouse"></h1>
+            <img src="2026-05-08-17-27-21/webwalk/img/mouse-controls.svg">
+          </div><!-- NS
+       -->
+          <div class="help-column3-sep"></div><!-- NS
+       -->
+          <div class="help-column3">
+            <h1 data-strings="help.keyboard"></h1>
+            <img src="2026-05-08-17-27-21/webwalk/img/keyboard-controls.svg">
+          </div><!-- NS
+       -->
+          <div class="help-column3-sep"></div><!-- NS
+       -->
+          <div class="help-column3">
+            <h1 data-strings="help.vrTeleport"></h1>
+            <img src="2026-05-08-17-27-21/webwalk/img/vr-controls.svg">
+          </div>
+        </div>
+
+        <div id="advanced-desktop-help" style="display: none">
+          <h1 data-strings="help.mouse"></h1>
+          <div>
+            <div class="help-how" data-strings="help.holdLeftButton">
+            </div><!-- NS
+         -->
+            <div data-strings="help.lookAround" class="help-what"></div>
+          </div>
+          <div>
+            <div class="help-how" data-strings="help.clickLeftButton">
+            </div><!-- NS
+         -->
+            <div data-strings="help.walkToClickedPlace" class="viewer-specific help-what">
+            </div><!-- NS
+         -->
+            <div data-strings="help.selectMaterialLightObject" class="editor-specific help-what" style="display: none">
+            </div>
+          </div>
+          <div>
+            <div class="help-how" data-strings="help.scroll"></div><!-- NS
+         -->
+            <div data-strings="help.walkStraight" class="help-what"></div>
+          </div>
+          <h1 data-strings="help.keyboard"></h1>
+          <div>
+            <div class="help-how">
+              <div>
+                <div class="help-key-placeholder"></div><!-- NS
+             -->
+                <div class="help-key">&#8593;</div><!-- NS
+             -->
+                <div class="help-key-placeholder"></div>
+              </div>
+              <div>
+                <div class="help-key">&#8592;</div><!-- NS
+             -->
+                <div class="help-key">&#8595;</div><!-- NS
+             -->
+                <div class="help-key">&#8594;</div>
+              </div>
+            </div><!-- NS
+         -->
+            <div data-strings="help.walkStraightAndLookAround" class="help-what">
+            </div>
+          </div>
+          <div>
+            <div class="help-how">
+              <div>
+                <div class="help-key-placeholder"></div><!-- NS
+             -->
+                <div class="help-key">W</div><!-- NS
+             -->
+                <div class="help-key-placeholder"></div>
+              </div>
+              <div>
+                <div class="help-key">A</div><!-- NS
+             -->
+                <div class="help-key">S</div><!-- NS
+             -->
+                <div class="help-key">D</div>
+              </div>
+            </div><!-- NS
+         -->
+            <div data-strings="help.walkStraightAndSideways" class="help-what"></div>
+          </div>
+          <div>
+            <div class="help-how">
+              <div class="help-key">PgUp</div>
+              <div class="help-key">PgDn</div><!-- NS
+           -->
+              <div class="help-key-sep"></div><!-- NS
+           -->
+              <div class="help-key">E</div>
+              <div class="help-key">Q</div>
+            </div><!-- NS
+         -->
+            <div data-strings="help.changeHeight" class="help-what"></div>
+          </div>
+          <div>
+            <div class="help-how">
+              <div class="help-key">1</div>
+              &#8211;
+              <div class="help-key">9</div><!-- NS
+           -->
+              <div class="help-key-sep"></div><!-- NS
+           -->
+              <div class="help-key">[</div>
+              <div class="help-key">]</div>
+            </div><!-- NS
+       -->
+            <div data-strings="help.switchView" class="help-what"></div>
+          </div>
+          <div class="help-how">
+            <div class="help-key">P</div>
+          </div><!-- NS
+       -->
+          <div data-strings="help.screenshot" class="help-what"></div>
+          <div class="editor-specific help-how" style="display: none">
+            <div class="help-key">I</div>
+          </div><!-- NS
+       -->
+          <div data-strings="help.illuminationPreview" class="editor-specific help-what" style="display: none"></div>
+          <div class="help-how">
+            <div class="help-key">M</div>
+          </div><!-- NS
+       -->
+          <div data-strings="help.hideShowMenu" class="help-what"></div>
+          <div class="help-how">
+            <div class="help-key">L</div>
+          </div><!-- NS
+       -->
+          <div data-strings="help.hideShowMousePointer" class="help-what"></div>
+
+          <h1 data-strings="help.vrMode"></h1>
+          <div>
+            <div class="help-how">
+              <div data-strings="help.gazeAtFixedPlace"></div>
+              <div data-strings="help.or"></div>
+              <div data-strings="help.clickControllerButton">
+              </div>
+            </div><!-- NS
+         -->
+            <div data-strings="help.teleport" class="help-what"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="mobile-help" class="help ui-panel" style="display: none">
+      <img id="close-mobile-help-button" class="close-help-button ui-close-hoverable"
+        src="2026-05-08-17-27-21/webwalk/img/close.svg">
+      <div class="help-columns">
+        <div class="help-column2">
+          <h1 data-strings="help.touch"></h1>
+          <img src="2026-05-08-17-27-21/webwalk/img/touch-controls.svg">
+        </div><!-- NS
+     -->
+        <div class="help-column2-sep"></div><!-- NS
+     -->
+        <div class="navigation-help-column2">
+          <h1 data-strings="help.vrTeleport"></h1>
+          <img src="2026-05-08-17-27-21/webwalk/img/vr-controls.svg">
+        </div>
+      </div>
+    </div>
+
+    <svg id="primary-progress" viewBox="-58 -58 116 116" style="display: none">
+      <circle cx="0" cy="0" r="50" stroke-width="14">
+      </circle>
+      <circle id="primary-progress-done" cx="0" cy="0" r="50" stroke-width="8" stroke-dasharray="315.159"
+        stroke-dashoffset="314.159" transform="rotate(-90)">
+      </circle>
+    </svg>
+
+  </div>
+
+  <div id="secondary-progress" style="display: none">
+    <div id="secondary-progress-done"></div>
+  </div>
+
+  <div id="ext-html-label" class="ext-popup ui-top ui-left ext-html-label-animated" style="display: none">
+    <div id="ext-html-label-content" class="ext-popup-content"></div><!-- NS
+ -->
+    <div id="ext-html-label-close" class="ext-popup-close-button-panel ui-close-hoverable">
+      <div class="ext-popup-close-button"></div>
+    </div>
+  </div>
+
+  <div id="ext-meeting-status" class="ext-popup ui-top ui-left" style="display: none">
+    <div id="ext-meeting-status-content" class="ext-popup-content">
+      <ul id="ext-meeting-who-list" class="ui-scrollbar ext-meeting-who-list">
+      </ul>
+      <div>
+        <button id="ext-meeting-mic-toggle" class="ext-meeting-button ext-meeting-button-highlight">
+          <span class="fa-microphone" style="display: none"></span>
+          <span class="fa-microphone-slash"></span>
+        </button>
+        <button id="ext-meeting-camera-toggle" class="ext-meeting-button ext-meeting-button-highlight">
+          <span class="fa-video" style="display: none"></span>
+          <span class="fa-video-slash"></span>
+        </button>
+        <button id="ext-meeting-pointer" class="ext-meeting-button">
+          <span class="fa-hand-pointer"></span>
+        </button>
+      </div>
+      <div id="ext-meeting-notes-preview" style="display: none">
+        <strong>Notes:</strong>
+        <ul id="ext-meeting-note-list" class="ext-meeting-list">
+        </ul>
+        <button id="ext-meeting-add-note" class="ext-meeting-button">
+          Add note
+        </button>
+      </div>
+      <div id="ext-meeting-status-footer">
+        <span id=ext-meeting-quality-indicator-container>
+        </span>
+        <span>
+          <button id="ext-meeting-leave" class="ext-meeting-button ext-meeting-button-highlight"
+            data-strings="meetings.leaveMeeting">
+          </button>
+        </span>
+      </div>
+    </div>
+    <div id="ext-meeting-who-list-folder" class="ui-folder-vertical ui-hoverable ui-panel">
+      <img src="2026-05-08-17-27-21/webwalk/img/fold-vertical.svg">
+    </div>
+  </div>
+  <div id="ext-meeting-camera-preview" style="display: none"></div>
+
+  <!-- CUSTOM UI START -->
+  <div id="custom-ui-container">
+    <div class="custom-ui-top-left">
+      <span class="bar">|</span> GS | ARTS | CENTER
+    </div>
+
+    <div class="custom-ui-top-right">
+      <div class="auto-move-header">
+        자동이동 <span class="arrow">▶</span>
+      </div>
+      <div class="seat-list">
+        <button class="seat-btn"><span>1F</span> A구역 00열 00좌석</button>
+        <button class="seat-btn"><span>1F</span> B구역 00열 00좌석</button>
+        <button class="seat-btn"><span>2F</span> B구역 00열 00좌석</button>
+        <button class="seat-btn"><span>2F</span> C구역 00열 00좌석</button>
+        <button class="seat-btn"><span>3F</span> C구역 00열 00좌석</button>
+      </div>
+    </div>
+
+    <div class="custom-ui-bottom-left">
+      <div class="nav-control">
+        <button class="nav-arrow">〈</button>
+        <button id="btn_seatmap" class="nav-text"><span>1F</span> 좌석 선택</button>
+        <button class="nav-arrow">〉</button>
+      </div>
+      <button class="stage-change-btn">무대변경</button>
+    </div>
+
+    <div class="custom-ui-bottom-right">
+      <button class="util-btn home-btn" aria-label="Home">
+        <svg viewBox="0 0 24 24">
+          <path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z" />
+        </svg>
+      </button>
+      <button class="util-btn pc-btn" aria-label="PC View">
+        <svg viewBox="0 0 24 24">
+          <path
+            d="M21 2H3c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h7v2H8v2h8v-2h-2v-2h7c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm0 14H3V4h18v12z" />
+        </svg>
+      </button>
+      <button class="util-btn fullscreen-btn" aria-label="Fullscreen">
+        <svg viewBox="0 0 24 24">
+          <path d="M7 14H5v5h5v-2H7v-3zm-2-4h2V7h3V5H5v5zm12 7h-3v2h5v-5h-2v3zM14 5v2h3v3h2V5h-5z" />
+        </svg>
+      </button>
+    </div>
+  </div>
+  <!-- CUSTOM UI END -->
+
+  <!-- SEAT MAP POPUP -->
+  <div id="seatmap-overlay" class="seatmap-overlay">
+    <div class="seatmap-popup">
+      <button class="seatmap-close-btn" aria-label="Close">
+        <svg viewBox="0 0 24 24">
+          <path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z" />
+        </svg>
+      </button>
+
+      <div class="seatmap-header">
+        좌석 배치도에서 원하는 좌석을 선택하세요.
+      </div>
+
+      <div class="seatmap-content">
+        <!-- Left Floor Selection -->
+        <div class="seatmap-floor-selector">
+          <button class="floor-btn active">1F</button>
+          <button class="floor-btn">2F</button>
+          <button class="floor-btn">3F</button>
+        </div>
+
+        <!-- Center Map Image -->
+        <div class="seatmap-map-container" id="seatmap-map-container">
+          <!-- Zoom Controls -->
+          <div class="seatmap-zoom-controls">
+            <button id="seatmap-zoom-in" title="Zoom In">+</button>
+            <button id="seatmap-zoom-out" title="Zoom Out">-</button>
+            <button id="seatmap-zoom-reset" title="Reset">⟲</button>
+          </div>
+
+          <div id="seatmap-zoom-content"
+            style="width: 100%; height: 100%; display: flex; justify-content: center; align-items: center;">
+            <!-- TODO: Add the actual seat map image here -->
+            <div style="color: #999; font-size: 20px; font-weight: bold; text-align: center; pointer-events: none;">
+              좌석 배치도 이미지 영역<br>(이미지를 삽입해주세요)
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Section Selection -->
+        <div class="seatmap-section-selector">
+          <button class="section-btn active"><span>1F</span> A구역</button>
+          <button class="section-btn"><span>1F</span> B구역</button>
+          <button class="section-btn"><span>1F</span> C구역</button>
+          <button class="section-btn"><span>2F</span> A구역</button>
+          <button class="section-btn"><span>2F</span> B구역</button>
+          <button class="section-btn"><span>2F</span> C구역</button>
+          <button class="section-btn"><span>3F</span> A구역</button>
+          <button class="section-btn"><span>3F</span> B구역</button>
+          <button class="section-btn"><span>3F</span> <Code></Code>구역</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const btnSeatmap = document.getElementById('btn_seatmap');
+      const seatmapOverlay = document.getElementById('seatmap-overlay');
+      const closeBtn = document.querySelector('.seatmap-close-btn');
+
+      if (btnSeatmap && seatmapOverlay && closeBtn) {
+        btnSeatmap.addEventListener('click', () => {
+          seatmapOverlay.classList.add('active');
+        });
+
+        closeBtn.addEventListener('click', () => {
+          seatmapOverlay.classList.remove('active');
+        });
+
+        // Close when clicking outside the popup
+        seatmapOverlay.addEventListener('click', (e) => {
+          if (e.target === seatmapOverlay) {
+            seatmapOverlay.classList.remove('active');
+          }
+        });
+      }
+
+      // Zoom and Pan Logic
+      const mapContainer = document.getElementById('seatmap-map-container');
+      const zoomContent = document.getElementById('seatmap-zoom-content');
+      let currentScale = 1;
+      let posX = 0;
+      let posY = 0;
+      let isDragging = false;
+      let startX, startY;
+
+      function applyZoomAndPan() {
+        zoomContent.style.transform = `translate(${posX}px, ${posY}px) scale(${currentScale})`;
+      }
+
+      mapContainer.addEventListener('mousedown', (e) => {
+        if (e.button !== 0) return;
+        e.preventDefault();
+        isDragging = true;
+        startX = e.clientX - posX;
+        startY = e.clientY - posY;
+        zoomContent.classList.add('dragging');
+        mapContainer.style.cursor = 'grabbing';
+      });
+
+      window.addEventListener('mousemove', (e) => {
+        if (!isDragging) return;
+        posX = e.clientX - startX;
+        posY = e.clientY - startY;
+        applyZoomAndPan();
+      });
+
+      window.addEventListener('mouseup', () => {
+        if (!isDragging) return;
+        isDragging = false;
+        zoomContent.classList.remove('dragging');
+        mapContainer.style.cursor = 'grab';
+      });
+
+      // Also support touch for dragging
+      mapContainer.addEventListener('touchstart', (e) => {
+        if (e.touches.length === 1) {
+          isDragging = true;
+          startX = e.touches[0].clientX - posX;
+          startY = e.touches[0].clientY - posY;
+          zoomContent.classList.add('dragging');
+        }
+      }, { passive: false });
+
+      window.addEventListener('touchmove', (e) => {
+        if (!isDragging || e.touches.length !== 1) return;
+        e.preventDefault(); // prevent scrolling
+        posX = e.touches[0].clientX - startX;
+        posY = e.touches[0].clientY - startY;
+        applyZoomAndPan();
+      }, { passive: false });
+
+      window.addEventListener('touchend', () => {
+        isDragging = false;
+        zoomContent.classList.remove('dragging');
+      });
+
+      document.getElementById('seatmap-zoom-in').addEventListener('click', (e) => {
+        e.stopPropagation();
+        if (currentScale < 3.0) {
+          currentScale = Math.min(3.0, currentScale + 0.5);
+          applyZoomAndPan();
+        }
+      });
+
+      document.getElementById('seatmap-zoom-out').addEventListener('click', (e) => {
+        e.stopPropagation();
+        if (currentScale > 0.5) {
+          currentScale = Math.max(0.5, currentScale - 0.5);
+          applyZoomAndPan();
+        }
+      });
+
+      document.getElementById('seatmap-zoom-reset').addEventListener('click', (e) => {
+        e.stopPropagation();
+        currentScale = 1;
+        posX = 0;
+        posY = 0;
+        applyZoomAndPan();
+      });
+
+    });
+  </script>
+
+  <script type="module">
+    WALK.ASSETS_URL = '2026-05-08-17-27-21/';
+  </script>
+  <script src="2026-05-08-17-27-21/webwalk/walk.min.js" type="text/javascript"></script>
+</body>
+
+</html>
