@@ -203,6 +203,8 @@
     }
 
     .custom-ui-bottom-left {
+      min-width: 316px;
+      max-width: 320px;
       position: absolute;
       bottom: 40px;
       left: 40px;
@@ -225,7 +227,7 @@
     }
 
     .nav-text {
-      padding: 10px 20px 10px 28px;
+      padding: 8px;
       /* extra padding for bar */
       font-size: 15px;
       font-weight: 700;
@@ -249,6 +251,11 @@
       font-weight: 900;
       color: inherit;
       margin-right: 5px;
+    }
+
+    #btn_seatmap {
+      min-width: 210px;
+      max-width: 220px;
     }
 
     .stage-change-btn {
@@ -400,11 +407,11 @@
       background-color: #ffffff;
       overflow: hidden;
       position: relative;
-      cursor: grab;
+      cursor: move;
     }
 
     .seatmap-map-container:active {
-      cursor: grabbing;
+      cursor: move;
     }
 
     .seatmap-zoom-controls {
@@ -724,6 +731,11 @@
       background-color: #e3f2fd;
       border-color: #90caf9;
       font-weight: bold;
+    }
+
+    .seatmap-img-seat-btn.selected {
+      border: 3px solid #000000 !important;
+      z-index: 15;
     }
   </style>
 
@@ -2439,21 +2451,22 @@
                   <div class="seatmap-img-zone-label">A ZONE</div>
                   <div class="seatmap-img-rows-wrap">
                     <div class="seatmap-img-seat-row">
-                      <div class="seatmap-img-row-num">1열</div><button class="seatmap-img-seat-btn" id="View_2F_A_1_1"
-                        onclick="showViewId('View_2F_A_1_1')">1</button><button class="seatmap-img-seat-btn"
-                        id="View_2F_A_1_2" onclick="showViewId('View_2F_A_1_2')">2</button><button
-                        class="seatmap-img-seat-btn" id="View_2F_A_1_3"
-                        onclick="showViewId('View_2F_A_1_3')">3</button><button class="seatmap-img-seat-btn"
-                        id="View_2F_A_1_4" onclick="showViewId('View_2F_A_1_4')">4</button><button
-                        class="seatmap-img-seat-btn" id="View_2F_A_1_5"
-                        onclick="showViewId('View_2F_A_1_5')">5</button><button class="seatmap-img-seat-btn"
-                        id="View_2F_A_1_6" onclick="showViewId('View_2F_A_1_6')">6</button><button
-                        class="seatmap-img-seat-btn" id="View_2F_A_1_7"
-                        onclick="showViewId('View_2F_A_1_7')">7</button><button class="seatmap-img-seat-btn"
-                        id="View_2F_A_1_8" onclick="showViewId('View_2F_A_1_8')">8</button><button
-                        class="seatmap-img-seat-btn" id="View_2F_A_1_9"
-                        onclick="showViewId('View_2F_A_1_9')">9</button><button class="seatmap-img-seat-btn"
-                        id="View_2F_A_1_10" onclick="showViewId('View_2F_A_1_10')">10</button>
+                      <div class="seatmap-img-row-num">1열</div><button class="seatmap-img-seat-btn seatmap-img-none"
+                        id="View_2F_A_1_1" onclick="showViewId('View_2F_A_1_1')"></button><button
+                        class="seatmap-img-seat-btn" id="View_2F_A_1_2"
+                        onclick="showViewId('View_2F_A_1_2')">1</button><button class="seatmap-img-seat-btn"
+                        id="View_2F_A_1_3" onclick="showViewId('View_2F_A_1_3')">2</button><button
+                        class="seatmap-img-seat-btn" id="View_2F_A_1_4"
+                        onclick="showViewId('View_2F_A_1_4')">3</button><button class="seatmap-img-seat-btn"
+                        id="View_2F_A_1_5" onclick="showViewId('View_2F_A_1_5')">4</button><button
+                        class="seatmap-img-seat-btn" id="View_2F_A_1_6"
+                        onclick="showViewId('View_2F_A_1_6')">5</button><button class="seatmap-img-seat-btn"
+                        id="View_2F_A_1_7" onclick="showViewId('View_2F_A_1_7')">6</button><button
+                        class="seatmap-img-seat-btn" id="View_2F_A_1_8"
+                        onclick="showViewId('View_2F_A_1_8')">7</button><button class="seatmap-img-seat-btn"
+                        id="View_2F_A_1_9" onclick="showViewId('View_2F_A_1_9')">8</button><button
+                        class="seatmap-img-seat-btn" id="View_2F_A_1_10"
+                        onclick="showViewId('View_2F_A_1_10')">9</button>
                     </div>
                     <div class="seatmap-img-seat-row">
                       <div class="seatmap-img-row-num">2열</div><button class="seatmap-img-seat-btn" id="View_2F_A_2_1"
@@ -2813,8 +2826,9 @@
                         onclick="showViewId('View_2F_C_1_7')">7</button><button class="seatmap-img-seat-btn"
                         id="View_2F_C_1_8" onclick="showViewId('View_2F_C_1_8')">8</button><button
                         class="seatmap-img-seat-btn" id="View_2F_C_1_9"
-                        onclick="showViewId('View_2F_C_1_9')">9</button><button class="seatmap-img-seat-btn"
-                        id="View_2F_C_1_10" onclick="showViewId('View_2F_C_1_10')">10</button>
+                        onclick="showViewId('View_2F_C_1_9')">9</button><button
+                        class="seatmap-img-seat-btn seatmap-img-none" id="View_2F_C_1_10"
+                        onclick="showViewId('View_2F_C_1_10')">10</button>
                     </div>
                     <div class="seatmap-img-seat-row">
                       <div class="seatmap-img-row-num">2열</div><button class="seatmap-img-seat-btn" id="View_2F_C_2_1"
@@ -3488,7 +3502,7 @@
         startX = e.clientX - posX;
         startY = e.clientY - posY;
         zoomContent.classList.add('dragging');
-        mapContainer.style.cursor = 'grabbing';
+        mapContainer.style.cursor = 'move';
       });
 
       window.addEventListener('mousemove', (e) => {
@@ -3502,7 +3516,7 @@
         if (!isDragging) return;
         isDragging = false;
         zoomContent.classList.remove('dragging');
-        mapContainer.style.cursor = 'grab';
+        mapContainer.style.cursor = 'move';
       });
 
       // Also support touch for dragging
@@ -3569,6 +3583,13 @@
 
     function showViewId(viewId) {
       currentSeatViewId = viewId;
+
+      // Highlight selected seat on map
+      document.querySelectorAll('.seatmap-img-seat-btn').forEach(btn => btn.classList.remove('selected'));
+      const selectedBtn = document.getElementById(viewId);
+      if (selectedBtn) {
+        selectedBtn.classList.add('selected');
+      }
       const seat = GS_ARTS_CENTER_SEAT_MAP_DATA.find(s => s.View_ID === viewId);
       if (seat) {
         const floorText = seat.Floor.replace('F', '층');
@@ -3625,9 +3646,15 @@
     document.getElementById('btn_prev_seat').addEventListener('click', () => {
       if (isNavigating || !currentSeatViewId) return;
       const index = GS_ARTS_CENTER_SEAT_MAP_DATA.findIndex(s => s.View_ID === currentSeatViewId);
-      if (index > 0) {
+
+      let prevIndex = index - 1;
+      while (prevIndex >= 0 && GS_ARTS_CENTER_SEAT_MAP_DATA[prevIndex].Seat_Type === "none") {
+        prevIndex--;
+      }
+
+      if (prevIndex >= 0) {
         isNavigating = true;
-        showViewId(GS_ARTS_CENTER_SEAT_MAP_DATA[index - 1].View_ID);
+        showViewId(GS_ARTS_CENTER_SEAT_MAP_DATA[prevIndex].View_ID);
         setTimeout(() => { isNavigating = false; }, 1000);
       }
     });
@@ -3635,9 +3662,15 @@
     document.getElementById('btn_next_seat').addEventListener('click', () => {
       if (isNavigating || !currentSeatViewId) return;
       const index = GS_ARTS_CENTER_SEAT_MAP_DATA.findIndex(s => s.View_ID === currentSeatViewId);
-      if (index < GS_ARTS_CENTER_SEAT_MAP_DATA.length - 1) {
+
+      let nextIndex = index + 1;
+      while (nextIndex < GS_ARTS_CENTER_SEAT_MAP_DATA.length && GS_ARTS_CENTER_SEAT_MAP_DATA[nextIndex].Seat_Type === "none") {
+        nextIndex++;
+      }
+
+      if (nextIndex < GS_ARTS_CENTER_SEAT_MAP_DATA.length) {
         isNavigating = true;
-        showViewId(GS_ARTS_CENTER_SEAT_MAP_DATA[index + 1].View_ID);
+        showViewId(GS_ARTS_CENTER_SEAT_MAP_DATA[nextIndex].View_ID);
         setTimeout(() => { isNavigating = false; }, 1000);
       }
     });

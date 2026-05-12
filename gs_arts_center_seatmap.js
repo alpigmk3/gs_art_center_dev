@@ -1,14 +1,14 @@
-const GS_ARTS_CENTER_SEAT_MAP_DATA = [
+GS_ARTS_CENTER_SEAT_MAP_DATA = [
     {
         "Floor": "1F",
         "Zone": "A",
         "Row": "1열",
         "Seat_Number": 1,
         "Seat_Type": "none",
-        "Display_Text": "",
-        "X": 28.14,
-        "Y": 18.20,
-        "Z": -1.02,
+        "Display_Text": NaN,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0,
         "View_ID": "View_1F_A_1_1"
     },
     {
@@ -17,10 +17,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "1열",
         "Seat_Number": 2,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 1,
-        "X": 27.70,
-        "Y": 18.30,
-        "Z": -1.02,
+        "Display_Text": "1",
+        "X": 28.14,
+        "Y": 18.31,
+        "Z": -1.08,
         "View_ID": "View_1F_A_1_2"
     },
     {
@@ -29,10 +29,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "1열",
         "Seat_Number": 3,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 2,
-        "X": 27.21,
-        "Y": 18.51,
-        "Z": -1.02,
+        "Display_Text": "2",
+        "X": 27.62,
+        "Y": 18.4,
+        "Z": -1.08,
         "View_ID": "View_1F_A_1_3"
     },
     {
@@ -41,10 +41,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "1열",
         "Seat_Number": 4,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 3,
-        "X": 26.62,
-        "Y": 18.46,
-        "Z": -1.02,
+        "Display_Text": "3",
+        "X": 27.1,
+        "Y": 18.49,
+        "Z": -1.08,
         "View_ID": "View_1F_A_1_4"
     },
     {
@@ -53,10 +53,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "1열",
         "Seat_Number": 5,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 4,
-        "X": 26.03,
-        "Y": 18.86,
-        "Z": -1.02,
+        "Display_Text": "4",
+        "X": 26.58,
+        "Y": 18.58,
+        "Z": -1.08,
         "View_ID": "View_1F_A_1_5"
     },
     {
@@ -65,10 +65,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "1열",
         "Seat_Number": 6,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 5,
-        "X": 26.61,
-        "Y": 18.66,
-        "Z": -1.02,
+        "Display_Text": "5",
+        "X": 26.06,
+        "Y": 18.67,
+        "Z": -1.08,
         "View_ID": "View_1F_A_1_6"
     },
     {
@@ -77,10 +77,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "1열",
         "Seat_Number": 7,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 6,
-        "X": 26.08,
-        "Y": 18.65,
-        "Z": -1.02,
+        "Display_Text": "6",
+        "X": 25.54,
+        "Y": 18.76,
+        "Z": -1.08,
         "View_ID": "View_1F_A_1_7"
     },
     {
@@ -89,10 +89,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "1열",
         "Seat_Number": 8,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 7,
-        "X": 25.14,
-        "Y": 18.78,
-        "Z": -1.02,
+        "Display_Text": "7",
+        "X": 25.02,
+        "Y": 18.85,
+        "Z": -1.08,
         "View_ID": "View_1F_A_1_8"
     },
     {
@@ -101,10 +101,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "1열",
         "Seat_Number": 9,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 8,
-        "X": 24.67,
-        "Y": 19.09,
-        "Z": -1.02,
+        "Display_Text": "8",
+        "X": 24.5,
+        "Y": 18.94,
+        "Z": -1.08,
         "View_ID": "View_1F_A_1_9"
     },
     {
@@ -113,10 +113,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "1열",
         "Seat_Number": 10,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 9,
-        "X": 24.16,
-        "Y": 19.02,
-        "Z": -1.02,
+        "Display_Text": "9",
+        "X": 23.98,
+        "Y": 19.03,
+        "Z": -1.08,
         "View_ID": "View_1F_A_1_10"
     },
     {
@@ -125,10 +125,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "2열",
         "Seat_Number": 1,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 1,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "1",
+        "X": 28.68,
+        "Y": 19.04,
+        "Z": -1.39,
         "View_ID": "View_1F_A_2_1"
     },
     {
@@ -137,10 +137,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "2열",
         "Seat_Number": 2,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 2,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "2",
+        "X": 28.21,
+        "Y": 19.15,
+        "Z": -1.39,
         "View_ID": "View_1F_A_2_2"
     },
     {
@@ -149,10 +149,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "2열",
         "Seat_Number": 3,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 3,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "3",
+        "X": 27.71,
+        "Y": 19.26,
+        "Z": -1.39,
         "View_ID": "View_1F_A_2_3"
     },
     {
@@ -161,10 +161,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "2열",
         "Seat_Number": 4,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 4,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "4",
+        "X": 27.2,
+        "Y": 19.37,
+        "Z": -1.39,
         "View_ID": "View_1F_A_2_4"
     },
     {
@@ -173,10 +173,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "2열",
         "Seat_Number": 5,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 5,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "5",
+        "X": 26.69,
+        "Y": 19.48,
+        "Z": -1.39,
         "View_ID": "View_1F_A_2_5"
     },
     {
@@ -185,10 +185,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "2열",
         "Seat_Number": 6,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 6,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "6",
+        "X": 26.19,
+        "Y": 19.59,
+        "Z": -1.39,
         "View_ID": "View_1F_A_2_6"
     },
     {
@@ -197,10 +197,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "2열",
         "Seat_Number": 7,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 7,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "7",
+        "X": 25.68,
+        "Y": 19.7,
+        "Z": -1.39,
         "View_ID": "View_1F_A_2_7"
     },
     {
@@ -209,10 +209,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "2열",
         "Seat_Number": 8,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 8,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "8",
+        "X": 25.17,
+        "Y": 19.81,
+        "Z": -1.39,
         "View_ID": "View_1F_A_2_8"
     },
     {
@@ -221,10 +221,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "2열",
         "Seat_Number": 9,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 9,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "9",
+        "X": 24.67,
+        "Y": 19.92,
+        "Z": -1.39,
         "View_ID": "View_1F_A_2_9"
     },
     {
@@ -233,10 +233,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "2열",
         "Seat_Number": 10,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 10,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "10",
+        "X": 24.16,
+        "Y": 20.03,
+        "Z": -1.39,
         "View_ID": "View_1F_A_2_10"
     },
     {
@@ -245,10 +245,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "3열",
         "Seat_Number": 1,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 1,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "1",
+        "X": 28.76,
+        "Y": 19.97,
+        "Z": -1.38,
         "View_ID": "View_1F_A_3_1"
     },
     {
@@ -257,10 +257,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "3열",
         "Seat_Number": 2,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 2,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "2",
+        "X": 28.246,
+        "Y": 20.077,
+        "Z": -1.38,
         "View_ID": "View_1F_A_3_2"
     },
     {
@@ -269,10 +269,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "3열",
         "Seat_Number": 3,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 3,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "3",
+        "X": 27.731,
+        "Y": 20.183,
+        "Z": -1.38,
         "View_ID": "View_1F_A_3_3"
     },
     {
@@ -281,10 +281,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "3열",
         "Seat_Number": 4,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 4,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "4",
+        "X": 27.217,
+        "Y": 20.29,
+        "Z": -1.38,
         "View_ID": "View_1F_A_3_4"
     },
     {
@@ -293,10 +293,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "3열",
         "Seat_Number": 5,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 5,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "5",
+        "X": 26.702,
+        "Y": 20.397,
+        "Z": -1.38,
         "View_ID": "View_1F_A_3_5"
     },
     {
@@ -305,10 +305,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "3열",
         "Seat_Number": 6,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 6,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "6",
+        "X": 26.188,
+        "Y": 20.503,
+        "Z": -1.38,
         "View_ID": "View_1F_A_3_6"
     },
     {
@@ -317,10 +317,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "3열",
         "Seat_Number": 7,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 7,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "7",
+        "X": 25.673,
+        "Y": 20.61,
+        "Z": -1.38,
         "View_ID": "View_1F_A_3_7"
     },
     {
@@ -329,10 +329,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "3열",
         "Seat_Number": 8,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 8,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "8",
+        "X": 25.159,
+        "Y": 20.717,
+        "Z": -1.38,
         "View_ID": "View_1F_A_3_8"
     },
     {
@@ -341,10 +341,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "3열",
         "Seat_Number": 9,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 9,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "9",
+        "X": 24.644,
+        "Y": 20.823,
+        "Z": -1.38,
         "View_ID": "View_1F_A_3_9"
     },
     {
@@ -353,10 +353,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "3열",
         "Seat_Number": 10,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 10,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "10",
+        "X": 24.13,
+        "Y": 20.93,
+        "Z": -1.38,
         "View_ID": "View_1F_A_3_10"
     },
     {
@@ -365,10 +365,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "4열",
         "Seat_Number": 1,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 1,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "1",
+        "X": 28.63,
+        "Y": 20.82,
+        "Z": -1.21,
         "View_ID": "View_1F_A_4_1"
     },
     {
@@ -377,10 +377,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "4열",
         "Seat_Number": 2,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 2,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "2",
+        "X": 28.113,
+        "Y": 20.913,
+        "Z": -1.21,
         "View_ID": "View_1F_A_4_2"
     },
     {
@@ -389,10 +389,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "4열",
         "Seat_Number": 3,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 3,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "3",
+        "X": 27.597,
+        "Y": 21.007,
+        "Z": -1.21,
         "View_ID": "View_1F_A_4_3"
     },
     {
@@ -401,10 +401,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "4열",
         "Seat_Number": 4,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 4,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "4",
+        "X": 27.08,
+        "Y": 21.1,
+        "Z": -1.21,
         "View_ID": "View_1F_A_4_4"
     },
     {
@@ -413,10 +413,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "4열",
         "Seat_Number": 5,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 5,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "5",
+        "X": 26.563,
+        "Y": 21.193,
+        "Z": -1.21,
         "View_ID": "View_1F_A_4_5"
     },
     {
@@ -425,10 +425,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "4열",
         "Seat_Number": 6,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 6,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "6",
+        "X": 26.047,
+        "Y": 21.287,
+        "Z": -1.21,
         "View_ID": "View_1F_A_4_6"
     },
     {
@@ -437,10 +437,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "4열",
         "Seat_Number": 7,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 7,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "7",
+        "X": 25.53,
+        "Y": 21.38,
+        "Z": -1.21,
         "View_ID": "View_1F_A_4_7"
     },
     {
@@ -449,10 +449,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "4열",
         "Seat_Number": 8,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 8,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "8",
+        "X": 25.013,
+        "Y": 21.473,
+        "Z": -1.21,
         "View_ID": "View_1F_A_4_8"
     },
     {
@@ -461,10 +461,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "4열",
         "Seat_Number": 9,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 9,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "9",
+        "X": 24.497,
+        "Y": 21.567,
+        "Z": -1.21,
         "View_ID": "View_1F_A_4_9"
     },
     {
@@ -473,10 +473,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "4열",
         "Seat_Number": 10,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 10,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "10",
+        "X": 23.98,
+        "Y": 21.66,
+        "Z": -1.21,
         "View_ID": "View_1F_A_4_10"
     },
     {
@@ -485,10 +485,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "5열",
         "Seat_Number": 1,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 1,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "1",
+        "X": 28.72,
+        "Y": 21.79,
+        "Z": -1.21,
         "View_ID": "View_1F_A_5_1"
     },
     {
@@ -497,10 +497,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "5열",
         "Seat_Number": 2,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 2,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "2",
+        "X": 28.199,
+        "Y": 21.882,
+        "Z": -1.21,
         "View_ID": "View_1F_A_5_2"
     },
     {
@@ -509,10 +509,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "5열",
         "Seat_Number": 3,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 3,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "3",
+        "X": 27.678,
+        "Y": 21.974,
+        "Z": -1.21,
         "View_ID": "View_1F_A_5_3"
     },
     {
@@ -521,10 +521,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "5열",
         "Seat_Number": 4,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 4,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "4",
+        "X": 27.157,
+        "Y": 22.067,
+        "Z": -1.21,
         "View_ID": "View_1F_A_5_4"
     },
     {
@@ -533,10 +533,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "5열",
         "Seat_Number": 5,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 5,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "5",
+        "X": 26.636,
+        "Y": 22.159,
+        "Z": -1.21,
         "View_ID": "View_1F_A_5_5"
     },
     {
@@ -545,10 +545,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "5열",
         "Seat_Number": 6,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 6,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "6",
+        "X": 26.114,
+        "Y": 22.251,
+        "Z": -1.21,
         "View_ID": "View_1F_A_5_6"
     },
     {
@@ -557,10 +557,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "5열",
         "Seat_Number": 7,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 7,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "7",
+        "X": 25.593,
+        "Y": 22.343,
+        "Z": -1.21,
         "View_ID": "View_1F_A_5_7"
     },
     {
@@ -569,10 +569,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "5열",
         "Seat_Number": 8,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 8,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "8",
+        "X": 25.072,
+        "Y": 22.436,
+        "Z": -1.21,
         "View_ID": "View_1F_A_5_8"
     },
     {
@@ -581,10 +581,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "5열",
         "Seat_Number": 9,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 9,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "9",
+        "X": 24.551,
+        "Y": 22.528,
+        "Z": -1.21,
         "View_ID": "View_1F_A_5_9"
     },
     {
@@ -593,10 +593,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "5열",
         "Seat_Number": 10,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 10,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "10",
+        "X": 24.03,
+        "Y": 22.62,
+        "Z": -1.21,
         "View_ID": "View_1F_A_5_10"
     },
     {
@@ -605,10 +605,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "6열",
         "Seat_Number": 1,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 1,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "1",
+        "X": 28.66,
+        "Y": 22.65,
+        "Z": -1.01,
         "View_ID": "View_1F_A_6_1"
     },
     {
@@ -617,10 +617,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "6열",
         "Seat_Number": 2,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 2,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "2",
+        "X": 28.149,
+        "Y": 22.754,
+        "Z": -1.01,
         "View_ID": "View_1F_A_6_2"
     },
     {
@@ -629,10 +629,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "6열",
         "Seat_Number": 3,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 3,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "3",
+        "X": 27.638,
+        "Y": 22.859,
+        "Z": -1.01,
         "View_ID": "View_1F_A_6_3"
     },
     {
@@ -641,10 +641,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "6열",
         "Seat_Number": 4,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 4,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "4",
+        "X": 27.127,
+        "Y": 22.963,
+        "Z": -1.01,
         "View_ID": "View_1F_A_6_4"
     },
     {
@@ -653,10 +653,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "6열",
         "Seat_Number": 5,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 5,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "5",
+        "X": 26.616,
+        "Y": 23.068,
+        "Z": -1.01,
         "View_ID": "View_1F_A_6_5"
     },
     {
@@ -665,10 +665,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "6열",
         "Seat_Number": 6,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 6,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "6",
+        "X": 26.104,
+        "Y": 23.172,
+        "Z": -1.01,
         "View_ID": "View_1F_A_6_6"
     },
     {
@@ -677,10 +677,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "6열",
         "Seat_Number": 7,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 7,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "7",
+        "X": 25.593,
+        "Y": 23.277,
+        "Z": -1.01,
         "View_ID": "View_1F_A_6_7"
     },
     {
@@ -689,10 +689,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "6열",
         "Seat_Number": 8,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 8,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "8",
+        "X": 25.082,
+        "Y": 23.381,
+        "Z": -1.01,
         "View_ID": "View_1F_A_6_8"
     },
     {
@@ -701,10 +701,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "6열",
         "Seat_Number": 9,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 9,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "9",
+        "X": 24.571,
+        "Y": 23.486,
+        "Z": -1.01,
         "View_ID": "View_1F_A_6_9"
     },
     {
@@ -713,10 +713,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "6열",
         "Seat_Number": 10,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 10,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "10",
+        "X": 24.06,
+        "Y": 23.59,
+        "Z": -1.01,
         "View_ID": "View_1F_A_6_10"
     },
     {
@@ -725,10 +725,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "7열",
         "Seat_Number": 1,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 1,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "1",
+        "X": 28.64,
+        "Y": 23.51,
+        "Z": -0.77,
         "View_ID": "View_1F_A_7_1"
     },
     {
@@ -737,10 +737,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "7열",
         "Seat_Number": 2,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 2,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "2",
+        "X": 28.134,
+        "Y": 23.614,
+        "Z": -0.77,
         "View_ID": "View_1F_A_7_2"
     },
     {
@@ -749,10 +749,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "7열",
         "Seat_Number": 3,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 3,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "3",
+        "X": 27.629,
+        "Y": 23.719,
+        "Z": -0.77,
         "View_ID": "View_1F_A_7_3"
     },
     {
@@ -761,10 +761,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "7열",
         "Seat_Number": 4,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 4,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "4",
+        "X": 27.123,
+        "Y": 23.823,
+        "Z": -0.77,
         "View_ID": "View_1F_A_7_4"
     },
     {
@@ -773,10 +773,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "7열",
         "Seat_Number": 5,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 5,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "5",
+        "X": 26.618,
+        "Y": 23.928,
+        "Z": -0.77,
         "View_ID": "View_1F_A_7_5"
     },
     {
@@ -785,10 +785,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "7열",
         "Seat_Number": 6,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 6,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "6",
+        "X": 26.112,
+        "Y": 24.032,
+        "Z": -0.77,
         "View_ID": "View_1F_A_7_6"
     },
     {
@@ -797,10 +797,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "7열",
         "Seat_Number": 7,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 7,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "7",
+        "X": 25.607,
+        "Y": 24.137,
+        "Z": -0.77,
         "View_ID": "View_1F_A_7_7"
     },
     {
@@ -809,10 +809,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "7열",
         "Seat_Number": 8,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 8,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "8",
+        "X": 25.101,
+        "Y": 24.241,
+        "Z": -0.77,
         "View_ID": "View_1F_A_7_8"
     },
     {
@@ -821,10 +821,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "7열",
         "Seat_Number": 9,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 9,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "9",
+        "X": 24.596,
+        "Y": 24.346,
+        "Z": -0.77,
         "View_ID": "View_1F_A_7_9"
     },
     {
@@ -833,10 +833,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "7열",
         "Seat_Number": 10,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 10,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "10",
+        "X": 24.09,
+        "Y": 24.45,
+        "Z": -0.77,
         "View_ID": "View_1F_A_7_10"
     },
     {
@@ -845,10 +845,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "8열",
         "Seat_Number": 1,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 1,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "1",
+        "X": 28.64,
+        "Y": 24.47,
+        "Z": -0.72,
         "View_ID": "View_1F_A_8_1"
     },
     {
@@ -857,10 +857,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "8열",
         "Seat_Number": 2,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 2,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "2",
+        "X": 28.156,
+        "Y": 24.57,
+        "Z": -0.72,
         "View_ID": "View_1F_A_8_2"
     },
     {
@@ -869,10 +869,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "8열",
         "Seat_Number": 3,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 3,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "3",
+        "X": 27.671,
+        "Y": 24.67,
+        "Z": -0.72,
         "View_ID": "View_1F_A_8_3"
     },
     {
@@ -881,10 +881,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "8열",
         "Seat_Number": 4,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 4,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "4",
+        "X": 27.187,
+        "Y": 24.77,
+        "Z": -0.72,
         "View_ID": "View_1F_A_8_4"
     },
     {
@@ -893,10 +893,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "8열",
         "Seat_Number": 5,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 5,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "5",
+        "X": 26.702,
+        "Y": 24.87,
+        "Z": -0.72,
         "View_ID": "View_1F_A_8_5"
     },
     {
@@ -905,10 +905,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "8열",
         "Seat_Number": 6,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 6,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "6",
+        "X": 26.218,
+        "Y": 24.97,
+        "Z": -0.72,
         "View_ID": "View_1F_A_8_6"
     },
     {
@@ -917,10 +917,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "8열",
         "Seat_Number": 7,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 7,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "7",
+        "X": 25.733,
+        "Y": 25.07,
+        "Z": -0.72,
         "View_ID": "View_1F_A_8_7"
     },
     {
@@ -929,10 +929,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "8열",
         "Seat_Number": 8,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 8,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "8",
+        "X": 25.249,
+        "Y": 25.17,
+        "Z": -0.72,
         "View_ID": "View_1F_A_8_8"
     },
     {
@@ -941,10 +941,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "8열",
         "Seat_Number": 9,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 9,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "9",
+        "X": 24.764,
+        "Y": 25.27,
+        "Z": -0.72,
         "View_ID": "View_1F_A_8_9"
     },
     {
@@ -953,10 +953,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "8열",
         "Seat_Number": 10,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 10,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "10",
+        "X": 24.28,
+        "Y": 25.37,
+        "Z": -0.72,
         "View_ID": "View_1F_A_8_10"
     },
     {
@@ -965,10 +965,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "9열",
         "Seat_Number": 1,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 1,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "1",
+        "X": 28.62,
+        "Y": 25.36,
+        "Z": -0.74,
         "View_ID": "View_1F_A_9_1"
     },
     {
@@ -977,10 +977,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "9열",
         "Seat_Number": 2,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 2,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "2",
+        "X": 28.126,
+        "Y": 25.463,
+        "Z": -0.729,
         "View_ID": "View_1F_A_9_2"
     },
     {
@@ -989,10 +989,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "9열",
         "Seat_Number": 3,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 3,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "3",
+        "X": 27.631,
+        "Y": 25.567,
+        "Z": -0.718,
         "View_ID": "View_1F_A_9_3"
     },
     {
@@ -1001,10 +1001,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "9열",
         "Seat_Number": 4,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 4,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "4",
+        "X": 27.137,
+        "Y": 25.67,
+        "Z": -0.707,
         "View_ID": "View_1F_A_9_4"
     },
     {
@@ -1013,10 +1013,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "9열",
         "Seat_Number": 5,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 5,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "5",
+        "X": 26.642,
+        "Y": 25.773,
+        "Z": -0.696,
         "View_ID": "View_1F_A_9_5"
     },
     {
@@ -1025,10 +1025,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "9열",
         "Seat_Number": 6,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 6,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "6",
+        "X": 26.148,
+        "Y": 25.877,
+        "Z": -0.684,
         "View_ID": "View_1F_A_9_6"
     },
     {
@@ -1037,10 +1037,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "9열",
         "Seat_Number": 7,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 7,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "7",
+        "X": 25.653,
+        "Y": 25.98,
+        "Z": -0.673,
         "View_ID": "View_1F_A_9_7"
     },
     {
@@ -1049,10 +1049,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "9열",
         "Seat_Number": 8,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 8,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "8",
+        "X": 25.159,
+        "Y": 26.083,
+        "Z": -0.662,
         "View_ID": "View_1F_A_9_8"
     },
     {
@@ -1061,10 +1061,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "9열",
         "Seat_Number": 9,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 9,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "9",
+        "X": 24.664,
+        "Y": 26.187,
+        "Z": -0.651,
         "View_ID": "View_1F_A_9_9"
     },
     {
@@ -1073,10 +1073,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "9열",
         "Seat_Number": 10,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 10,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "10",
+        "X": 24.17,
+        "Y": 26.29,
+        "Z": -0.64,
         "View_ID": "View_1F_A_9_10"
     },
     {
@@ -1085,10 +1085,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "10열",
         "Seat_Number": 1,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 1,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "1",
+        "X": 28.73,
+        "Y": 26.24,
+        "Z": -0.68,
         "View_ID": "View_1F_A_10_1"
     },
     {
@@ -1097,10 +1097,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "10열",
         "Seat_Number": 2,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 2,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "2",
+        "X": 28.204,
+        "Y": 26.333,
+        "Z": -0.68,
         "View_ID": "View_1F_A_10_2"
     },
     {
@@ -1109,10 +1109,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "10열",
         "Seat_Number": 3,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 3,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "3",
+        "X": 27.679,
+        "Y": 26.427,
+        "Z": -0.68,
         "View_ID": "View_1F_A_10_3"
     },
     {
@@ -1121,10 +1121,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "10열",
         "Seat_Number": 4,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 4,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "4",
+        "X": 27.153,
+        "Y": 26.52,
+        "Z": -0.68,
         "View_ID": "View_1F_A_10_4"
     },
     {
@@ -1133,10 +1133,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "10열",
         "Seat_Number": 5,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 5,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "5",
+        "X": 26.628,
+        "Y": 26.613,
+        "Z": -0.68,
         "View_ID": "View_1F_A_10_5"
     },
     {
@@ -1145,10 +1145,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "10열",
         "Seat_Number": 6,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 6,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "6",
+        "X": 26.102,
+        "Y": 26.707,
+        "Z": -0.68,
         "View_ID": "View_1F_A_10_6"
     },
     {
@@ -1157,10 +1157,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "10열",
         "Seat_Number": 7,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 7,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "7",
+        "X": 25.577,
+        "Y": 26.8,
+        "Z": -0.68,
         "View_ID": "View_1F_A_10_7"
     },
     {
@@ -1169,10 +1169,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "10열",
         "Seat_Number": 8,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 8,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "8",
+        "X": 25.051,
+        "Y": 26.893,
+        "Z": -0.68,
         "View_ID": "View_1F_A_10_8"
     },
     {
@@ -1181,10 +1181,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "10열",
         "Seat_Number": 9,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 9,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "9",
+        "X": 24.526,
+        "Y": 26.987,
+        "Z": -0.68,
         "View_ID": "View_1F_A_10_9"
     },
     {
@@ -1193,10 +1193,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "10열",
         "Seat_Number": 10,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 10,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "10",
+        "X": 24.0,
+        "Y": 27.08,
+        "Z": -0.68,
         "View_ID": "View_1F_A_10_10"
     },
     {
@@ -1205,10 +1205,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "11열",
         "Seat_Number": 1,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 1,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "1",
+        "X": 28.7,
+        "Y": 27.22,
+        "Z": -0.48,
         "View_ID": "View_1F_A_11_1"
     },
     {
@@ -1217,10 +1217,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "11열",
         "Seat_Number": 2,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 2,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "2",
+        "X": 28.182,
+        "Y": 27.311,
+        "Z": -0.48,
         "View_ID": "View_1F_A_11_2"
     },
     {
@@ -1229,10 +1229,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "11열",
         "Seat_Number": 3,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 3,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "3",
+        "X": 27.664,
+        "Y": 27.402,
+        "Z": -0.48,
         "View_ID": "View_1F_A_11_3"
     },
     {
@@ -1241,10 +1241,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "11열",
         "Seat_Number": 4,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 4,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "4",
+        "X": 27.147,
+        "Y": 27.493,
+        "Z": -0.48,
         "View_ID": "View_1F_A_11_4"
     },
     {
@@ -1253,10 +1253,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "11열",
         "Seat_Number": 5,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 5,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "5",
+        "X": 26.629,
+        "Y": 27.584,
+        "Z": -0.48,
         "View_ID": "View_1F_A_11_5"
     },
     {
@@ -1265,10 +1265,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "11열",
         "Seat_Number": 6,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 6,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "6",
+        "X": 26.111,
+        "Y": 27.676,
+        "Z": -0.48,
         "View_ID": "View_1F_A_11_6"
     },
     {
@@ -1277,10 +1277,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "11열",
         "Seat_Number": 7,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 7,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "7",
+        "X": 25.593,
+        "Y": 27.767,
+        "Z": -0.48,
         "View_ID": "View_1F_A_11_7"
     },
     {
@@ -1289,10 +1289,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "11열",
         "Seat_Number": 8,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 8,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "8",
+        "X": 25.076,
+        "Y": 27.858,
+        "Z": -0.48,
         "View_ID": "View_1F_A_11_8"
     },
     {
@@ -1301,10 +1301,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "11열",
         "Seat_Number": 9,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 9,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "9",
+        "X": 24.558,
+        "Y": 27.949,
+        "Z": -0.48,
         "View_ID": "View_1F_A_11_9"
     },
     {
@@ -1313,10 +1313,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "11열",
         "Seat_Number": 10,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 10,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "10",
+        "X": 24.04,
+        "Y": 28.04,
+        "Z": -0.48,
         "View_ID": "View_1F_A_11_10"
     },
     {
@@ -1325,10 +1325,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "12열",
         "Seat_Number": 1,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 1,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "1",
+        "X": 28.74,
+        "Y": 28.19,
+        "Z": -0.28,
         "View_ID": "View_1F_A_12_1"
     },
     {
@@ -1337,10 +1337,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "12열",
         "Seat_Number": 2,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 2,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "2",
+        "X": 28.211,
+        "Y": 28.271,
+        "Z": -0.28,
         "View_ID": "View_1F_A_12_2"
     },
     {
@@ -1349,10 +1349,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "12열",
         "Seat_Number": 3,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 3,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "3",
+        "X": 27.682,
+        "Y": 28.352,
+        "Z": -0.28,
         "View_ID": "View_1F_A_12_3"
     },
     {
@@ -1361,10 +1361,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "12열",
         "Seat_Number": 4,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 4,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "4",
+        "X": 27.153,
+        "Y": 28.433,
+        "Z": -0.28,
         "View_ID": "View_1F_A_12_4"
     },
     {
@@ -1373,10 +1373,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "12열",
         "Seat_Number": 5,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 5,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "5",
+        "X": 26.624,
+        "Y": 28.514,
+        "Z": -0.28,
         "View_ID": "View_1F_A_12_5"
     },
     {
@@ -1385,10 +1385,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "12열",
         "Seat_Number": 6,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 6,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "6",
+        "X": 26.096,
+        "Y": 28.596,
+        "Z": -0.28,
         "View_ID": "View_1F_A_12_6"
     },
     {
@@ -1397,10 +1397,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "12열",
         "Seat_Number": 7,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 7,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "7",
+        "X": 25.567,
+        "Y": 28.677,
+        "Z": -0.28,
         "View_ID": "View_1F_A_12_7"
     },
     {
@@ -1409,10 +1409,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "12열",
         "Seat_Number": 8,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 8,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "8",
+        "X": 25.038,
+        "Y": 28.758,
+        "Z": -0.28,
         "View_ID": "View_1F_A_12_8"
     },
     {
@@ -1421,10 +1421,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "12열",
         "Seat_Number": 9,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 9,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "9",
+        "X": 24.509,
+        "Y": 28.839,
+        "Z": -0.28,
         "View_ID": "View_1F_A_12_9"
     },
     {
@@ -1433,10 +1433,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "12열",
         "Seat_Number": 10,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 10,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "10",
+        "X": 23.98,
+        "Y": 28.92,
+        "Z": -0.28,
         "View_ID": "View_1F_A_12_10"
     },
     {
@@ -1445,10 +1445,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "13열",
         "Seat_Number": 1,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 1,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "1",
+        "X": 28.74,
+        "Y": 29.29,
+        "Z": -0.16,
         "View_ID": "View_1F_A_13_1"
     },
     {
@@ -1457,10 +1457,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "13열",
         "Seat_Number": 2,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 2,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "2",
+        "X": 28.231,
+        "Y": 29.352,
+        "Z": -0.16,
         "View_ID": "View_1F_A_13_2"
     },
     {
@@ -1469,10 +1469,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "13열",
         "Seat_Number": 3,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 3,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "3",
+        "X": 27.722,
+        "Y": 29.414,
+        "Z": -0.16,
         "View_ID": "View_1F_A_13_3"
     },
     {
@@ -1481,10 +1481,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "13열",
         "Seat_Number": 4,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 4,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "4",
+        "X": 27.213,
+        "Y": 29.477,
+        "Z": -0.16,
         "View_ID": "View_1F_A_13_4"
     },
     {
@@ -1493,10 +1493,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "13열",
         "Seat_Number": 5,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 5,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "5",
+        "X": 26.704,
+        "Y": 29.539,
+        "Z": -0.16,
         "View_ID": "View_1F_A_13_5"
     },
     {
@@ -1505,10 +1505,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "13열",
         "Seat_Number": 6,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 6,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "6",
+        "X": 26.196,
+        "Y": 29.601,
+        "Z": -0.16,
         "View_ID": "View_1F_A_13_6"
     },
     {
@@ -1517,10 +1517,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "13열",
         "Seat_Number": 7,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 7,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "7",
+        "X": 25.687,
+        "Y": 29.663,
+        "Z": -0.16,
         "View_ID": "View_1F_A_13_7"
     },
     {
@@ -1529,10 +1529,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "13열",
         "Seat_Number": 8,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 8,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "8",
+        "X": 25.178,
+        "Y": 29.726,
+        "Z": -0.16,
         "View_ID": "View_1F_A_13_8"
     },
     {
@@ -1541,10 +1541,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "13열",
         "Seat_Number": 9,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 9,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "9",
+        "X": 24.669,
+        "Y": 29.788,
+        "Z": -0.16,
         "View_ID": "View_1F_A_13_9"
     },
     {
@@ -1553,10 +1553,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "13열",
         "Seat_Number": 10,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 10,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "10",
+        "X": 24.16,
+        "Y": 29.85,
+        "Z": -0.16,
         "View_ID": "View_1F_A_13_10"
     },
     {
@@ -1565,10 +1565,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "14열",
         "Seat_Number": 1,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 1,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "1",
+        "X": 28.77,
+        "Y": 30.01,
+        "Z": 0.08,
         "View_ID": "View_1F_A_14_1"
     },
     {
@@ -1577,10 +1577,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "14열",
         "Seat_Number": 2,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 2,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "2",
+        "X": 28.252,
+        "Y": 30.094,
+        "Z": 0.08,
         "View_ID": "View_1F_A_14_2"
     },
     {
@@ -1589,10 +1589,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "14열",
         "Seat_Number": 3,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 3,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "3",
+        "X": 27.734,
+        "Y": 30.179,
+        "Z": 0.08,
         "View_ID": "View_1F_A_14_3"
     },
     {
@@ -1601,10 +1601,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "14열",
         "Seat_Number": 4,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 4,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "4",
+        "X": 27.217,
+        "Y": 30.263,
+        "Z": 0.08,
         "View_ID": "View_1F_A_14_4"
     },
     {
@@ -1613,10 +1613,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "14열",
         "Seat_Number": 5,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 5,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "5",
+        "X": 26.699,
+        "Y": 30.348,
+        "Z": 0.08,
         "View_ID": "View_1F_A_14_5"
     },
     {
@@ -1625,10 +1625,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "14열",
         "Seat_Number": 6,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 6,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "6",
+        "X": 26.181,
+        "Y": 30.432,
+        "Z": 0.08,
         "View_ID": "View_1F_A_14_6"
     },
     {
@@ -1637,10 +1637,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "14열",
         "Seat_Number": 7,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 7,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "7",
+        "X": 25.663,
+        "Y": 30.517,
+        "Z": 0.08,
         "View_ID": "View_1F_A_14_7"
     },
     {
@@ -1649,10 +1649,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "14열",
         "Seat_Number": 8,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 8,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "8",
+        "X": 25.146,
+        "Y": 30.601,
+        "Z": 0.08,
         "View_ID": "View_1F_A_14_8"
     },
     {
@@ -1661,10 +1661,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "14열",
         "Seat_Number": 9,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 9,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "9",
+        "X": 24.628,
+        "Y": 30.686,
+        "Z": 0.08,
         "View_ID": "View_1F_A_14_9"
     },
     {
@@ -1673,10 +1673,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "14열",
         "Seat_Number": 10,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 10,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "10",
+        "X": 24.11,
+        "Y": 30.77,
+        "Z": 0.08,
         "View_ID": "View_1F_A_14_10"
     },
     {
@@ -1685,10 +1685,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "15열",
         "Seat_Number": 1,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 1,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "1",
+        "X": 28.74,
+        "Y": 30.89,
+        "Z": 0.22,
         "View_ID": "View_1F_A_15_1"
     },
     {
@@ -1697,10 +1697,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "15열",
         "Seat_Number": 2,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 2,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "2",
+        "X": 28.227,
+        "Y": 30.987,
+        "Z": 0.22,
         "View_ID": "View_1F_A_15_2"
     },
     {
@@ -1709,10 +1709,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "15열",
         "Seat_Number": 3,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 3,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "3",
+        "X": 27.713,
+        "Y": 31.083,
+        "Z": 0.22,
         "View_ID": "View_1F_A_15_3"
     },
     {
@@ -1721,10 +1721,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "15열",
         "Seat_Number": 4,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 4,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "4",
+        "X": 27.2,
+        "Y": 31.18,
+        "Z": 0.22,
         "View_ID": "View_1F_A_15_4"
     },
     {
@@ -1733,10 +1733,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "15열",
         "Seat_Number": 5,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 5,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "5",
+        "X": 26.687,
+        "Y": 31.277,
+        "Z": 0.22,
         "View_ID": "View_1F_A_15_5"
     },
     {
@@ -1745,10 +1745,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "15열",
         "Seat_Number": 6,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 6,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "6",
+        "X": 26.173,
+        "Y": 31.373,
+        "Z": 0.22,
         "View_ID": "View_1F_A_15_6"
     },
     {
@@ -1757,10 +1757,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "15열",
         "Seat_Number": 7,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 7,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "7",
+        "X": 25.66,
+        "Y": 31.47,
+        "Z": 0.22,
         "View_ID": "View_1F_A_15_7"
     },
     {
@@ -1769,10 +1769,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "15열",
         "Seat_Number": 8,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 8,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "8",
+        "X": 25.147,
+        "Y": 31.567,
+        "Z": 0.22,
         "View_ID": "View_1F_A_15_8"
     },
     {
@@ -1781,10 +1781,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "15열",
         "Seat_Number": 9,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 9,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "9",
+        "X": 24.633,
+        "Y": 31.663,
+        "Z": 0.22,
         "View_ID": "View_1F_A_15_9"
     },
     {
@@ -1793,10 +1793,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "15열",
         "Seat_Number": 10,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 10,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "10",
+        "X": 24.12,
+        "Y": 31.76,
+        "Z": 0.22,
         "View_ID": "View_1F_A_15_10"
     },
     {
@@ -1805,10 +1805,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "16열",
         "Seat_Number": 1,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 1,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "1",
+        "X": 28.71,
+        "Y": 31.77,
+        "Z": 0.33,
         "View_ID": "View_1F_A_16_1"
     },
     {
@@ -1817,10 +1817,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "16열",
         "Seat_Number": 2,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 2,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "2",
+        "X": 28.204,
+        "Y": 31.869,
+        "Z": 0.33,
         "View_ID": "View_1F_A_16_2"
     },
     {
@@ -1829,10 +1829,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "16열",
         "Seat_Number": 3,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 3,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "3",
+        "X": 27.699,
+        "Y": 31.968,
+        "Z": 0.33,
         "View_ID": "View_1F_A_16_3"
     },
     {
@@ -1841,10 +1841,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "16열",
         "Seat_Number": 4,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 4,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "4",
+        "X": 27.193,
+        "Y": 32.067,
+        "Z": 0.33,
         "View_ID": "View_1F_A_16_4"
     },
     {
@@ -1853,10 +1853,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "16열",
         "Seat_Number": 5,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 5,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "5",
+        "X": 26.688,
+        "Y": 32.166,
+        "Z": 0.33,
         "View_ID": "View_1F_A_16_5"
     },
     {
@@ -1865,10 +1865,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "16열",
         "Seat_Number": 6,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 6,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "6",
+        "X": 26.182,
+        "Y": 32.264,
+        "Z": 0.33,
         "View_ID": "View_1F_A_16_6"
     },
     {
@@ -1877,10 +1877,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "16열",
         "Seat_Number": 7,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 7,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "7",
+        "X": 25.677,
+        "Y": 32.363,
+        "Z": 0.33,
         "View_ID": "View_1F_A_16_7"
     },
     {
@@ -1889,10 +1889,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "16열",
         "Seat_Number": 8,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 8,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "8",
+        "X": 25.171,
+        "Y": 32.462,
+        "Z": 0.33,
         "View_ID": "View_1F_A_16_8"
     },
     {
@@ -1901,10 +1901,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "16열",
         "Seat_Number": 9,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 9,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "9",
+        "X": 24.666,
+        "Y": 32.561,
+        "Z": 0.33,
         "View_ID": "View_1F_A_16_9"
     },
     {
@@ -1913,10 +1913,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "16열",
         "Seat_Number": 10,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 10,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "10",
+        "X": 24.16,
+        "Y": 32.66,
+        "Z": 0.33,
         "View_ID": "View_1F_A_16_10"
     },
     {
@@ -1925,10 +1925,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "17열",
         "Seat_Number": 1,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 1,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "1",
+        "X": 28.7,
+        "Y": 32.69,
+        "Z": 0.47,
         "View_ID": "View_1F_A_17_1"
     },
     {
@@ -1937,10 +1937,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "17열",
         "Seat_Number": 2,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 2,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "2",
+        "X": 28.196,
+        "Y": 32.776,
+        "Z": 0.47,
         "View_ID": "View_1F_A_17_2"
     },
     {
@@ -1949,10 +1949,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "17열",
         "Seat_Number": 3,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 3,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "3",
+        "X": 27.691,
+        "Y": 32.861,
+        "Z": 0.47,
         "View_ID": "View_1F_A_17_3"
     },
     {
@@ -1961,10 +1961,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "17열",
         "Seat_Number": 4,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 4,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "4",
+        "X": 27.187,
+        "Y": 32.947,
+        "Z": 0.47,
         "View_ID": "View_1F_A_17_4"
     },
     {
@@ -1973,10 +1973,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "17열",
         "Seat_Number": 5,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 5,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "5",
+        "X": 26.682,
+        "Y": 33.032,
+        "Z": 0.47,
         "View_ID": "View_1F_A_17_5"
     },
     {
@@ -1985,10 +1985,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "17열",
         "Seat_Number": 6,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 6,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "6",
+        "X": 26.178,
+        "Y": 33.118,
+        "Z": 0.47,
         "View_ID": "View_1F_A_17_6"
     },
     {
@@ -1997,10 +1997,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "17열",
         "Seat_Number": 7,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 7,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "7",
+        "X": 25.673,
+        "Y": 33.203,
+        "Z": 0.47,
         "View_ID": "View_1F_A_17_7"
     },
     {
@@ -2009,10 +2009,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "17열",
         "Seat_Number": 8,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 8,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "8",
+        "X": 25.169,
+        "Y": 33.289,
+        "Z": 0.47,
         "View_ID": "View_1F_A_17_8"
     },
     {
@@ -2021,10 +2021,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "17열",
         "Seat_Number": 9,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 9,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "9",
+        "X": 24.664,
+        "Y": 33.374,
+        "Z": 0.47,
         "View_ID": "View_1F_A_17_9"
     },
     {
@@ -2033,10 +2033,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "17열",
         "Seat_Number": 10,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 10,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "10",
+        "X": 24.16,
+        "Y": 33.46,
+        "Z": 0.47,
         "View_ID": "View_1F_A_17_10"
     },
     {
@@ -2045,10 +2045,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "18열",
         "Seat_Number": 1,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 1,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "1",
+        "X": 28.74,
+        "Y": 33.63,
+        "Z": 0.71,
         "View_ID": "View_1F_A_18_1"
     },
     {
@@ -2057,10 +2057,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "18열",
         "Seat_Number": 2,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 2,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "2",
+        "X": 28.231,
+        "Y": 33.707,
+        "Z": 0.71,
         "View_ID": "View_1F_A_18_2"
     },
     {
@@ -2069,10 +2069,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "18열",
         "Seat_Number": 3,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 3,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "3",
+        "X": 27.722,
+        "Y": 33.783,
+        "Z": 0.71,
         "View_ID": "View_1F_A_18_3"
     },
     {
@@ -2081,10 +2081,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "18열",
         "Seat_Number": 4,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 4,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "4",
+        "X": 27.213,
+        "Y": 33.86,
+        "Z": 0.71,
         "View_ID": "View_1F_A_18_4"
     },
     {
@@ -2093,10 +2093,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "18열",
         "Seat_Number": 5,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 5,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "5",
+        "X": 26.704,
+        "Y": 33.937,
+        "Z": 0.71,
         "View_ID": "View_1F_A_18_5"
     },
     {
@@ -2105,10 +2105,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "18열",
         "Seat_Number": 6,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 6,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "6",
+        "X": 26.196,
+        "Y": 34.013,
+        "Z": 0.71,
         "View_ID": "View_1F_A_18_6"
     },
     {
@@ -2117,10 +2117,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "18열",
         "Seat_Number": 7,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 7,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "7",
+        "X": 25.687,
+        "Y": 34.09,
+        "Z": 0.71,
         "View_ID": "View_1F_A_18_7"
     },
     {
@@ -2129,10 +2129,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "18열",
         "Seat_Number": 8,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 8,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "8",
+        "X": 25.178,
+        "Y": 34.167,
+        "Z": 0.71,
         "View_ID": "View_1F_A_18_8"
     },
     {
@@ -2141,10 +2141,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "18열",
         "Seat_Number": 9,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 9,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "9",
+        "X": 24.669,
+        "Y": 34.243,
+        "Z": 0.71,
         "View_ID": "View_1F_A_18_9"
     },
     {
@@ -2153,10 +2153,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "18열",
         "Seat_Number": 10,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 10,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "10",
+        "X": 24.16,
+        "Y": 34.32,
+        "Z": 0.71,
         "View_ID": "View_1F_A_18_10"
     },
     {
@@ -2165,10 +2165,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "19열",
         "Seat_Number": 1,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 1,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "1",
+        "X": 28.72,
+        "Y": 34.55,
+        "Z": 0.97,
         "View_ID": "View_1F_A_19_1"
     },
     {
@@ -2177,10 +2177,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "19열",
         "Seat_Number": 2,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 2,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "2",
+        "X": 28.208,
+        "Y": 34.629,
+        "Z": 0.97,
         "View_ID": "View_1F_A_19_2"
     },
     {
@@ -2189,10 +2189,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "19열",
         "Seat_Number": 3,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 3,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "3",
+        "X": 27.696,
+        "Y": 34.708,
+        "Z": 0.97,
         "View_ID": "View_1F_A_19_3"
     },
     {
@@ -2201,10 +2201,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "19열",
         "Seat_Number": 4,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 4,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "4",
+        "X": 27.183,
+        "Y": 34.787,
+        "Z": 0.97,
         "View_ID": "View_1F_A_19_4"
     },
     {
@@ -2213,10 +2213,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "19열",
         "Seat_Number": 5,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 5,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "5",
+        "X": 26.671,
+        "Y": 34.866,
+        "Z": 0.97,
         "View_ID": "View_1F_A_19_5"
     },
     {
@@ -2225,10 +2225,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "19열",
         "Seat_Number": 6,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 6,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "6",
+        "X": 26.159,
+        "Y": 34.944,
+        "Z": 0.97,
         "View_ID": "View_1F_A_19_6"
     },
     {
@@ -2237,10 +2237,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "19열",
         "Seat_Number": 7,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 7,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "7",
+        "X": 25.647,
+        "Y": 35.023,
+        "Z": 0.97,
         "View_ID": "View_1F_A_19_7"
     },
     {
@@ -2249,10 +2249,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "19열",
         "Seat_Number": 8,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 8,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "8",
+        "X": 25.134,
+        "Y": 35.102,
+        "Z": 0.97,
         "View_ID": "View_1F_A_19_8"
     },
     {
@@ -2261,10 +2261,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "19열",
         "Seat_Number": 9,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 9,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "9",
+        "X": 24.622,
+        "Y": 35.181,
+        "Z": 0.97,
         "View_ID": "View_1F_A_19_9"
     },
     {
@@ -2273,10 +2273,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "19열",
         "Seat_Number": 10,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 10,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "10",
+        "X": 24.11,
+        "Y": 35.26,
+        "Z": 0.97,
         "View_ID": "View_1F_A_19_10"
     },
     {
@@ -2285,10 +2285,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "20열",
         "Seat_Number": 1,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 1,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "1",
+        "X": 29.08,
+        "Y": 35.8,
+        "Z": 1.39,
         "View_ID": "View_1F_A_20_1"
     },
     {
@@ -2297,10 +2297,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "20열",
         "Seat_Number": 2,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 2,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "2",
+        "X": 28.53,
+        "Y": 35.86,
+        "Z": 1.39,
         "View_ID": "View_1F_A_20_2"
     },
     {
@@ -2309,10 +2309,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "20열",
         "Seat_Number": 3,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 3,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "3",
+        "X": 27.98,
+        "Y": 35.92,
+        "Z": 1.39,
         "View_ID": "View_1F_A_20_3"
     },
     {
@@ -2321,10 +2321,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "20열",
         "Seat_Number": 4,
         "Seat_Type": "none",
-        "Display_Text": "",
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": NaN,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0,
         "View_ID": "View_1F_A_20_4"
     },
     {
@@ -2333,10 +2333,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "20열",
         "Seat_Number": 5,
         "Seat_Type": "none",
-        "Display_Text": "",
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": NaN,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0,
         "View_ID": "View_1F_A_20_5"
     },
     {
@@ -2345,10 +2345,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "20열",
         "Seat_Number": 6,
         "Seat_Type": "none",
-        "Display_Text": "",
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": NaN,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0,
         "View_ID": "View_1F_A_20_6"
     },
     {
@@ -2358,9 +2358,9 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Seat_Number": 7,
         "Seat_Type": "장애인석",
         "Display_Text": "♿",
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "X": 25.8,
+        "Y": 36.15,
+        "Z": 1.39,
         "View_ID": "View_1F_A_20_7"
     },
     {
@@ -2370,9 +2370,9 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Seat_Number": 8,
         "Seat_Type": "장애인석",
         "Display_Text": "♿",
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "X": 25.25,
+        "Y": 36.21,
+        "Z": 1.39,
         "View_ID": "View_1F_A_20_8"
     },
     {
@@ -2382,9 +2382,9 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Seat_Number": 9,
         "Seat_Type": "장애인석",
         "Display_Text": "♿",
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "X": 24.71,
+        "Y": 36.26,
+        "Z": 1.39,
         "View_ID": "View_1F_A_20_9"
     },
     {
@@ -2394,9 +2394,9 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Seat_Number": 10,
         "Seat_Type": "장애인석",
         "Display_Text": "♿",
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "X": 24.16,
+        "Y": 36.32,
+        "Z": 1.39,
         "View_ID": "View_1F_A_20_10"
     },
     {
@@ -2405,10 +2405,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "1열",
         "Seat_Number": 1,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 1,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "1",
+        "X": 22.5,
+        "Y": 19.3,
+        "Z": -1.5,
         "View_ID": "View_1F_B_1_1"
     },
     {
@@ -2417,10 +2417,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "1열",
         "Seat_Number": 2,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 2,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "2",
+        "X": 21.962,
+        "Y": 19.295,
+        "Z": -1.5,
         "View_ID": "View_1F_B_1_2"
     },
     {
@@ -2429,10 +2429,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "1열",
         "Seat_Number": 3,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 3,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "3",
+        "X": 21.423,
+        "Y": 19.291,
+        "Z": -1.5,
         "View_ID": "View_1F_B_1_3"
     },
     {
@@ -2441,10 +2441,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "1열",
         "Seat_Number": 4,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 4,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "4",
+        "X": 20.885,
+        "Y": 19.286,
+        "Z": -1.5,
         "View_ID": "View_1F_B_1_4"
     },
     {
@@ -2453,10 +2453,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "1열",
         "Seat_Number": 5,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 5,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "5",
+        "X": 20.346,
+        "Y": 19.282,
+        "Z": -1.5,
         "View_ID": "View_1F_B_1_5"
     },
     {
@@ -2465,10 +2465,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "1열",
         "Seat_Number": 6,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 6,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "6",
+        "X": 19.808,
+        "Y": 19.277,
+        "Z": -1.5,
         "View_ID": "View_1F_B_1_6"
     },
     {
@@ -2477,10 +2477,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "1열",
         "Seat_Number": 7,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 7,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "7",
+        "X": 19.269,
+        "Y": 19.272,
+        "Z": -1.5,
         "View_ID": "View_1F_B_1_7"
     },
     {
@@ -2489,10 +2489,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "1열",
         "Seat_Number": 8,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 8,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "8",
+        "X": 18.731,
+        "Y": 19.268,
+        "Z": -1.5,
         "View_ID": "View_1F_B_1_8"
     },
     {
@@ -2501,10 +2501,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "1열",
         "Seat_Number": 9,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 9,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "9",
+        "X": 18.192,
+        "Y": 19.263,
+        "Z": -1.5,
         "View_ID": "View_1F_B_1_9"
     },
     {
@@ -2513,10 +2513,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "1열",
         "Seat_Number": 10,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 10,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "10",
+        "X": 17.654,
+        "Y": 19.258,
+        "Z": -1.5,
         "View_ID": "View_1F_B_1_10"
     },
     {
@@ -2525,10 +2525,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "1열",
         "Seat_Number": 11,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 11,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "11",
+        "X": 17.115,
+        "Y": 19.254,
+        "Z": -1.5,
         "View_ID": "View_1F_B_1_11"
     },
     {
@@ -2537,10 +2537,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "1열",
         "Seat_Number": 12,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 12,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "12",
+        "X": 16.577,
+        "Y": 19.249,
+        "Z": -1.5,
         "View_ID": "View_1F_B_1_12"
     },
     {
@@ -2549,10 +2549,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "1열",
         "Seat_Number": 13,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 13,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "13",
+        "X": 16.038,
+        "Y": 19.245,
+        "Z": -1.5,
         "View_ID": "View_1F_B_1_13"
     },
     {
@@ -2561,10 +2561,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "1열",
         "Seat_Number": 14,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 14,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "14",
+        "X": 15.5,
+        "Y": 19.24,
+        "Z": -1.5,
         "View_ID": "View_1F_B_1_14"
     },
     {
@@ -2573,10 +2573,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "2열",
         "Seat_Number": 1,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 1,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "1",
+        "X": 22.5,
+        "Y": 20.158,
+        "Z": -1.363,
         "View_ID": "View_1F_B_2_1"
     },
     {
@@ -2585,10 +2585,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "2열",
         "Seat_Number": 2,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 2,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "2",
+        "X": 21.962,
+        "Y": 20.154,
+        "Z": -1.363,
         "View_ID": "View_1F_B_2_2"
     },
     {
@@ -2597,10 +2597,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "2열",
         "Seat_Number": 3,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 3,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "3",
+        "X": 21.423,
+        "Y": 20.149,
+        "Z": -1.363,
         "View_ID": "View_1F_B_2_3"
     },
     {
@@ -2609,10 +2609,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "2열",
         "Seat_Number": 4,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 4,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "4",
+        "X": 20.885,
+        "Y": 20.145,
+        "Z": -1.363,
         "View_ID": "View_1F_B_2_4"
     },
     {
@@ -2621,10 +2621,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "2열",
         "Seat_Number": 5,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 5,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "5",
+        "X": 20.346,
+        "Y": 20.14,
+        "Z": -1.363,
         "View_ID": "View_1F_B_2_5"
     },
     {
@@ -2633,10 +2633,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "2열",
         "Seat_Number": 6,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 6,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "6",
+        "X": 19.808,
+        "Y": 20.136,
+        "Z": -1.363,
         "View_ID": "View_1F_B_2_6"
     },
     {
@@ -2645,10 +2645,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "2열",
         "Seat_Number": 7,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 7,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "7",
+        "X": 19.269,
+        "Y": 20.132,
+        "Z": -1.363,
         "View_ID": "View_1F_B_2_7"
     },
     {
@@ -2657,10 +2657,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "2열",
         "Seat_Number": 8,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 8,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "8",
+        "X": 18.731,
+        "Y": 20.127,
+        "Z": -1.363,
         "View_ID": "View_1F_B_2_8"
     },
     {
@@ -2669,10 +2669,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "2열",
         "Seat_Number": 9,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 9,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "9",
+        "X": 18.192,
+        "Y": 20.123,
+        "Z": -1.363,
         "View_ID": "View_1F_B_2_9"
     },
     {
@@ -2681,10 +2681,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "2열",
         "Seat_Number": 10,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 10,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "10",
+        "X": 17.654,
+        "Y": 20.119,
+        "Z": -1.363,
         "View_ID": "View_1F_B_2_10"
     },
     {
@@ -2693,10 +2693,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "2열",
         "Seat_Number": 11,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 11,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "11",
+        "X": 17.115,
+        "Y": 20.114,
+        "Z": -1.363,
         "View_ID": "View_1F_B_2_11"
     },
     {
@@ -2705,10 +2705,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "2열",
         "Seat_Number": 12,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 12,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "12",
+        "X": 16.577,
+        "Y": 20.11,
+        "Z": -1.363,
         "View_ID": "View_1F_B_2_12"
     },
     {
@@ -2717,10 +2717,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "2열",
         "Seat_Number": 13,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 13,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "13",
+        "X": 16.038,
+        "Y": 20.105,
+        "Z": -1.363,
         "View_ID": "View_1F_B_2_13"
     },
     {
@@ -2729,10 +2729,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "2열",
         "Seat_Number": 14,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 14,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "14",
+        "X": 15.5,
+        "Y": 20.101,
+        "Z": -1.363,
         "View_ID": "View_1F_B_2_14"
     },
     {
@@ -2741,10 +2741,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "3열",
         "Seat_Number": 1,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 1,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "1",
+        "X": 22.5,
+        "Y": 21.016,
+        "Z": -1.226,
         "View_ID": "View_1F_B_3_1"
     },
     {
@@ -2753,10 +2753,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "3열",
         "Seat_Number": 2,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 2,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "2",
+        "X": 21.962,
+        "Y": 21.012,
+        "Z": -1.226,
         "View_ID": "View_1F_B_3_2"
     },
     {
@@ -2765,10 +2765,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "3열",
         "Seat_Number": 3,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 3,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "3",
+        "X": 21.423,
+        "Y": 21.008,
+        "Z": -1.226,
         "View_ID": "View_1F_B_3_3"
     },
     {
@@ -2777,10 +2777,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "3열",
         "Seat_Number": 4,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 4,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "4",
+        "X": 20.885,
+        "Y": 21.003,
+        "Z": -1.226,
         "View_ID": "View_1F_B_3_4"
     },
     {
@@ -2789,10 +2789,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "3열",
         "Seat_Number": 5,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 5,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "5",
+        "X": 20.346,
+        "Y": 20.999,
+        "Z": -1.226,
         "View_ID": "View_1F_B_3_5"
     },
     {
@@ -2801,10 +2801,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "3열",
         "Seat_Number": 6,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 6,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "6",
+        "X": 19.808,
+        "Y": 20.995,
+        "Z": -1.226,
         "View_ID": "View_1F_B_3_6"
     },
     {
@@ -2813,10 +2813,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "3열",
         "Seat_Number": 7,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 7,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "7",
+        "X": 19.269,
+        "Y": 20.991,
+        "Z": -1.226,
         "View_ID": "View_1F_B_3_7"
     },
     {
@@ -2825,10 +2825,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "3열",
         "Seat_Number": 8,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 8,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "8",
+        "X": 18.731,
+        "Y": 20.987,
+        "Z": -1.226,
         "View_ID": "View_1F_B_3_8"
     },
     {
@@ -2837,10 +2837,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "3열",
         "Seat_Number": 9,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 9,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "9",
+        "X": 18.192,
+        "Y": 20.983,
+        "Z": -1.226,
         "View_ID": "View_1F_B_3_9"
     },
     {
@@ -2849,10 +2849,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "3열",
         "Seat_Number": 10,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 10,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "10",
+        "X": 17.654,
+        "Y": 20.979,
+        "Z": -1.226,
         "View_ID": "View_1F_B_3_10"
     },
     {
@@ -2861,10 +2861,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "3열",
         "Seat_Number": 11,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 11,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "11",
+        "X": 17.115,
+        "Y": 20.974,
+        "Z": -1.226,
         "View_ID": "View_1F_B_3_11"
     },
     {
@@ -2873,10 +2873,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "3열",
         "Seat_Number": 12,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 12,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "12",
+        "X": 16.577,
+        "Y": 20.97,
+        "Z": -1.226,
         "View_ID": "View_1F_B_3_12"
     },
     {
@@ -2885,10 +2885,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "3열",
         "Seat_Number": 13,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 13,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "13",
+        "X": 16.038,
+        "Y": 20.966,
+        "Z": -1.226,
         "View_ID": "View_1F_B_3_13"
     },
     {
@@ -2897,10 +2897,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "3열",
         "Seat_Number": 14,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 14,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "14",
+        "X": 15.5,
+        "Y": 20.962,
+        "Z": -1.226,
         "View_ID": "View_1F_B_3_14"
     },
     {
@@ -2909,10 +2909,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "4열",
         "Seat_Number": 1,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 1,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "1",
+        "X": 22.5,
+        "Y": 21.874,
+        "Z": -1.089,
         "View_ID": "View_1F_B_4_1"
     },
     {
@@ -2921,10 +2921,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "4열",
         "Seat_Number": 2,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 2,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "2",
+        "X": 21.962,
+        "Y": 21.87,
+        "Z": -1.089,
         "View_ID": "View_1F_B_4_2"
     },
     {
@@ -2933,10 +2933,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "4열",
         "Seat_Number": 3,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 3,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "3",
+        "X": 21.423,
+        "Y": 21.866,
+        "Z": -1.089,
         "View_ID": "View_1F_B_4_3"
     },
     {
@@ -2945,10 +2945,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "4열",
         "Seat_Number": 4,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 4,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "4",
+        "X": 20.885,
+        "Y": 21.862,
+        "Z": -1.089,
         "View_ID": "View_1F_B_4_4"
     },
     {
@@ -2957,10 +2957,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "4열",
         "Seat_Number": 5,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 5,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "5",
+        "X": 20.346,
+        "Y": 21.858,
+        "Z": -1.089,
         "View_ID": "View_1F_B_4_5"
     },
     {
@@ -2969,10 +2969,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "4열",
         "Seat_Number": 6,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 6,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "6",
+        "X": 19.808,
+        "Y": 21.854,
+        "Z": -1.089,
         "View_ID": "View_1F_B_4_6"
     },
     {
@@ -2981,10 +2981,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "4열",
         "Seat_Number": 7,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 7,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "7",
+        "X": 19.269,
+        "Y": 21.85,
+        "Z": -1.089,
         "View_ID": "View_1F_B_4_7"
     },
     {
@@ -2993,10 +2993,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "4열",
         "Seat_Number": 8,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 8,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "8",
+        "X": 18.731,
+        "Y": 21.846,
+        "Z": -1.089,
         "View_ID": "View_1F_B_4_8"
     },
     {
@@ -3005,10 +3005,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "4열",
         "Seat_Number": 9,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 9,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "9",
+        "X": 18.192,
+        "Y": 21.843,
+        "Z": -1.089,
         "View_ID": "View_1F_B_4_9"
     },
     {
@@ -3017,10 +3017,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "4열",
         "Seat_Number": 10,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 10,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "10",
+        "X": 17.654,
+        "Y": 21.839,
+        "Z": -1.089,
         "View_ID": "View_1F_B_4_10"
     },
     {
@@ -3029,10 +3029,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "4열",
         "Seat_Number": 11,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 11,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "11",
+        "X": 17.115,
+        "Y": 21.835,
+        "Z": -1.089,
         "View_ID": "View_1F_B_4_11"
     },
     {
@@ -3041,10 +3041,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "4열",
         "Seat_Number": 12,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 12,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "12",
+        "X": 16.577,
+        "Y": 21.831,
+        "Z": -1.089,
         "View_ID": "View_1F_B_4_12"
     },
     {
@@ -3053,10 +3053,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "4열",
         "Seat_Number": 13,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 13,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "13",
+        "X": 16.038,
+        "Y": 21.827,
+        "Z": -1.089,
         "View_ID": "View_1F_B_4_13"
     },
     {
@@ -3065,10 +3065,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "4열",
         "Seat_Number": 14,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 14,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "14",
+        "X": 15.5,
+        "Y": 21.823,
+        "Z": -1.089,
         "View_ID": "View_1F_B_4_14"
     },
     {
@@ -3077,10 +3077,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "5열",
         "Seat_Number": 1,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 1,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "1",
+        "X": 22.5,
+        "Y": 22.732,
+        "Z": -0.953,
         "View_ID": "View_1F_B_5_1"
     },
     {
@@ -3089,10 +3089,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "5열",
         "Seat_Number": 2,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 2,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "2",
+        "X": 21.962,
+        "Y": 22.728,
+        "Z": -0.953,
         "View_ID": "View_1F_B_5_2"
     },
     {
@@ -3101,10 +3101,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "5열",
         "Seat_Number": 3,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 3,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "3",
+        "X": 21.423,
+        "Y": 22.724,
+        "Z": -0.953,
         "View_ID": "View_1F_B_5_3"
     },
     {
@@ -3113,10 +3113,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "5열",
         "Seat_Number": 4,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 4,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "4",
+        "X": 20.885,
+        "Y": 22.721,
+        "Z": -0.953,
         "View_ID": "View_1F_B_5_4"
     },
     {
@@ -3125,10 +3125,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "5열",
         "Seat_Number": 5,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 5,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "5",
+        "X": 20.346,
+        "Y": 22.717,
+        "Z": -0.953,
         "View_ID": "View_1F_B_5_5"
     },
     {
@@ -3137,10 +3137,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "5열",
         "Seat_Number": 6,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 6,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "6",
+        "X": 19.808,
+        "Y": 22.713,
+        "Z": -0.953,
         "View_ID": "View_1F_B_5_6"
     },
     {
@@ -3149,10 +3149,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "5열",
         "Seat_Number": 7,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 7,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "7",
+        "X": 19.269,
+        "Y": 22.71,
+        "Z": -0.953,
         "View_ID": "View_1F_B_5_7"
     },
     {
@@ -3161,10 +3161,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "5열",
         "Seat_Number": 8,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 8,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "8",
+        "X": 18.731,
+        "Y": 22.706,
+        "Z": -0.953,
         "View_ID": "View_1F_B_5_8"
     },
     {
@@ -3173,10 +3173,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "5열",
         "Seat_Number": 9,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 9,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "9",
+        "X": 18.192,
+        "Y": 22.702,
+        "Z": -0.953,
         "View_ID": "View_1F_B_5_9"
     },
     {
@@ -3185,10 +3185,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "5열",
         "Seat_Number": 10,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 10,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "10",
+        "X": 17.654,
+        "Y": 22.699,
+        "Z": -0.953,
         "View_ID": "View_1F_B_5_10"
     },
     {
@@ -3197,10 +3197,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "5열",
         "Seat_Number": 11,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 11,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "11",
+        "X": 17.115,
+        "Y": 22.695,
+        "Z": -0.953,
         "View_ID": "View_1F_B_5_11"
     },
     {
@@ -3209,10 +3209,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "5열",
         "Seat_Number": 12,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 12,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "12",
+        "X": 16.577,
+        "Y": 22.691,
+        "Z": -0.953,
         "View_ID": "View_1F_B_5_12"
     },
     {
@@ -3221,10 +3221,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "5열",
         "Seat_Number": 13,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 13,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "13",
+        "X": 16.038,
+        "Y": 22.688,
+        "Z": -0.953,
         "View_ID": "View_1F_B_5_13"
     },
     {
@@ -3233,10 +3233,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "5열",
         "Seat_Number": 14,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 14,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "14",
+        "X": 15.5,
+        "Y": 22.684,
+        "Z": -0.953,
         "View_ID": "View_1F_B_5_14"
     },
     {
@@ -3245,10 +3245,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "6열",
         "Seat_Number": 1,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 1,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "1",
+        "X": 22.5,
+        "Y": 23.589,
+        "Z": -0.816,
         "View_ID": "View_1F_B_6_1"
     },
     {
@@ -3257,10 +3257,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "6열",
         "Seat_Number": 2,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 2,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "2",
+        "X": 21.962,
+        "Y": 23.586,
+        "Z": -0.816,
         "View_ID": "View_1F_B_6_2"
     },
     {
@@ -3269,10 +3269,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "6열",
         "Seat_Number": 3,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 3,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "3",
+        "X": 21.423,
+        "Y": 23.583,
+        "Z": -0.816,
         "View_ID": "View_1F_B_6_3"
     },
     {
@@ -3281,10 +3281,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "6열",
         "Seat_Number": 4,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 4,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "4",
+        "X": 20.885,
+        "Y": 23.579,
+        "Z": -0.816,
         "View_ID": "View_1F_B_6_4"
     },
     {
@@ -3293,10 +3293,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "6열",
         "Seat_Number": 5,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 5,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "5",
+        "X": 20.346,
+        "Y": 23.576,
+        "Z": -0.816,
         "View_ID": "View_1F_B_6_5"
     },
     {
@@ -3305,10 +3305,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "6열",
         "Seat_Number": 6,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 6,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "6",
+        "X": 19.808,
+        "Y": 23.572,
+        "Z": -0.816,
         "View_ID": "View_1F_B_6_6"
     },
     {
@@ -3317,10 +3317,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "6열",
         "Seat_Number": 7,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 7,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "7",
+        "X": 19.269,
+        "Y": 23.569,
+        "Z": -0.816,
         "View_ID": "View_1F_B_6_7"
     },
     {
@@ -3329,10 +3329,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "6열",
         "Seat_Number": 8,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 8,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "8",
+        "X": 18.731,
+        "Y": 23.566,
+        "Z": -0.816,
         "View_ID": "View_1F_B_6_8"
     },
     {
@@ -3341,10 +3341,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "6열",
         "Seat_Number": 9,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 9,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "9",
+        "X": 18.192,
+        "Y": 23.562,
+        "Z": -0.816,
         "View_ID": "View_1F_B_6_9"
     },
     {
@@ -3353,10 +3353,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "6열",
         "Seat_Number": 10,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 10,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "10",
+        "X": 17.654,
+        "Y": 23.559,
+        "Z": -0.816,
         "View_ID": "View_1F_B_6_10"
     },
     {
@@ -3365,10 +3365,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "6열",
         "Seat_Number": 11,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 11,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "11",
+        "X": 17.115,
+        "Y": 23.555,
+        "Z": -0.816,
         "View_ID": "View_1F_B_6_11"
     },
     {
@@ -3377,10 +3377,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "6열",
         "Seat_Number": 12,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 12,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "12",
+        "X": 16.577,
+        "Y": 23.552,
+        "Z": -0.816,
         "View_ID": "View_1F_B_6_12"
     },
     {
@@ -3389,10 +3389,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "6열",
         "Seat_Number": 13,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 13,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "13",
+        "X": 16.038,
+        "Y": 23.549,
+        "Z": -0.816,
         "View_ID": "View_1F_B_6_13"
     },
     {
@@ -3401,10 +3401,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "6열",
         "Seat_Number": 14,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 14,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "14",
+        "X": 15.5,
+        "Y": 23.545,
+        "Z": -0.816,
         "View_ID": "View_1F_B_6_14"
     },
     {
@@ -3413,10 +3413,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "7열",
         "Seat_Number": 1,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 1,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "1",
+        "X": 22.5,
+        "Y": 24.447,
+        "Z": -0.679,
         "View_ID": "View_1F_B_7_1"
     },
     {
@@ -3425,10 +3425,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "7열",
         "Seat_Number": 2,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 2,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "2",
+        "X": 21.962,
+        "Y": 24.444,
+        "Z": -0.679,
         "View_ID": "View_1F_B_7_2"
     },
     {
@@ -3437,10 +3437,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "7열",
         "Seat_Number": 3,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 3,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "3",
+        "X": 21.423,
+        "Y": 24.441,
+        "Z": -0.679,
         "View_ID": "View_1F_B_7_3"
     },
     {
@@ -3449,10 +3449,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "7열",
         "Seat_Number": 4,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 4,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "4",
+        "X": 20.885,
+        "Y": 24.438,
+        "Z": -0.679,
         "View_ID": "View_1F_B_7_4"
     },
     {
@@ -3461,10 +3461,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "7열",
         "Seat_Number": 5,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 5,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "5",
+        "X": 20.346,
+        "Y": 24.435,
+        "Z": -0.679,
         "View_ID": "View_1F_B_7_5"
     },
     {
@@ -3473,10 +3473,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "7열",
         "Seat_Number": 6,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 6,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "6",
+        "X": 19.808,
+        "Y": 24.432,
+        "Z": -0.679,
         "View_ID": "View_1F_B_7_6"
     },
     {
@@ -3485,10 +3485,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "7열",
         "Seat_Number": 7,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 7,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "7",
+        "X": 19.269,
+        "Y": 24.428,
+        "Z": -0.679,
         "View_ID": "View_1F_B_7_7"
     },
     {
@@ -3497,10 +3497,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "7열",
         "Seat_Number": 8,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 8,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "8",
+        "X": 18.731,
+        "Y": 24.425,
+        "Z": -0.679,
         "View_ID": "View_1F_B_7_8"
     },
     {
@@ -3509,10 +3509,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "7열",
         "Seat_Number": 9,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 9,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "9",
+        "X": 18.192,
+        "Y": 24.422,
+        "Z": -0.679,
         "View_ID": "View_1F_B_7_9"
     },
     {
@@ -3521,10 +3521,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "7열",
         "Seat_Number": 10,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 10,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "10",
+        "X": 17.654,
+        "Y": 24.419,
+        "Z": -0.679,
         "View_ID": "View_1F_B_7_10"
     },
     {
@@ -3533,10 +3533,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "7열",
         "Seat_Number": 11,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 11,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "11",
+        "X": 17.115,
+        "Y": 24.416,
+        "Z": -0.679,
         "View_ID": "View_1F_B_7_11"
     },
     {
@@ -3545,10 +3545,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "7열",
         "Seat_Number": 12,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 12,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "12",
+        "X": 16.577,
+        "Y": 24.413,
+        "Z": -0.679,
         "View_ID": "View_1F_B_7_12"
     },
     {
@@ -3557,10 +3557,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "7열",
         "Seat_Number": 13,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 13,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "13",
+        "X": 16.038,
+        "Y": 24.409,
+        "Z": -0.679,
         "View_ID": "View_1F_B_7_13"
     },
     {
@@ -3569,10 +3569,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "7열",
         "Seat_Number": 14,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 14,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "14",
+        "X": 15.5,
+        "Y": 24.406,
+        "Z": -0.679,
         "View_ID": "View_1F_B_7_14"
     },
     {
@@ -3581,10 +3581,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "8열",
         "Seat_Number": 1,
         "Seat_Type": "확장좌석27",
-        "Display_Text": 1,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "1",
+        "X": 22.4,
+        "Y": 25.56,
+        "Z": -0.542,
         "View_ID": "View_1F_B_8_1"
     },
     {
@@ -3593,10 +3593,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "8열",
         "Seat_Number": 2,
         "Seat_Type": "확장좌석27",
-        "Display_Text": 2,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "2",
+        "X": 21.71,
+        "Y": 25.56,
+        "Z": -0.542,
         "View_ID": "View_1F_B_8_2"
     },
     {
@@ -3605,10 +3605,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "8열",
         "Seat_Number": 3,
         "Seat_Type": "확장좌석27",
-        "Display_Text": 3,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "3",
+        "X": 21.03,
+        "Y": 25.55,
+        "Z": -0.542,
         "View_ID": "View_1F_B_8_3"
     },
     {
@@ -3617,10 +3617,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "8열",
         "Seat_Number": 4,
         "Seat_Type": "확장좌석27",
-        "Display_Text": 4,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "4",
+        "X": 20.35,
+        "Y": 25.55,
+        "Z": -0.542,
         "View_ID": "View_1F_B_8_4"
     },
     {
@@ -3629,10 +3629,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "8열",
         "Seat_Number": 5,
         "Seat_Type": "확장좌석27",
-        "Display_Text": 5,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "5",
+        "X": 19.66,
+        "Y": 25.54,
+        "Z": -0.542,
         "View_ID": "View_1F_B_8_5"
     },
     {
@@ -3641,10 +3641,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "8열",
         "Seat_Number": 6,
         "Seat_Type": "확장좌석27",
-        "Display_Text": 6,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "6",
+        "X": 18.97,
+        "Y": 25.54,
+        "Z": -0.542,
         "View_ID": "View_1F_B_8_6"
     },
     {
@@ -3653,10 +3653,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "8열",
         "Seat_Number": 7,
         "Seat_Type": "확장좌석27",
-        "Display_Text": 7,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "7",
+        "X": 18.29,
+        "Y": 25.54,
+        "Z": -0.542,
         "View_ID": "View_1F_B_8_7"
     },
     {
@@ -3665,10 +3665,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "8열",
         "Seat_Number": 8,
         "Seat_Type": "확장좌석27",
-        "Display_Text": 8,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "8",
+        "X": 17.61,
+        "Y": 25.53,
+        "Z": -0.542,
         "View_ID": "View_1F_B_8_8"
     },
     {
@@ -3677,10 +3677,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "8열",
         "Seat_Number": 9,
         "Seat_Type": "확장좌석27",
-        "Display_Text": 9,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "9",
+        "X": 16.92,
+        "Y": 25.53,
+        "Z": -0.542,
         "View_ID": "View_1F_B_8_9"
     },
     {
@@ -3689,10 +3689,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "8열",
         "Seat_Number": 10,
         "Seat_Type": "확장좌석27",
-        "Display_Text": 10,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "10",
+        "X": 16.24,
+        "Y": 25.52,
+        "Z": -0.542,
         "View_ID": "View_1F_B_8_10"
     },
     {
@@ -3701,10 +3701,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "8열",
         "Seat_Number": 11,
         "Seat_Type": "확장좌석27",
-        "Display_Text": 11,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "11",
+        "X": 15.55,
+        "Y": 25.52,
+        "Z": -0.542,
         "View_ID": "View_1F_B_8_11"
     },
     {
@@ -3713,10 +3713,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "8열",
         "Seat_Number": 12,
         "Seat_Type": "none",
-        "Display_Text": "",
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": NaN,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0,
         "View_ID": "View_1F_B_8_12"
     },
     {
@@ -3725,10 +3725,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "8열",
         "Seat_Number": 13,
         "Seat_Type": "none",
-        "Display_Text": "",
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": NaN,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0,
         "View_ID": "View_1F_B_8_13"
     },
     {
@@ -3737,10 +3737,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "8열",
         "Seat_Number": 14,
         "Seat_Type": "none",
-        "Display_Text": "",
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": NaN,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0,
         "View_ID": "View_1F_B_8_14"
     },
     {
@@ -3749,10 +3749,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "9열",
         "Seat_Number": 1,
         "Seat_Type": "확장좌석27",
-        "Display_Text": 1,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "1",
+        "X": 22.4,
+        "Y": 26.49,
+        "Z": -0.405,
         "View_ID": "View_1F_B_9_1"
     },
     {
@@ -3761,10 +3761,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "9열",
         "Seat_Number": 2,
         "Seat_Type": "확장좌석27",
-        "Display_Text": 2,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "2",
+        "X": 21.72,
+        "Y": 26.49,
+        "Z": -0.405,
         "View_ID": "View_1F_B_9_2"
     },
     {
@@ -3773,10 +3773,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "9열",
         "Seat_Number": 3,
         "Seat_Type": "확장좌석27",
-        "Display_Text": 3,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "3",
+        "X": 21.03,
+        "Y": 26.5,
+        "Z": -0.405,
         "View_ID": "View_1F_B_9_3"
     },
     {
@@ -3785,10 +3785,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "9열",
         "Seat_Number": 4,
         "Seat_Type": "확장좌석27",
-        "Display_Text": 4,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "4",
+        "X": 20.35,
+        "Y": 26.5,
+        "Z": -0.405,
         "View_ID": "View_1F_B_9_4"
     },
     {
@@ -3797,10 +3797,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "9열",
         "Seat_Number": 5,
         "Seat_Type": "확장좌석27",
-        "Display_Text": 5,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "5",
+        "X": 19.66,
+        "Y": 26.5,
+        "Z": -0.405,
         "View_ID": "View_1F_B_9_5"
     },
     {
@@ -3809,10 +3809,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "9열",
         "Seat_Number": 6,
         "Seat_Type": "확장좌석27",
-        "Display_Text": 6,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "6",
+        "X": 18.98,
+        "Y": 26.51,
+        "Z": -0.405,
         "View_ID": "View_1F_B_9_6"
     },
     {
@@ -3821,10 +3821,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "9열",
         "Seat_Number": 7,
         "Seat_Type": "확장좌석27",
-        "Display_Text": 7,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "7",
+        "X": 18.29,
+        "Y": 26.51,
+        "Z": -0.405,
         "View_ID": "View_1F_B_9_7"
     },
     {
@@ -3833,10 +3833,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "9열",
         "Seat_Number": 8,
         "Seat_Type": "확장좌석27",
-        "Display_Text": 8,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "8",
+        "X": 17.61,
+        "Y": 26.51,
+        "Z": -0.405,
         "View_ID": "View_1F_B_9_8"
     },
     {
@@ -3845,10 +3845,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "9열",
         "Seat_Number": 9,
         "Seat_Type": "확장좌석27",
-        "Display_Text": 9,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "9",
+        "X": 16.92,
+        "Y": 26.52,
+        "Z": -0.405,
         "View_ID": "View_1F_B_9_9"
     },
     {
@@ -3857,10 +3857,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "9열",
         "Seat_Number": 10,
         "Seat_Type": "확장좌석27",
-        "Display_Text": 10,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "10",
+        "X": 16.24,
+        "Y": 26.52,
+        "Z": -0.405,
         "View_ID": "View_1F_B_9_10"
     },
     {
@@ -3869,10 +3869,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "9열",
         "Seat_Number": 11,
         "Seat_Type": "확장좌석27",
-        "Display_Text": 11,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "11",
+        "X": 15.55,
+        "Y": 26.52,
+        "Z": -0.405,
         "View_ID": "View_1F_B_9_11"
     },
     {
@@ -3881,10 +3881,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "9열",
         "Seat_Number": 12,
         "Seat_Type": "none",
-        "Display_Text": "",
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": NaN,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0,
         "View_ID": "View_1F_B_9_12"
     },
     {
@@ -3893,10 +3893,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "9열",
         "Seat_Number": 13,
         "Seat_Type": "none",
-        "Display_Text": "",
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": NaN,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0,
         "View_ID": "View_1F_B_9_13"
     },
     {
@@ -3905,10 +3905,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "9열",
         "Seat_Number": 14,
         "Seat_Type": "none",
-        "Display_Text": "",
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": NaN,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0,
         "View_ID": "View_1F_B_9_14"
     },
     {
@@ -3917,10 +3917,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "10열",
         "Seat_Number": 1,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 1,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "1",
+        "X": 22.5,
+        "Y": 27.021,
+        "Z": -0.268,
         "View_ID": "View_1F_B_10_1"
     },
     {
@@ -3929,10 +3929,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "10열",
         "Seat_Number": 2,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 2,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "2",
+        "X": 21.962,
+        "Y": 27.019,
+        "Z": -0.268,
         "View_ID": "View_1F_B_10_2"
     },
     {
@@ -3941,10 +3941,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "10열",
         "Seat_Number": 3,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 3,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "3",
+        "X": 21.423,
+        "Y": 27.016,
+        "Z": -0.268,
         "View_ID": "View_1F_B_10_3"
     },
     {
@@ -3953,10 +3953,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "10열",
         "Seat_Number": 4,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 4,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "4",
+        "X": 20.885,
+        "Y": 27.014,
+        "Z": -0.268,
         "View_ID": "View_1F_B_10_4"
     },
     {
@@ -3965,10 +3965,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "10열",
         "Seat_Number": 5,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 5,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "5",
+        "X": 20.346,
+        "Y": 27.011,
+        "Z": -0.268,
         "View_ID": "View_1F_B_10_5"
     },
     {
@@ -3977,10 +3977,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "10열",
         "Seat_Number": 6,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 6,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "6",
+        "X": 19.808,
+        "Y": 27.009,
+        "Z": -0.268,
         "View_ID": "View_1F_B_10_6"
     },
     {
@@ -3989,10 +3989,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "10열",
         "Seat_Number": 7,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 7,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "7",
+        "X": 19.269,
+        "Y": 27.006,
+        "Z": -0.268,
         "View_ID": "View_1F_B_10_7"
     },
     {
@@ -4001,10 +4001,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "10열",
         "Seat_Number": 8,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 8,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "8",
+        "X": 18.731,
+        "Y": 27.004,
+        "Z": -0.268,
         "View_ID": "View_1F_B_10_8"
     },
     {
@@ -4013,10 +4013,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "10열",
         "Seat_Number": 9,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 9,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "9",
+        "X": 18.192,
+        "Y": 27.002,
+        "Z": -0.268,
         "View_ID": "View_1F_B_10_9"
     },
     {
@@ -4025,10 +4025,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "10열",
         "Seat_Number": 10,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 10,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "10",
+        "X": 17.654,
+        "Y": 26.999,
+        "Z": -0.268,
         "View_ID": "View_1F_B_10_10"
     },
     {
@@ -4037,10 +4037,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "10열",
         "Seat_Number": 11,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 11,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "11",
+        "X": 17.115,
+        "Y": 26.997,
+        "Z": -0.268,
         "View_ID": "View_1F_B_10_11"
     },
     {
@@ -4049,10 +4049,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "10열",
         "Seat_Number": 12,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 12,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "12",
+        "X": 16.577,
+        "Y": 26.994,
+        "Z": -0.268,
         "View_ID": "View_1F_B_10_12"
     },
     {
@@ -4061,10 +4061,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "10열",
         "Seat_Number": 13,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 13,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "13",
+        "X": 16.038,
+        "Y": 26.992,
+        "Z": -0.268,
         "View_ID": "View_1F_B_10_13"
     },
     {
@@ -4073,10 +4073,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "10열",
         "Seat_Number": 14,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 14,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "14",
+        "X": 15.5,
+        "Y": 26.989,
+        "Z": -0.268,
         "View_ID": "View_1F_B_10_14"
     },
     {
@@ -4085,10 +4085,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "11열",
         "Seat_Number": 1,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 1,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "1",
+        "X": 22.5,
+        "Y": 27.879,
+        "Z": -0.132,
         "View_ID": "View_1F_B_11_1"
     },
     {
@@ -4097,10 +4097,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "11열",
         "Seat_Number": 2,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 2,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "2",
+        "X": 21.962,
+        "Y": 27.877,
+        "Z": -0.132,
         "View_ID": "View_1F_B_11_2"
     },
     {
@@ -4109,10 +4109,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "11열",
         "Seat_Number": 3,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 3,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "3",
+        "X": 21.423,
+        "Y": 27.875,
+        "Z": -0.132,
         "View_ID": "View_1F_B_11_3"
     },
     {
@@ -4121,10 +4121,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "11열",
         "Seat_Number": 4,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 4,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "4",
+        "X": 20.885,
+        "Y": 27.872,
+        "Z": -0.132,
         "View_ID": "View_1F_B_11_4"
     },
     {
@@ -4133,10 +4133,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "11열",
         "Seat_Number": 5,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 5,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "5",
+        "X": 20.346,
+        "Y": 27.87,
+        "Z": -0.132,
         "View_ID": "View_1F_B_11_5"
     },
     {
@@ -4145,10 +4145,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "11열",
         "Seat_Number": 6,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 6,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "6",
+        "X": 19.808,
+        "Y": 27.868,
+        "Z": -0.132,
         "View_ID": "View_1F_B_11_6"
     },
     {
@@ -4157,10 +4157,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "11열",
         "Seat_Number": 7,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 7,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "7",
+        "X": 19.269,
+        "Y": 27.866,
+        "Z": -0.132,
         "View_ID": "View_1F_B_11_7"
     },
     {
@@ -4169,10 +4169,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "11열",
         "Seat_Number": 8,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 8,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "8",
+        "X": 18.731,
+        "Y": 27.864,
+        "Z": -0.132,
         "View_ID": "View_1F_B_11_8"
     },
     {
@@ -4181,10 +4181,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "11열",
         "Seat_Number": 9,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 9,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "9",
+        "X": 18.192,
+        "Y": 27.861,
+        "Z": -0.132,
         "View_ID": "View_1F_B_11_9"
     },
     {
@@ -4193,10 +4193,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "11열",
         "Seat_Number": 10,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 10,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "10",
+        "X": 17.654,
+        "Y": 27.859,
+        "Z": -0.132,
         "View_ID": "View_1F_B_11_10"
     },
     {
@@ -4205,10 +4205,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "11열",
         "Seat_Number": 11,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 11,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "11",
+        "X": 17.115,
+        "Y": 27.857,
+        "Z": -0.132,
         "View_ID": "View_1F_B_11_11"
     },
     {
@@ -4217,10 +4217,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "11열",
         "Seat_Number": 12,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 12,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "12",
+        "X": 16.577,
+        "Y": 27.855,
+        "Z": -0.132,
         "View_ID": "View_1F_B_11_12"
     },
     {
@@ -4229,10 +4229,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "11열",
         "Seat_Number": 13,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 13,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "13",
+        "X": 16.038,
+        "Y": 27.853,
+        "Z": -0.132,
         "View_ID": "View_1F_B_11_13"
     },
     {
@@ -4241,10 +4241,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "11열",
         "Seat_Number": 14,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 14,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "14",
+        "X": 15.5,
+        "Y": 27.851,
+        "Z": -0.132,
         "View_ID": "View_1F_B_11_14"
     },
     {
@@ -4253,10 +4253,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "12열",
         "Seat_Number": 1,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 1,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "1",
+        "X": 22.5,
+        "Y": 28.737,
+        "Z": 0.005,
         "View_ID": "View_1F_B_12_1"
     },
     {
@@ -4265,10 +4265,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "12열",
         "Seat_Number": 2,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 2,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "2",
+        "X": 21.962,
+        "Y": 28.735,
+        "Z": 0.005,
         "View_ID": "View_1F_B_12_2"
     },
     {
@@ -4277,10 +4277,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "12열",
         "Seat_Number": 3,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 3,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "3",
+        "X": 21.423,
+        "Y": 28.733,
+        "Z": 0.005,
         "View_ID": "View_1F_B_12_3"
     },
     {
@@ -4289,10 +4289,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "12열",
         "Seat_Number": 4,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 4,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "4",
+        "X": 20.885,
+        "Y": 28.731,
+        "Z": 0.005,
         "View_ID": "View_1F_B_12_4"
     },
     {
@@ -4301,10 +4301,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "12열",
         "Seat_Number": 5,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 5,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "5",
+        "X": 20.346,
+        "Y": 28.729,
+        "Z": 0.005,
         "View_ID": "View_1F_B_12_5"
     },
     {
@@ -4313,10 +4313,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "12열",
         "Seat_Number": 6,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 6,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "6",
+        "X": 19.808,
+        "Y": 28.727,
+        "Z": 0.005,
         "View_ID": "View_1F_B_12_6"
     },
     {
@@ -4325,10 +4325,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "12열",
         "Seat_Number": 7,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 7,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "7",
+        "X": 19.269,
+        "Y": 28.725,
+        "Z": 0.005,
         "View_ID": "View_1F_B_12_7"
     },
     {
@@ -4337,10 +4337,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "12열",
         "Seat_Number": 8,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 8,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "8",
+        "X": 18.731,
+        "Y": 28.723,
+        "Z": 0.005,
         "View_ID": "View_1F_B_12_8"
     },
     {
@@ -4349,10 +4349,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "12열",
         "Seat_Number": 9,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 9,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "9",
+        "X": 18.192,
+        "Y": 28.721,
+        "Z": 0.005,
         "View_ID": "View_1F_B_12_9"
     },
     {
@@ -4361,10 +4361,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "12열",
         "Seat_Number": 10,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 10,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "10",
+        "X": 17.654,
+        "Y": 28.719,
+        "Z": 0.005,
         "View_ID": "View_1F_B_12_10"
     },
     {
@@ -4373,10 +4373,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "12열",
         "Seat_Number": 11,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 11,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "11",
+        "X": 17.115,
+        "Y": 28.717,
+        "Z": 0.005,
         "View_ID": "View_1F_B_12_11"
     },
     {
@@ -4385,10 +4385,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "12열",
         "Seat_Number": 12,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 12,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "12",
+        "X": 16.577,
+        "Y": 28.715,
+        "Z": 0.005,
         "View_ID": "View_1F_B_12_12"
     },
     {
@@ -4397,10 +4397,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "12열",
         "Seat_Number": 13,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 13,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "13",
+        "X": 16.038,
+        "Y": 28.714,
+        "Z": 0.005,
         "View_ID": "View_1F_B_12_13"
     },
     {
@@ -4409,10 +4409,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "12열",
         "Seat_Number": 14,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 14,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "14",
+        "X": 15.5,
+        "Y": 28.712,
+        "Z": 0.005,
         "View_ID": "View_1F_B_12_14"
     },
     {
@@ -4421,10 +4421,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "13열",
         "Seat_Number": 1,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 1,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "1",
+        "X": 22.5,
+        "Y": 29.595,
+        "Z": 0.142,
         "View_ID": "View_1F_B_13_1"
     },
     {
@@ -4433,10 +4433,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "13열",
         "Seat_Number": 2,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 2,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "2",
+        "X": 21.962,
+        "Y": 29.593,
+        "Z": 0.142,
         "View_ID": "View_1F_B_13_2"
     },
     {
@@ -4445,10 +4445,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "13열",
         "Seat_Number": 3,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 3,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "3",
+        "X": 21.423,
+        "Y": 29.591,
+        "Z": 0.142,
         "View_ID": "View_1F_B_13_3"
     },
     {
@@ -4457,10 +4457,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "13열",
         "Seat_Number": 4,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 4,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "4",
+        "X": 20.885,
+        "Y": 29.59,
+        "Z": 0.142,
         "View_ID": "View_1F_B_13_4"
     },
     {
@@ -4469,10 +4469,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "13열",
         "Seat_Number": 5,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 5,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "5",
+        "X": 20.346,
+        "Y": 29.588,
+        "Z": 0.142,
         "View_ID": "View_1F_B_13_5"
     },
     {
@@ -4481,10 +4481,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "13열",
         "Seat_Number": 6,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 6,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "6",
+        "X": 19.808,
+        "Y": 29.586,
+        "Z": 0.142,
         "View_ID": "View_1F_B_13_6"
     },
     {
@@ -4493,10 +4493,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "13열",
         "Seat_Number": 7,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 7,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "7",
+        "X": 19.269,
+        "Y": 29.585,
+        "Z": 0.142,
         "View_ID": "View_1F_B_13_7"
     },
     {
@@ -4505,10 +4505,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "13열",
         "Seat_Number": 8,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 8,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "8",
+        "X": 18.731,
+        "Y": 29.583,
+        "Z": 0.142,
         "View_ID": "View_1F_B_13_8"
     },
     {
@@ -4517,10 +4517,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "13열",
         "Seat_Number": 9,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 9,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "9",
+        "X": 18.192,
+        "Y": 29.581,
+        "Z": 0.142,
         "View_ID": "View_1F_B_13_9"
     },
     {
@@ -4529,10 +4529,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "13열",
         "Seat_Number": 10,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 10,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "10",
+        "X": 17.654,
+        "Y": 29.579,
+        "Z": 0.142,
         "View_ID": "View_1F_B_13_10"
     },
     {
@@ -4541,10 +4541,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "13열",
         "Seat_Number": 11,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 11,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "11",
+        "X": 17.115,
+        "Y": 29.578,
+        "Z": 0.142,
         "View_ID": "View_1F_B_13_11"
     },
     {
@@ -4553,10 +4553,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "13열",
         "Seat_Number": 12,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 12,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "12",
+        "X": 16.577,
+        "Y": 29.576,
+        "Z": 0.142,
         "View_ID": "View_1F_B_13_12"
     },
     {
@@ -4565,10 +4565,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "13열",
         "Seat_Number": 13,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 13,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "13",
+        "X": 16.038,
+        "Y": 29.574,
+        "Z": 0.142,
         "View_ID": "View_1F_B_13_13"
     },
     {
@@ -4577,10 +4577,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "13열",
         "Seat_Number": 14,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 14,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "14",
+        "X": 15.5,
+        "Y": 29.573,
+        "Z": 0.142,
         "View_ID": "View_1F_B_13_14"
     },
     {
@@ -4589,10 +4589,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "14열",
         "Seat_Number": 1,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 1,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "1",
+        "X": 22.5,
+        "Y": 30.453,
+        "Z": 0.279,
         "View_ID": "View_1F_B_14_1"
     },
     {
@@ -4601,10 +4601,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "14열",
         "Seat_Number": 2,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 2,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "2",
+        "X": 21.962,
+        "Y": 30.451,
+        "Z": 0.279,
         "View_ID": "View_1F_B_14_2"
     },
     {
@@ -4613,10 +4613,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "14열",
         "Seat_Number": 3,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 3,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "3",
+        "X": 21.423,
+        "Y": 30.45,
+        "Z": 0.279,
         "View_ID": "View_1F_B_14_3"
     },
     {
@@ -4625,10 +4625,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "14열",
         "Seat_Number": 4,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 4,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "4",
+        "X": 20.885,
+        "Y": 30.448,
+        "Z": 0.279,
         "View_ID": "View_1F_B_14_4"
     },
     {
@@ -4637,10 +4637,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "14열",
         "Seat_Number": 5,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 5,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "5",
+        "X": 20.346,
+        "Y": 30.447,
+        "Z": 0.279,
         "View_ID": "View_1F_B_14_5"
     },
     {
@@ -4649,10 +4649,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "14열",
         "Seat_Number": 6,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 6,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "6",
+        "X": 19.808,
+        "Y": 30.445,
+        "Z": 0.279,
         "View_ID": "View_1F_B_14_6"
     },
     {
@@ -4661,10 +4661,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "14열",
         "Seat_Number": 7,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 7,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "7",
+        "X": 19.269,
+        "Y": 30.444,
+        "Z": 0.279,
         "View_ID": "View_1F_B_14_7"
     },
     {
@@ -4673,10 +4673,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "14열",
         "Seat_Number": 8,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 8,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "8",
+        "X": 18.731,
+        "Y": 30.442,
+        "Z": 0.279,
         "View_ID": "View_1F_B_14_8"
     },
     {
@@ -4685,10 +4685,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "14열",
         "Seat_Number": 9,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 9,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "9",
+        "X": 18.192,
+        "Y": 30.441,
+        "Z": 0.279,
         "View_ID": "View_1F_B_14_9"
     },
     {
@@ -4697,10 +4697,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "14열",
         "Seat_Number": 10,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 10,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "10",
+        "X": 17.654,
+        "Y": 30.44,
+        "Z": 0.279,
         "View_ID": "View_1F_B_14_10"
     },
     {
@@ -4709,10 +4709,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "14열",
         "Seat_Number": 11,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 11,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "11",
+        "X": 17.115,
+        "Y": 30.438,
+        "Z": 0.279,
         "View_ID": "View_1F_B_14_11"
     },
     {
@@ -4721,10 +4721,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "14열",
         "Seat_Number": 12,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 12,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "12",
+        "X": 16.577,
+        "Y": 30.437,
+        "Z": 0.279,
         "View_ID": "View_1F_B_14_12"
     },
     {
@@ -4733,10 +4733,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "14열",
         "Seat_Number": 13,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 13,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "13",
+        "X": 16.038,
+        "Y": 30.435,
+        "Z": 0.279,
         "View_ID": "View_1F_B_14_13"
     },
     {
@@ -4745,10 +4745,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "14열",
         "Seat_Number": 14,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 14,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "14",
+        "X": 15.5,
+        "Y": 30.434,
+        "Z": 0.279,
         "View_ID": "View_1F_B_14_14"
     },
     {
@@ -4757,10 +4757,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "15열",
         "Seat_Number": 1,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 1,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "1",
+        "X": 22.5,
+        "Y": 31.311,
+        "Z": 0.416,
         "View_ID": "View_1F_B_15_1"
     },
     {
@@ -4769,10 +4769,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "15열",
         "Seat_Number": 2,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 2,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "2",
+        "X": 21.962,
+        "Y": 31.309,
+        "Z": 0.416,
         "View_ID": "View_1F_B_15_2"
     },
     {
@@ -4781,10 +4781,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "15열",
         "Seat_Number": 3,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 3,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "3",
+        "X": 21.423,
+        "Y": 31.308,
+        "Z": 0.416,
         "View_ID": "View_1F_B_15_3"
     },
     {
@@ -4793,10 +4793,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "15열",
         "Seat_Number": 4,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 4,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "4",
+        "X": 20.885,
+        "Y": 31.307,
+        "Z": 0.416,
         "View_ID": "View_1F_B_15_4"
     },
     {
@@ -4805,10 +4805,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "15열",
         "Seat_Number": 5,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 5,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "5",
+        "X": 20.346,
+        "Y": 31.306,
+        "Z": 0.416,
         "View_ID": "View_1F_B_15_5"
     },
     {
@@ -4817,10 +4817,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "15열",
         "Seat_Number": 6,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 6,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "6",
+        "X": 19.808,
+        "Y": 31.304,
+        "Z": 0.416,
         "View_ID": "View_1F_B_15_6"
     },
     {
@@ -4829,10 +4829,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "15열",
         "Seat_Number": 7,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 7,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "7",
+        "X": 19.269,
+        "Y": 31.303,
+        "Z": 0.416,
         "View_ID": "View_1F_B_15_7"
     },
     {
@@ -4841,10 +4841,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "15열",
         "Seat_Number": 8,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 8,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "8",
+        "X": 18.731,
+        "Y": 31.302,
+        "Z": 0.416,
         "View_ID": "View_1F_B_15_8"
     },
     {
@@ -4853,10 +4853,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "15열",
         "Seat_Number": 9,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 9,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "9",
+        "X": 18.192,
+        "Y": 31.301,
+        "Z": 0.416,
         "View_ID": "View_1F_B_15_9"
     },
     {
@@ -4865,10 +4865,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "15열",
         "Seat_Number": 10,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 10,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "10",
+        "X": 17.654,
+        "Y": 31.3,
+        "Z": 0.416,
         "View_ID": "View_1F_B_15_10"
     },
     {
@@ -4877,10 +4877,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "15열",
         "Seat_Number": 11,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 11,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "11",
+        "X": 17.115,
+        "Y": 31.298,
+        "Z": 0.416,
         "View_ID": "View_1F_B_15_11"
     },
     {
@@ -4889,10 +4889,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "15열",
         "Seat_Number": 12,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 12,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "12",
+        "X": 16.577,
+        "Y": 31.297,
+        "Z": 0.416,
         "View_ID": "View_1F_B_15_12"
     },
     {
@@ -4901,10 +4901,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "15열",
         "Seat_Number": 13,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 13,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "13",
+        "X": 16.038,
+        "Y": 31.296,
+        "Z": 0.416,
         "View_ID": "View_1F_B_15_13"
     },
     {
@@ -4913,10 +4913,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "15열",
         "Seat_Number": 14,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 14,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "14",
+        "X": 15.5,
+        "Y": 31.295,
+        "Z": 0.416,
         "View_ID": "View_1F_B_15_14"
     },
     {
@@ -4925,10 +4925,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "16열",
         "Seat_Number": 1,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 1,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "1",
+        "X": 22.5,
+        "Y": 32.168,
+        "Z": 0.553,
         "View_ID": "View_1F_B_16_1"
     },
     {
@@ -4937,10 +4937,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "16열",
         "Seat_Number": 2,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 2,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "2",
+        "X": 21.962,
+        "Y": 32.167,
+        "Z": 0.553,
         "View_ID": "View_1F_B_16_2"
     },
     {
@@ -4949,10 +4949,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "16열",
         "Seat_Number": 3,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 3,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "3",
+        "X": 21.423,
+        "Y": 32.166,
+        "Z": 0.553,
         "View_ID": "View_1F_B_16_3"
     },
     {
@@ -4961,10 +4961,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "16열",
         "Seat_Number": 4,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 4,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "4",
+        "X": 20.885,
+        "Y": 32.166,
+        "Z": 0.553,
         "View_ID": "View_1F_B_16_4"
     },
     {
@@ -4973,10 +4973,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "16열",
         "Seat_Number": 5,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 5,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "5",
+        "X": 20.346,
+        "Y": 32.165,
+        "Z": 0.553,
         "View_ID": "View_1F_B_16_5"
     },
     {
@@ -4985,10 +4985,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "16열",
         "Seat_Number": 6,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 6,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "6",
+        "X": 19.808,
+        "Y": 32.164,
+        "Z": 0.553,
         "View_ID": "View_1F_B_16_6"
     },
     {
@@ -4997,10 +4997,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "16열",
         "Seat_Number": 7,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 7,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "7",
+        "X": 19.269,
+        "Y": 32.163,
+        "Z": 0.553,
         "View_ID": "View_1F_B_16_7"
     },
     {
@@ -5009,10 +5009,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "16열",
         "Seat_Number": 8,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 8,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "8",
+        "X": 18.731,
+        "Y": 32.162,
+        "Z": 0.553,
         "View_ID": "View_1F_B_16_8"
     },
     {
@@ -5021,10 +5021,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "16열",
         "Seat_Number": 9,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 9,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "9",
+        "X": 18.192,
+        "Y": 32.161,
+        "Z": 0.553,
         "View_ID": "View_1F_B_16_9"
     },
     {
@@ -5033,10 +5033,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "16열",
         "Seat_Number": 10,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 10,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "10",
+        "X": 17.654,
+        "Y": 32.16,
+        "Z": 0.553,
         "View_ID": "View_1F_B_16_10"
     },
     {
@@ -5045,10 +5045,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "16열",
         "Seat_Number": 11,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 11,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "11",
+        "X": 17.115,
+        "Y": 32.159,
+        "Z": 0.553,
         "View_ID": "View_1F_B_16_11"
     },
     {
@@ -5057,10 +5057,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "16열",
         "Seat_Number": 12,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 12,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "12",
+        "X": 16.577,
+        "Y": 32.158,
+        "Z": 0.553,
         "View_ID": "View_1F_B_16_12"
     },
     {
@@ -5069,10 +5069,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "16열",
         "Seat_Number": 13,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 13,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "13",
+        "X": 16.038,
+        "Y": 32.157,
+        "Z": 0.553,
         "View_ID": "View_1F_B_16_13"
     },
     {
@@ -5081,10 +5081,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "16열",
         "Seat_Number": 14,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 14,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "14",
+        "X": 15.5,
+        "Y": 32.156,
+        "Z": 0.553,
         "View_ID": "View_1F_B_16_14"
     },
     {
@@ -5093,10 +5093,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "17열",
         "Seat_Number": 1,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 1,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "1",
+        "X": 22.5,
+        "Y": 33.026,
+        "Z": 0.689,
         "View_ID": "View_1F_B_17_1"
     },
     {
@@ -5105,10 +5105,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "17열",
         "Seat_Number": 2,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 2,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "2",
+        "X": 21.962,
+        "Y": 33.026,
+        "Z": 0.689,
         "View_ID": "View_1F_B_17_2"
     },
     {
@@ -5117,10 +5117,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "17열",
         "Seat_Number": 3,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 3,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "3",
+        "X": 21.423,
+        "Y": 33.025,
+        "Z": 0.689,
         "View_ID": "View_1F_B_17_3"
     },
     {
@@ -5129,10 +5129,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "17열",
         "Seat_Number": 4,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 4,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "4",
+        "X": 20.885,
+        "Y": 33.024,
+        "Z": 0.689,
         "View_ID": "View_1F_B_17_4"
     },
     {
@@ -5141,10 +5141,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "17열",
         "Seat_Number": 5,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 5,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "5",
+        "X": 20.346,
+        "Y": 33.023,
+        "Z": 0.689,
         "View_ID": "View_1F_B_17_5"
     },
     {
@@ -5153,10 +5153,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "17열",
         "Seat_Number": 6,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 6,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "6",
+        "X": 19.808,
+        "Y": 33.023,
+        "Z": 0.689,
         "View_ID": "View_1F_B_17_6"
     },
     {
@@ -5165,10 +5165,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "17열",
         "Seat_Number": 7,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 7,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "7",
+        "X": 19.269,
+        "Y": 33.022,
+        "Z": 0.689,
         "View_ID": "View_1F_B_17_7"
     },
     {
@@ -5177,10 +5177,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "17열",
         "Seat_Number": 8,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 8,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "8",
+        "X": 18.731,
+        "Y": 33.021,
+        "Z": 0.689,
         "View_ID": "View_1F_B_17_8"
     },
     {
@@ -5189,10 +5189,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "17열",
         "Seat_Number": 9,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 9,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "9",
+        "X": 18.192,
+        "Y": 33.02,
+        "Z": 0.689,
         "View_ID": "View_1F_B_17_9"
     },
     {
@@ -5201,10 +5201,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "17열",
         "Seat_Number": 10,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 10,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "10",
+        "X": 17.654,
+        "Y": 33.02,
+        "Z": 0.689,
         "View_ID": "View_1F_B_17_10"
     },
     {
@@ -5213,10 +5213,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "17열",
         "Seat_Number": 11,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 11,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "11",
+        "X": 17.115,
+        "Y": 33.019,
+        "Z": 0.689,
         "View_ID": "View_1F_B_17_11"
     },
     {
@@ -5225,10 +5225,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "17열",
         "Seat_Number": 12,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 12,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "12",
+        "X": 16.577,
+        "Y": 33.018,
+        "Z": 0.689,
         "View_ID": "View_1F_B_17_12"
     },
     {
@@ -5237,10 +5237,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "17열",
         "Seat_Number": 13,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 13,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "13",
+        "X": 16.038,
+        "Y": 33.018,
+        "Z": 0.689,
         "View_ID": "View_1F_B_17_13"
     },
     {
@@ -5249,10 +5249,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "17열",
         "Seat_Number": 14,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 14,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "14",
+        "X": 15.5,
+        "Y": 33.017,
+        "Z": 0.689,
         "View_ID": "View_1F_B_17_14"
     },
     {
@@ -5261,10 +5261,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "18열",
         "Seat_Number": 1,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 1,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "1",
+        "X": 22.5,
+        "Y": 33.884,
+        "Z": 0.826,
         "View_ID": "View_1F_B_18_1"
     },
     {
@@ -5273,10 +5273,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "18열",
         "Seat_Number": 2,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 2,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "2",
+        "X": 21.962,
+        "Y": 33.884,
+        "Z": 0.826,
         "View_ID": "View_1F_B_18_2"
     },
     {
@@ -5285,10 +5285,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "18열",
         "Seat_Number": 3,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 3,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "3",
+        "X": 21.423,
+        "Y": 33.883,
+        "Z": 0.826,
         "View_ID": "View_1F_B_18_3"
     },
     {
@@ -5297,10 +5297,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "18열",
         "Seat_Number": 4,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 4,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "4",
+        "X": 20.885,
+        "Y": 33.883,
+        "Z": 0.826,
         "View_ID": "View_1F_B_18_4"
     },
     {
@@ -5309,10 +5309,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "18열",
         "Seat_Number": 5,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 5,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "5",
+        "X": 20.346,
+        "Y": 33.882,
+        "Z": 0.826,
         "View_ID": "View_1F_B_18_5"
     },
     {
@@ -5321,10 +5321,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "18열",
         "Seat_Number": 6,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 6,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "6",
+        "X": 19.808,
+        "Y": 33.882,
+        "Z": 0.826,
         "View_ID": "View_1F_B_18_6"
     },
     {
@@ -5333,10 +5333,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "18열",
         "Seat_Number": 7,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 7,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "7",
+        "X": 19.269,
+        "Y": 33.881,
+        "Z": 0.826,
         "View_ID": "View_1F_B_18_7"
     },
     {
@@ -5345,10 +5345,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "18열",
         "Seat_Number": 8,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 8,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "8",
+        "X": 18.731,
+        "Y": 33.881,
+        "Z": 0.826,
         "View_ID": "View_1F_B_18_8"
     },
     {
@@ -5357,10 +5357,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "18열",
         "Seat_Number": 9,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 9,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "9",
+        "X": 18.192,
+        "Y": 33.88,
+        "Z": 0.826,
         "View_ID": "View_1F_B_18_9"
     },
     {
@@ -5369,10 +5369,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "18열",
         "Seat_Number": 10,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 10,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "10",
+        "X": 17.654,
+        "Y": 33.88,
+        "Z": 0.826,
         "View_ID": "View_1F_B_18_10"
     },
     {
@@ -5381,10 +5381,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "18열",
         "Seat_Number": 11,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 11,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "11",
+        "X": 17.115,
+        "Y": 33.879,
+        "Z": 0.826,
         "View_ID": "View_1F_B_18_11"
     },
     {
@@ -5393,10 +5393,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "18열",
         "Seat_Number": 12,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 12,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "12",
+        "X": 16.577,
+        "Y": 33.879,
+        "Z": 0.826,
         "View_ID": "View_1F_B_18_12"
     },
     {
@@ -5405,10 +5405,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "18열",
         "Seat_Number": 13,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 13,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "13",
+        "X": 16.038,
+        "Y": 33.878,
+        "Z": 0.826,
         "View_ID": "View_1F_B_18_13"
     },
     {
@@ -5417,10 +5417,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "18열",
         "Seat_Number": 14,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 14,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "14",
+        "X": 15.5,
+        "Y": 33.878,
+        "Z": 0.826,
         "View_ID": "View_1F_B_18_14"
     },
     {
@@ -5429,10 +5429,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "19열",
         "Seat_Number": 1,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 1,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "1",
+        "X": 22.5,
+        "Y": 34.742,
+        "Z": 0.963,
         "View_ID": "View_1F_B_19_1"
     },
     {
@@ -5441,10 +5441,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "19열",
         "Seat_Number": 2,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 2,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "2",
+        "X": 21.962,
+        "Y": 34.742,
+        "Z": 0.963,
         "View_ID": "View_1F_B_19_2"
     },
     {
@@ -5453,10 +5453,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "19열",
         "Seat_Number": 3,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 3,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "3",
+        "X": 21.423,
+        "Y": 34.742,
+        "Z": 0.963,
         "View_ID": "View_1F_B_19_3"
     },
     {
@@ -5465,10 +5465,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "19열",
         "Seat_Number": 4,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 4,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "4",
+        "X": 20.885,
+        "Y": 34.741,
+        "Z": 0.963,
         "View_ID": "View_1F_B_19_4"
     },
     {
@@ -5477,10 +5477,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "19열",
         "Seat_Number": 5,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 5,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "5",
+        "X": 20.346,
+        "Y": 34.741,
+        "Z": 0.963,
         "View_ID": "View_1F_B_19_5"
     },
     {
@@ -5489,10 +5489,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "19열",
         "Seat_Number": 6,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 6,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "6",
+        "X": 19.808,
+        "Y": 34.741,
+        "Z": 0.963,
         "View_ID": "View_1F_B_19_6"
     },
     {
@@ -5501,10 +5501,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "19열",
         "Seat_Number": 7,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 7,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "7",
+        "X": 19.269,
+        "Y": 34.741,
+        "Z": 0.963,
         "View_ID": "View_1F_B_19_7"
     },
     {
@@ -5513,10 +5513,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "19열",
         "Seat_Number": 8,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 8,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "8",
+        "X": 18.731,
+        "Y": 34.74,
+        "Z": 0.963,
         "View_ID": "View_1F_B_19_8"
     },
     {
@@ -5525,10 +5525,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "19열",
         "Seat_Number": 9,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 9,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "9",
+        "X": 18.192,
+        "Y": 34.74,
+        "Z": 0.963,
         "View_ID": "View_1F_B_19_9"
     },
     {
@@ -5537,10 +5537,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "19열",
         "Seat_Number": 10,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 10,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "10",
+        "X": 17.654,
+        "Y": 34.74,
+        "Z": 0.963,
         "View_ID": "View_1F_B_19_10"
     },
     {
@@ -5549,10 +5549,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "19열",
         "Seat_Number": 11,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 11,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "11",
+        "X": 17.115,
+        "Y": 34.74,
+        "Z": 0.963,
         "View_ID": "View_1F_B_19_11"
     },
     {
@@ -5561,10 +5561,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "19열",
         "Seat_Number": 12,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 12,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "12",
+        "X": 16.577,
+        "Y": 34.739,
+        "Z": 0.963,
         "View_ID": "View_1F_B_19_12"
     },
     {
@@ -5573,10 +5573,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "19열",
         "Seat_Number": 13,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 13,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "13",
+        "X": 16.038,
+        "Y": 34.739,
+        "Z": 0.963,
         "View_ID": "View_1F_B_19_13"
     },
     {
@@ -5585,10 +5585,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "19열",
         "Seat_Number": 14,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 14,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "14",
+        "X": 15.5,
+        "Y": 34.739,
+        "Z": 0.963,
         "View_ID": "View_1F_B_19_14"
     },
     {
@@ -5598,9 +5598,9 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Seat_Number": 1,
         "Seat_Type": "장애인석",
         "Display_Text": "♿",
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "X": 22.5,
+        "Y": 35.6,
+        "Z": 1.1,
         "View_ID": "View_1F_B_20_1"
     },
     {
@@ -5610,9 +5610,9 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Seat_Number": 2,
         "Seat_Type": "장애인석",
         "Display_Text": "♿",
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "X": 21.962,
+        "Y": 35.6,
+        "Z": 1.1,
         "View_ID": "View_1F_B_20_2"
     },
     {
@@ -5621,10 +5621,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "20열",
         "Seat_Number": 3,
         "Seat_Type": "none",
-        "Display_Text": "",
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": NaN,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0,
         "View_ID": "View_1F_B_20_3"
     },
     {
@@ -5633,10 +5633,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "20열",
         "Seat_Number": 4,
         "Seat_Type": "none",
-        "Display_Text": "",
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": NaN,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0,
         "View_ID": "View_1F_B_20_4"
     },
     {
@@ -5645,10 +5645,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "20열",
         "Seat_Number": 5,
         "Seat_Type": "none",
-        "Display_Text": "",
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": NaN,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0,
         "View_ID": "View_1F_B_20_5"
     },
     {
@@ -5657,10 +5657,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "20열",
         "Seat_Number": 6,
         "Seat_Type": "none",
-        "Display_Text": "",
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": NaN,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0,
         "View_ID": "View_1F_B_20_6"
     },
     {
@@ -5669,10 +5669,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "20열",
         "Seat_Number": 7,
         "Seat_Type": "none",
-        "Display_Text": "",
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": NaN,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0,
         "View_ID": "View_1F_B_20_7"
     },
     {
@@ -5681,10 +5681,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "20열",
         "Seat_Number": 8,
         "Seat_Type": "none",
-        "Display_Text": "",
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": NaN,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0,
         "View_ID": "View_1F_B_20_8"
     },
     {
@@ -5693,10 +5693,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "20열",
         "Seat_Number": 9,
         "Seat_Type": "none",
-        "Display_Text": "",
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": NaN,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0,
         "View_ID": "View_1F_B_20_9"
     },
     {
@@ -5705,10 +5705,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "20열",
         "Seat_Number": 10,
         "Seat_Type": "none",
-        "Display_Text": "",
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": NaN,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0,
         "View_ID": "View_1F_B_20_10"
     },
     {
@@ -5717,10 +5717,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "20열",
         "Seat_Number": 11,
         "Seat_Type": "none",
-        "Display_Text": "",
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": NaN,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0,
         "View_ID": "View_1F_B_20_11"
     },
     {
@@ -5729,10 +5729,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "20열",
         "Seat_Number": 12,
         "Seat_Type": "none",
-        "Display_Text": "",
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": NaN,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0,
         "View_ID": "View_1F_B_20_12"
     },
     {
@@ -5742,9 +5742,9 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Seat_Number": 13,
         "Seat_Type": "장애인석",
         "Display_Text": "♿",
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "X": 16.038,
+        "Y": 35.6,
+        "Z": 1.1,
         "View_ID": "View_1F_B_20_13"
     },
     {
@@ -5754,9 +5754,9 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Seat_Number": 14,
         "Seat_Type": "장애인석",
         "Display_Text": "♿",
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "X": 15.5,
+        "Y": 35.6,
+        "Z": 1.1,
         "View_ID": "View_1F_B_20_14"
     },
     {
@@ -5765,10 +5765,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "1열",
         "Seat_Number": 1,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 1,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "1",
+        "X": 13.9,
+        "Y": 19.15,
+        "Z": -1.45,
         "View_ID": "View_1F_C_1_1"
     },
     {
@@ -5777,10 +5777,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "1열",
         "Seat_Number": 2,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 2,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "2",
+        "X": 13.38,
+        "Y": 19.02,
+        "Z": -1.45,
         "View_ID": "View_1F_C_1_2"
     },
     {
@@ -5789,10 +5789,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "1열",
         "Seat_Number": 3,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 3,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "3",
+        "X": 12.85,
+        "Y": 18.9,
+        "Z": -1.45,
         "View_ID": "View_1F_C_1_3"
     },
     {
@@ -5801,10 +5801,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "1열",
         "Seat_Number": 4,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 4,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "4",
+        "X": 12.33,
+        "Y": 18.77,
+        "Z": -1.45,
         "View_ID": "View_1F_C_1_4"
     },
     {
@@ -5813,10 +5813,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "1열",
         "Seat_Number": 5,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 5,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "5",
+        "X": 11.81,
+        "Y": 18.65,
+        "Z": -1.45,
         "View_ID": "View_1F_C_1_5"
     },
     {
@@ -5825,10 +5825,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "1열",
         "Seat_Number": 6,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 6,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "6",
+        "X": 11.28,
+        "Y": 18.52,
+        "Z": -1.45,
         "View_ID": "View_1F_C_1_6"
     },
     {
@@ -5837,10 +5837,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "1열",
         "Seat_Number": 7,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 7,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "7",
+        "X": 10.76,
+        "Y": 18.4,
+        "Z": -1.45,
         "View_ID": "View_1F_C_1_7"
     },
     {
@@ -5849,10 +5849,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "1열",
         "Seat_Number": 8,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 8,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "8",
+        "X": 10.23,
+        "Y": 18.27,
+        "Z": -1.45,
         "View_ID": "View_1F_C_1_8"
     },
     {
@@ -5861,10 +5861,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "1열",
         "Seat_Number": 9,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 9,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "9",
+        "X": 9.71,
+        "Y": 18.14,
+        "Z": -1.45,
         "View_ID": "View_1F_C_1_9"
     },
     {
@@ -5873,10 +5873,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "1열",
         "Seat_Number": 10,
         "Seat_Type": "none",
-        "Display_Text": "",
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": NaN,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0,
         "View_ID": "View_1F_C_1_10"
     },
     {
@@ -5885,10 +5885,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "2열",
         "Seat_Number": 1,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 1,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "1",
+        "X": 13.9,
+        "Y": 20.1,
+        "Z": -1.5,
         "View_ID": "View_1F_C_2_1"
     },
     {
@@ -5897,10 +5897,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "2열",
         "Seat_Number": 2,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 2,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "2",
+        "X": 13.378,
+        "Y": 19.967,
+        "Z": -1.5,
         "View_ID": "View_1F_C_2_2"
     },
     {
@@ -5909,10 +5909,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "2열",
         "Seat_Number": 3,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 3,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "3",
+        "X": 12.856,
+        "Y": 19.833,
+        "Z": -1.5,
         "View_ID": "View_1F_C_2_3"
     },
     {
@@ -5921,10 +5921,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "2열",
         "Seat_Number": 4,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 4,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "4",
+        "X": 12.333,
+        "Y": 19.7,
+        "Z": -1.5,
         "View_ID": "View_1F_C_2_4"
     },
     {
@@ -5933,10 +5933,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "2열",
         "Seat_Number": 5,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 5,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "5",
+        "X": 11.811,
+        "Y": 19.567,
+        "Z": -1.5,
         "View_ID": "View_1F_C_2_5"
     },
     {
@@ -5945,10 +5945,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "2열",
         "Seat_Number": 6,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 6,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "6",
+        "X": 11.289,
+        "Y": 19.433,
+        "Z": -1.5,
         "View_ID": "View_1F_C_2_6"
     },
     {
@@ -5957,10 +5957,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "2열",
         "Seat_Number": 7,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 7,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "7",
+        "X": 10.767,
+        "Y": 19.3,
+        "Z": -1.5,
         "View_ID": "View_1F_C_2_7"
     },
     {
@@ -5969,10 +5969,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "2열",
         "Seat_Number": 8,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 8,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "8",
+        "X": 10.244,
+        "Y": 19.167,
+        "Z": -1.5,
         "View_ID": "View_1F_C_2_8"
     },
     {
@@ -5981,10 +5981,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "2열",
         "Seat_Number": 9,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 9,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "9",
+        "X": 9.722,
+        "Y": 19.033,
+        "Z": -1.5,
         "View_ID": "View_1F_C_2_9"
     },
     {
@@ -5993,10 +5993,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "2열",
         "Seat_Number": 10,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 10,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "10",
+        "X": 9.2,
+        "Y": 18.9,
+        "Z": -1.5,
         "View_ID": "View_1F_C_2_10"
     },
     {
@@ -6005,10 +6005,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "3열",
         "Seat_Number": 1,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 1,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "1",
+        "X": 13.9,
+        "Y": 21.006,
+        "Z": -1.35,
         "View_ID": "View_1F_C_3_1"
     },
     {
@@ -6017,10 +6017,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "3열",
         "Seat_Number": 2,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 2,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "2",
+        "X": 13.377,
+        "Y": 20.874,
+        "Z": -1.35,
         "View_ID": "View_1F_C_3_2"
     },
     {
@@ -6029,10 +6029,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "3열",
         "Seat_Number": 3,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 3,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "3",
+        "X": 12.854,
+        "Y": 20.743,
+        "Z": -1.35,
         "View_ID": "View_1F_C_3_3"
     },
     {
@@ -6041,10 +6041,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "3열",
         "Seat_Number": 4,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 4,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "4",
+        "X": 12.33,
+        "Y": 20.611,
+        "Z": -1.35,
         "View_ID": "View_1F_C_3_4"
     },
     {
@@ -6053,10 +6053,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "3열",
         "Seat_Number": 5,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 5,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "5",
+        "X": 11.807,
+        "Y": 20.479,
+        "Z": -1.35,
         "View_ID": "View_1F_C_3_5"
     },
     {
@@ -6065,10 +6065,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "3열",
         "Seat_Number": 6,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 6,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "6",
+        "X": 11.284,
+        "Y": 20.348,
+        "Z": -1.35,
         "View_ID": "View_1F_C_3_6"
     },
     {
@@ -6077,10 +6077,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "3열",
         "Seat_Number": 7,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 7,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "7",
+        "X": 10.761,
+        "Y": 20.216,
+        "Z": -1.35,
         "View_ID": "View_1F_C_3_7"
     },
     {
@@ -6089,10 +6089,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "3열",
         "Seat_Number": 8,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 8,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "8",
+        "X": 10.238,
+        "Y": 20.084,
+        "Z": -1.35,
         "View_ID": "View_1F_C_3_8"
     },
     {
@@ -6101,10 +6101,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "3열",
         "Seat_Number": 9,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 9,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "9",
+        "X": 9.714,
+        "Y": 19.953,
+        "Z": -1.35,
         "View_ID": "View_1F_C_3_9"
     },
     {
@@ -6113,10 +6113,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "3열",
         "Seat_Number": 10,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 10,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "10",
+        "X": 9.191,
+        "Y": 19.821,
+        "Z": -1.35,
         "View_ID": "View_1F_C_3_10"
     },
     {
@@ -6125,10 +6125,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "4열",
         "Seat_Number": 1,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 1,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "1",
+        "X": 13.9,
+        "Y": 21.912,
+        "Z": -1.2,
         "View_ID": "View_1F_C_4_1"
     },
     {
@@ -6137,10 +6137,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "4열",
         "Seat_Number": 2,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 2,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "2",
+        "X": 13.376,
+        "Y": 21.782,
+        "Z": -1.2,
         "View_ID": "View_1F_C_4_2"
     },
     {
@@ -6149,10 +6149,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "4열",
         "Seat_Number": 3,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 3,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "3",
+        "X": 12.852,
+        "Y": 21.652,
+        "Z": -1.2,
         "View_ID": "View_1F_C_4_3"
     },
     {
@@ -6161,10 +6161,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "4열",
         "Seat_Number": 4,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 4,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "4",
+        "X": 12.327,
+        "Y": 21.522,
+        "Z": -1.2,
         "View_ID": "View_1F_C_4_4"
     },
     {
@@ -6173,10 +6173,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "4열",
         "Seat_Number": 5,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 5,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "5",
+        "X": 11.803,
+        "Y": 21.392,
+        "Z": -1.2,
         "View_ID": "View_1F_C_4_5"
     },
     {
@@ -6185,10 +6185,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "4열",
         "Seat_Number": 6,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 6,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "6",
+        "X": 11.279,
+        "Y": 21.262,
+        "Z": -1.2,
         "View_ID": "View_1F_C_4_6"
     },
     {
@@ -6197,10 +6197,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "4열",
         "Seat_Number": 7,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 7,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "7",
+        "X": 10.755,
+        "Y": 21.132,
+        "Z": -1.2,
         "View_ID": "View_1F_C_4_7"
     },
     {
@@ -6209,10 +6209,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "4열",
         "Seat_Number": 8,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 8,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "8",
+        "X": 10.231,
+        "Y": 21.002,
+        "Z": -1.2,
         "View_ID": "View_1F_C_4_8"
     },
     {
@@ -6221,10 +6221,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "4열",
         "Seat_Number": 9,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 9,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "9",
+        "X": 9.707,
+        "Y": 20.872,
+        "Z": -1.2,
         "View_ID": "View_1F_C_4_9"
     },
     {
@@ -6233,10 +6233,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "4열",
         "Seat_Number": 10,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 10,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "10",
+        "X": 9.182,
+        "Y": 20.742,
+        "Z": -1.2,
         "View_ID": "View_1F_C_4_10"
     },
     {
@@ -6245,10 +6245,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "5열",
         "Seat_Number": 1,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 1,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "1",
+        "X": 13.9,
+        "Y": 22.818,
+        "Z": -1.05,
         "View_ID": "View_1F_C_5_1"
     },
     {
@@ -6257,10 +6257,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "5열",
         "Seat_Number": 2,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 2,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "2",
+        "X": 13.375,
+        "Y": 22.689,
+        "Z": -1.05,
         "View_ID": "View_1F_C_5_2"
     },
     {
@@ -6269,10 +6269,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "5열",
         "Seat_Number": 3,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 3,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "3",
+        "X": 12.85,
+        "Y": 22.561,
+        "Z": -1.05,
         "View_ID": "View_1F_C_5_3"
     },
     {
@@ -6281,10 +6281,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "5열",
         "Seat_Number": 4,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 4,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "4",
+        "X": 12.325,
+        "Y": 22.433,
+        "Z": -1.05,
         "View_ID": "View_1F_C_5_4"
     },
     {
@@ -6293,10 +6293,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "5열",
         "Seat_Number": 5,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 5,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "5",
+        "X": 11.799,
+        "Y": 22.305,
+        "Z": -1.05,
         "View_ID": "View_1F_C_5_5"
     },
     {
@@ -6305,10 +6305,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "5열",
         "Seat_Number": 6,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 6,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "6",
+        "X": 11.274,
+        "Y": 22.176,
+        "Z": -1.05,
         "View_ID": "View_1F_C_5_6"
     },
     {
@@ -6317,10 +6317,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "5열",
         "Seat_Number": 7,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 7,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "7",
+        "X": 10.749,
+        "Y": 22.048,
+        "Z": -1.05,
         "View_ID": "View_1F_C_5_7"
     },
     {
@@ -6329,10 +6329,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "5열",
         "Seat_Number": 8,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 8,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "8",
+        "X": 10.224,
+        "Y": 21.92,
+        "Z": -1.05,
         "View_ID": "View_1F_C_5_8"
     },
     {
@@ -6341,10 +6341,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "5열",
         "Seat_Number": 9,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 9,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "9",
+        "X": 9.699,
+        "Y": 21.792,
+        "Z": -1.05,
         "View_ID": "View_1F_C_5_9"
     },
     {
@@ -6353,10 +6353,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "5열",
         "Seat_Number": 10,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 10,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "10",
+        "X": 9.174,
+        "Y": 21.664,
+        "Z": -1.05,
         "View_ID": "View_1F_C_5_10"
     },
     {
@@ -6365,10 +6365,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "6열",
         "Seat_Number": 1,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 1,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "1",
+        "X": 13.9,
+        "Y": 23.724,
+        "Z": -0.9,
         "View_ID": "View_1F_C_6_1"
     },
     {
@@ -6377,10 +6377,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "6열",
         "Seat_Number": 2,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 2,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "2",
+        "X": 13.374,
+        "Y": 23.597,
+        "Z": -0.9,
         "View_ID": "View_1F_C_6_2"
     },
     {
@@ -6389,10 +6389,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "6열",
         "Seat_Number": 3,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 3,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "3",
+        "X": 12.848,
+        "Y": 23.47,
+        "Z": -0.9,
         "View_ID": "View_1F_C_6_3"
     },
     {
@@ -6401,10 +6401,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "6열",
         "Seat_Number": 4,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 4,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "4",
+        "X": 12.322,
+        "Y": 23.344,
+        "Z": -0.9,
         "View_ID": "View_1F_C_6_4"
     },
     {
@@ -6413,10 +6413,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "6열",
         "Seat_Number": 5,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 5,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "5",
+        "X": 11.795,
+        "Y": 23.217,
+        "Z": -0.9,
         "View_ID": "View_1F_C_6_5"
     },
     {
@@ -6425,10 +6425,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "6열",
         "Seat_Number": 6,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 6,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "6",
+        "X": 11.269,
+        "Y": 23.091,
+        "Z": -0.9,
         "View_ID": "View_1F_C_6_6"
     },
     {
@@ -6437,10 +6437,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "6열",
         "Seat_Number": 7,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 7,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "7",
+        "X": 10.743,
+        "Y": 22.964,
+        "Z": -0.9,
         "View_ID": "View_1F_C_6_7"
     },
     {
@@ -6449,10 +6449,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "6열",
         "Seat_Number": 8,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 8,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "8",
+        "X": 10.217,
+        "Y": 22.838,
+        "Z": -0.9,
         "View_ID": "View_1F_C_6_8"
     },
     {
@@ -6461,10 +6461,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "6열",
         "Seat_Number": 9,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 9,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "9",
+        "X": 9.691,
+        "Y": 22.711,
+        "Z": -0.9,
         "View_ID": "View_1F_C_6_9"
     },
     {
@@ -6473,10 +6473,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "6열",
         "Seat_Number": 10,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 10,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "10",
+        "X": 9.165,
+        "Y": 22.585,
+        "Z": -0.9,
         "View_ID": "View_1F_C_6_10"
     },
     {
@@ -6485,10 +6485,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "7열",
         "Seat_Number": 1,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 1,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "1",
+        "X": 13.9,
+        "Y": 24.629,
+        "Z": -0.75,
         "View_ID": "View_1F_C_7_1"
     },
     {
@@ -6497,10 +6497,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "7열",
         "Seat_Number": 2,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 2,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "2",
+        "X": 13.373,
+        "Y": 24.505,
+        "Z": -0.75,
         "View_ID": "View_1F_C_7_2"
     },
     {
@@ -6509,10 +6509,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "7열",
         "Seat_Number": 3,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 3,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "3",
+        "X": 12.846,
+        "Y": 24.38,
+        "Z": -0.75,
         "View_ID": "View_1F_C_7_3"
     },
     {
@@ -6521,10 +6521,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "7열",
         "Seat_Number": 4,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 4,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "4",
+        "X": 12.319,
+        "Y": 24.255,
+        "Z": -0.75,
         "View_ID": "View_1F_C_7_4"
     },
     {
@@ -6533,10 +6533,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "7열",
         "Seat_Number": 5,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 5,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "5",
+        "X": 11.792,
+        "Y": 24.13,
+        "Z": -0.75,
         "View_ID": "View_1F_C_7_5"
     },
     {
@@ -6545,10 +6545,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "7열",
         "Seat_Number": 6,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 6,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "6",
+        "X": 11.264,
+        "Y": 24.005,
+        "Z": -0.75,
         "View_ID": "View_1F_C_7_6"
     },
     {
@@ -6557,10 +6557,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "7열",
         "Seat_Number": 7,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 7,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "7",
+        "X": 10.737,
+        "Y": 23.88,
+        "Z": -0.75,
         "View_ID": "View_1F_C_7_7"
     },
     {
@@ -6569,10 +6569,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "7열",
         "Seat_Number": 8,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 8,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "8",
+        "X": 10.21,
+        "Y": 23.756,
+        "Z": -0.75,
         "View_ID": "View_1F_C_7_8"
     },
     {
@@ -6581,10 +6581,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "7열",
         "Seat_Number": 9,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 9,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "9",
+        "X": 9.683,
+        "Y": 23.631,
+        "Z": -0.75,
         "View_ID": "View_1F_C_7_9"
     },
     {
@@ -6593,10 +6593,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "7열",
         "Seat_Number": 10,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 10,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "10",
+        "X": 9.156,
+        "Y": 23.506,
+        "Z": -0.75,
         "View_ID": "View_1F_C_7_10"
     },
     {
@@ -6605,10 +6605,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "8열",
         "Seat_Number": 1,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 1,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "1",
+        "X": 13.9,
+        "Y": 25.535,
+        "Z": -0.6,
         "View_ID": "View_1F_C_8_1"
     },
     {
@@ -6617,10 +6617,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "8열",
         "Seat_Number": 2,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 2,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "2",
+        "X": 13.372,
+        "Y": 25.412,
+        "Z": -0.6,
         "View_ID": "View_1F_C_8_2"
     },
     {
@@ -6629,10 +6629,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "8열",
         "Seat_Number": 3,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 3,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "3",
+        "X": 12.844,
+        "Y": 25.289,
+        "Z": -0.6,
         "View_ID": "View_1F_C_8_3"
     },
     {
@@ -6641,10 +6641,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "8열",
         "Seat_Number": 4,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 4,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "4",
+        "X": 12.316,
+        "Y": 25.166,
+        "Z": -0.6,
         "View_ID": "View_1F_C_8_4"
     },
     {
@@ -6653,10 +6653,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "8열",
         "Seat_Number": 5,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 5,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "5",
+        "X": 11.788,
+        "Y": 25.043,
+        "Z": -0.6,
         "View_ID": "View_1F_C_8_5"
     },
     {
@@ -6665,10 +6665,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "8열",
         "Seat_Number": 6,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 6,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "6",
+        "X": 11.259,
+        "Y": 24.92,
+        "Z": -0.6,
         "View_ID": "View_1F_C_8_6"
     },
     {
@@ -6677,10 +6677,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "8열",
         "Seat_Number": 7,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 7,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "7",
+        "X": 10.731,
+        "Y": 24.796,
+        "Z": -0.6,
         "View_ID": "View_1F_C_8_7"
     },
     {
@@ -6689,10 +6689,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "8열",
         "Seat_Number": 8,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 8,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "8",
+        "X": 10.203,
+        "Y": 24.673,
+        "Z": -0.6,
         "View_ID": "View_1F_C_8_8"
     },
     {
@@ -6701,10 +6701,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "8열",
         "Seat_Number": 9,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 9,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "9",
+        "X": 9.675,
+        "Y": 24.55,
+        "Z": -0.6,
         "View_ID": "View_1F_C_8_9"
     },
     {
@@ -6713,10 +6713,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "8열",
         "Seat_Number": 10,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 10,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "10",
+        "X": 9.147,
+        "Y": 24.427,
+        "Z": -0.6,
         "View_ID": "View_1F_C_8_10"
     },
     {
@@ -6725,10 +6725,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "9열",
         "Seat_Number": 1,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 1,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "1",
+        "X": 13.9,
+        "Y": 26.441,
+        "Z": -0.45,
         "View_ID": "View_1F_C_9_1"
     },
     {
@@ -6737,10 +6737,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "9열",
         "Seat_Number": 2,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 2,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "2",
+        "X": 13.371,
+        "Y": 26.32,
+        "Z": -0.45,
         "View_ID": "View_1F_C_9_2"
     },
     {
@@ -6749,10 +6749,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "9열",
         "Seat_Number": 3,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 3,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "3",
+        "X": 12.842,
+        "Y": 26.198,
+        "Z": -0.45,
         "View_ID": "View_1F_C_9_3"
     },
     {
@@ -6761,10 +6761,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "9열",
         "Seat_Number": 4,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 4,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "4",
+        "X": 12.313,
+        "Y": 26.077,
+        "Z": -0.45,
         "View_ID": "View_1F_C_9_4"
     },
     {
@@ -6773,10 +6773,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "9열",
         "Seat_Number": 5,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 5,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "5",
+        "X": 11.784,
+        "Y": 25.955,
+        "Z": -0.45,
         "View_ID": "View_1F_C_9_5"
     },
     {
@@ -6785,10 +6785,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "9열",
         "Seat_Number": 6,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 6,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "6",
+        "X": 11.255,
+        "Y": 25.834,
+        "Z": -0.45,
         "View_ID": "View_1F_C_9_6"
     },
     {
@@ -6797,10 +6797,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "9열",
         "Seat_Number": 7,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 7,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "7",
+        "X": 10.725,
+        "Y": 25.713,
+        "Z": -0.45,
         "View_ID": "View_1F_C_9_7"
     },
     {
@@ -6809,10 +6809,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "9열",
         "Seat_Number": 8,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 8,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "8",
+        "X": 10.196,
+        "Y": 25.591,
+        "Z": -0.45,
         "View_ID": "View_1F_C_9_8"
     },
     {
@@ -6821,10 +6821,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "9열",
         "Seat_Number": 9,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 9,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "9",
+        "X": 9.667,
+        "Y": 25.47,
+        "Z": -0.45,
         "View_ID": "View_1F_C_9_9"
     },
     {
@@ -6833,10 +6833,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "9열",
         "Seat_Number": 10,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 10,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "10",
+        "X": 9.138,
+        "Y": 25.348,
+        "Z": -0.45,
         "View_ID": "View_1F_C_9_10"
     },
     {
@@ -6845,10 +6845,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "10열",
         "Seat_Number": 1,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 1,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "1",
+        "X": 13.9,
+        "Y": 27.347,
+        "Z": -0.3,
         "View_ID": "View_1F_C_10_1"
     },
     {
@@ -6857,10 +6857,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "10열",
         "Seat_Number": 2,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 2,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "2",
+        "X": 13.37,
+        "Y": 27.227,
+        "Z": -0.3,
         "View_ID": "View_1F_C_10_2"
     },
     {
@@ -6869,10 +6869,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "10열",
         "Seat_Number": 3,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 3,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "3",
+        "X": 12.84,
+        "Y": 27.108,
+        "Z": -0.3,
         "View_ID": "View_1F_C_10_3"
     },
     {
@@ -6881,10 +6881,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "10열",
         "Seat_Number": 4,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 4,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "4",
+        "X": 12.31,
+        "Y": 26.988,
+        "Z": -0.3,
         "View_ID": "View_1F_C_10_4"
     },
     {
@@ -6893,10 +6893,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "10열",
         "Seat_Number": 5,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 5,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "5",
+        "X": 11.78,
+        "Y": 26.868,
+        "Z": -0.3,
         "View_ID": "View_1F_C_10_5"
     },
     {
@@ -6905,10 +6905,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "10열",
         "Seat_Number": 6,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 6,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "6",
+        "X": 11.25,
+        "Y": 26.748,
+        "Z": -0.3,
         "View_ID": "View_1F_C_10_6"
     },
     {
@@ -6917,10 +6917,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "10열",
         "Seat_Number": 7,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 7,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "7",
+        "X": 10.72,
+        "Y": 26.629,
+        "Z": -0.3,
         "View_ID": "View_1F_C_10_7"
     },
     {
@@ -6929,10 +6929,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "10열",
         "Seat_Number": 8,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 8,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "8",
+        "X": 10.19,
+        "Y": 26.509,
+        "Z": -0.3,
         "View_ID": "View_1F_C_10_8"
     },
     {
@@ -6941,10 +6941,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "10열",
         "Seat_Number": 9,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 9,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "9",
+        "X": 9.659,
+        "Y": 26.389,
+        "Z": -0.3,
         "View_ID": "View_1F_C_10_9"
     },
     {
@@ -6953,10 +6953,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "10열",
         "Seat_Number": 10,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 10,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "10",
+        "X": 9.129,
+        "Y": 26.269,
+        "Z": -0.3,
         "View_ID": "View_1F_C_10_10"
     },
     {
@@ -6965,10 +6965,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "11열",
         "Seat_Number": 1,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 1,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "1",
+        "X": 13.9,
+        "Y": 28.253,
+        "Z": -0.15,
         "View_ID": "View_1F_C_11_1"
     },
     {
@@ -6977,10 +6977,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "11열",
         "Seat_Number": 2,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 2,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "2",
+        "X": 13.369,
+        "Y": 28.135,
+        "Z": -0.15,
         "View_ID": "View_1F_C_11_2"
     },
     {
@@ -6989,10 +6989,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "11열",
         "Seat_Number": 3,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 3,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "3",
+        "X": 12.838,
+        "Y": 28.017,
+        "Z": -0.15,
         "View_ID": "View_1F_C_11_3"
     },
     {
@@ -7001,10 +7001,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "11열",
         "Seat_Number": 4,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 4,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "4",
+        "X": 12.307,
+        "Y": 27.899,
+        "Z": -0.15,
         "View_ID": "View_1F_C_11_4"
     },
     {
@@ -7013,10 +7013,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "11열",
         "Seat_Number": 5,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 5,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "5",
+        "X": 11.776,
+        "Y": 27.781,
+        "Z": -0.15,
         "View_ID": "View_1F_C_11_5"
     },
     {
@@ -7025,10 +7025,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "11열",
         "Seat_Number": 6,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 6,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "6",
+        "X": 11.245,
+        "Y": 27.663,
+        "Z": -0.15,
         "View_ID": "View_1F_C_11_6"
     },
     {
@@ -7037,10 +7037,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "11열",
         "Seat_Number": 7,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 7,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "7",
+        "X": 10.714,
+        "Y": 27.545,
+        "Z": -0.15,
         "View_ID": "View_1F_C_11_7"
     },
     {
@@ -7049,10 +7049,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "11열",
         "Seat_Number": 8,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 8,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "8",
+        "X": 10.183,
+        "Y": 27.427,
+        "Z": -0.15,
         "View_ID": "View_1F_C_11_8"
     },
     {
@@ -7061,10 +7061,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "11열",
         "Seat_Number": 9,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 9,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "9",
+        "X": 9.652,
+        "Y": 27.309,
+        "Z": -0.15,
         "View_ID": "View_1F_C_11_9"
     },
     {
@@ -7073,10 +7073,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "11열",
         "Seat_Number": 10,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 10,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "10",
+        "X": 9.121,
+        "Y": 27.191,
+        "Z": -0.15,
         "View_ID": "View_1F_C_11_10"
     },
     {
@@ -7085,10 +7085,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "12열",
         "Seat_Number": 1,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 1,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "1",
+        "X": 13.9,
+        "Y": 29.159,
+        "Z": 0.0,
         "View_ID": "View_1F_C_12_1"
     },
     {
@@ -7097,10 +7097,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "12열",
         "Seat_Number": 2,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 2,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "2",
+        "X": 13.368,
+        "Y": 29.042,
+        "Z": 0.0,
         "View_ID": "View_1F_C_12_2"
     },
     {
@@ -7109,10 +7109,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "12열",
         "Seat_Number": 3,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 3,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "3",
+        "X": 12.836,
+        "Y": 28.926,
+        "Z": 0.0,
         "View_ID": "View_1F_C_12_3"
     },
     {
@@ -7121,10 +7121,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "12열",
         "Seat_Number": 4,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 4,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "4",
+        "X": 12.304,
+        "Y": 28.81,
+        "Z": 0.0,
         "View_ID": "View_1F_C_12_4"
     },
     {
@@ -7133,10 +7133,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "12열",
         "Seat_Number": 5,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 5,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "5",
+        "X": 11.772,
+        "Y": 28.693,
+        "Z": 0.0,
         "View_ID": "View_1F_C_12_5"
     },
     {
@@ -7145,10 +7145,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "12열",
         "Seat_Number": 6,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 6,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "6",
+        "X": 11.24,
+        "Y": 28.577,
+        "Z": 0.0,
         "View_ID": "View_1F_C_12_6"
     },
     {
@@ -7157,10 +7157,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "12열",
         "Seat_Number": 7,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 7,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "7",
+        "X": 10.708,
+        "Y": 28.461,
+        "Z": 0.0,
         "View_ID": "View_1F_C_12_7"
     },
     {
@@ -7169,10 +7169,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "12열",
         "Seat_Number": 8,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 8,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "8",
+        "X": 10.176,
+        "Y": 28.344,
+        "Z": 0.0,
         "View_ID": "View_1F_C_12_8"
     },
     {
@@ -7181,10 +7181,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "12열",
         "Seat_Number": 9,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 9,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "9",
+        "X": 9.644,
+        "Y": 28.228,
+        "Z": 0.0,
         "View_ID": "View_1F_C_12_9"
     },
     {
@@ -7193,10 +7193,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "12열",
         "Seat_Number": 10,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 10,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "10",
+        "X": 9.112,
+        "Y": 28.112,
+        "Z": 0.0,
         "View_ID": "View_1F_C_12_10"
     },
     {
@@ -7205,10 +7205,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "13열",
         "Seat_Number": 1,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 1,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "1",
+        "X": 13.9,
+        "Y": 30.065,
+        "Z": 0.15,
         "View_ID": "View_1F_C_13_1"
     },
     {
@@ -7217,10 +7217,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "13열",
         "Seat_Number": 2,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 2,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "2",
+        "X": 13.367,
+        "Y": 29.95,
+        "Z": 0.15,
         "View_ID": "View_1F_C_13_2"
     },
     {
@@ -7229,10 +7229,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "13열",
         "Seat_Number": 3,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 3,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "3",
+        "X": 12.834,
+        "Y": 29.835,
+        "Z": 0.15,
         "View_ID": "View_1F_C_13_3"
     },
     {
@@ -7241,10 +7241,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "13열",
         "Seat_Number": 4,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 4,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "4",
+        "X": 12.301,
+        "Y": 29.721,
+        "Z": 0.15,
         "View_ID": "View_1F_C_13_4"
     },
     {
@@ -7253,10 +7253,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "13열",
         "Seat_Number": 5,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 5,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "5",
+        "X": 11.768,
+        "Y": 29.606,
+        "Z": 0.15,
         "View_ID": "View_1F_C_13_5"
     },
     {
@@ -7265,10 +7265,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "13열",
         "Seat_Number": 6,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 6,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "6",
+        "X": 11.235,
+        "Y": 29.492,
+        "Z": 0.15,
         "View_ID": "View_1F_C_13_6"
     },
     {
@@ -7277,10 +7277,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "13열",
         "Seat_Number": 7,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 7,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "7",
+        "X": 10.702,
+        "Y": 29.377,
+        "Z": 0.15,
         "View_ID": "View_1F_C_13_7"
     },
     {
@@ -7289,10 +7289,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "13열",
         "Seat_Number": 8,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 8,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "8",
+        "X": 10.169,
+        "Y": 29.262,
+        "Z": 0.15,
         "View_ID": "View_1F_C_13_8"
     },
     {
@@ -7301,10 +7301,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "13열",
         "Seat_Number": 9,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 9,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "9",
+        "X": 9.636,
+        "Y": 29.148,
+        "Z": 0.15,
         "View_ID": "View_1F_C_13_9"
     },
     {
@@ -7313,10 +7313,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "13열",
         "Seat_Number": 10,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 10,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "10",
+        "X": 9.103,
+        "Y": 29.033,
+        "Z": 0.15,
         "View_ID": "View_1F_C_13_10"
     },
     {
@@ -7325,10 +7325,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "14열",
         "Seat_Number": 1,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 1,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "1",
+        "X": 13.9,
+        "Y": 30.971,
+        "Z": 0.3,
         "View_ID": "View_1F_C_14_1"
     },
     {
@@ -7337,10 +7337,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "14열",
         "Seat_Number": 2,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 2,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "2",
+        "X": 13.366,
+        "Y": 30.858,
+        "Z": 0.3,
         "View_ID": "View_1F_C_14_2"
     },
     {
@@ -7349,10 +7349,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "14열",
         "Seat_Number": 3,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 3,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "3",
+        "X": 12.832,
+        "Y": 30.745,
+        "Z": 0.3,
         "View_ID": "View_1F_C_14_3"
     },
     {
@@ -7361,10 +7361,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "14열",
         "Seat_Number": 4,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 4,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "4",
+        "X": 12.298,
+        "Y": 30.632,
+        "Z": 0.3,
         "View_ID": "View_1F_C_14_4"
     },
     {
@@ -7373,10 +7373,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "14열",
         "Seat_Number": 5,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 5,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "5",
+        "X": 11.764,
+        "Y": 30.519,
+        "Z": 0.3,
         "View_ID": "View_1F_C_14_5"
     },
     {
@@ -7385,10 +7385,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "14열",
         "Seat_Number": 6,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 6,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "6",
+        "X": 11.23,
+        "Y": 30.406,
+        "Z": 0.3,
         "View_ID": "View_1F_C_14_6"
     },
     {
@@ -7397,10 +7397,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "14열",
         "Seat_Number": 7,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 7,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "7",
+        "X": 10.696,
+        "Y": 30.293,
+        "Z": 0.3,
         "View_ID": "View_1F_C_14_7"
     },
     {
@@ -7409,10 +7409,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "14열",
         "Seat_Number": 8,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 8,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "8",
+        "X": 10.162,
+        "Y": 30.18,
+        "Z": 0.3,
         "View_ID": "View_1F_C_14_8"
     },
     {
@@ -7421,10 +7421,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "14열",
         "Seat_Number": 9,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 9,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "9",
+        "X": 9.628,
+        "Y": 30.067,
+        "Z": 0.3,
         "View_ID": "View_1F_C_14_9"
     },
     {
@@ -7433,10 +7433,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "14열",
         "Seat_Number": 10,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 10,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "10",
+        "X": 9.094,
+        "Y": 29.954,
+        "Z": 0.3,
         "View_ID": "View_1F_C_14_10"
     },
     {
@@ -7445,10 +7445,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "15열",
         "Seat_Number": 1,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 1,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "1",
+        "X": 13.9,
+        "Y": 31.876,
+        "Z": 0.45,
         "View_ID": "View_1F_C_15_1"
     },
     {
@@ -7457,10 +7457,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "15열",
         "Seat_Number": 2,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 2,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "2",
+        "X": 13.365,
+        "Y": 31.765,
+        "Z": 0.45,
         "View_ID": "View_1F_C_15_2"
     },
     {
@@ -7469,10 +7469,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "15열",
         "Seat_Number": 3,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 3,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "3",
+        "X": 12.83,
+        "Y": 31.654,
+        "Z": 0.45,
         "View_ID": "View_1F_C_15_3"
     },
     {
@@ -7481,10 +7481,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "15열",
         "Seat_Number": 4,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 4,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "4",
+        "X": 12.295,
+        "Y": 31.543,
+        "Z": 0.45,
         "View_ID": "View_1F_C_15_4"
     },
     {
@@ -7493,10 +7493,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "15열",
         "Seat_Number": 5,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 5,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "5",
+        "X": 11.76,
+        "Y": 31.432,
+        "Z": 0.45,
         "View_ID": "View_1F_C_15_5"
     },
     {
@@ -7505,10 +7505,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "15열",
         "Seat_Number": 6,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 6,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "6",
+        "X": 11.225,
+        "Y": 31.32,
+        "Z": 0.45,
         "View_ID": "View_1F_C_15_6"
     },
     {
@@ -7517,10 +7517,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "15열",
         "Seat_Number": 7,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 7,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "7",
+        "X": 10.69,
+        "Y": 31.209,
+        "Z": 0.45,
         "View_ID": "View_1F_C_15_7"
     },
     {
@@ -7529,10 +7529,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "15열",
         "Seat_Number": 8,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 8,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "8",
+        "X": 10.155,
+        "Y": 31.098,
+        "Z": 0.45,
         "View_ID": "View_1F_C_15_8"
     },
     {
@@ -7541,10 +7541,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "15열",
         "Seat_Number": 9,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 9,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "9",
+        "X": 9.62,
+        "Y": 30.987,
+        "Z": 0.45,
         "View_ID": "View_1F_C_15_9"
     },
     {
@@ -7553,10 +7553,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "15열",
         "Seat_Number": 10,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 10,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "10",
+        "X": 9.085,
+        "Y": 30.875,
+        "Z": 0.45,
         "View_ID": "View_1F_C_15_10"
     },
     {
@@ -7565,10 +7565,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "16열",
         "Seat_Number": 1,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 1,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "1",
+        "X": 13.9,
+        "Y": 32.782,
+        "Z": 0.6,
         "View_ID": "View_1F_C_16_1"
     },
     {
@@ -7577,10 +7577,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "16열",
         "Seat_Number": 2,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 2,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "2",
+        "X": 13.364,
+        "Y": 32.673,
+        "Z": 0.6,
         "View_ID": "View_1F_C_16_2"
     },
     {
@@ -7589,10 +7589,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "16열",
         "Seat_Number": 3,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 3,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "3",
+        "X": 12.828,
+        "Y": 32.563,
+        "Z": 0.6,
         "View_ID": "View_1F_C_16_3"
     },
     {
@@ -7601,10 +7601,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "16열",
         "Seat_Number": 4,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 4,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "4",
+        "X": 12.292,
+        "Y": 32.454,
+        "Z": 0.6,
         "View_ID": "View_1F_C_16_4"
     },
     {
@@ -7613,10 +7613,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "16열",
         "Seat_Number": 5,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 5,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "5",
+        "X": 11.756,
+        "Y": 32.344,
+        "Z": 0.6,
         "View_ID": "View_1F_C_16_5"
     },
     {
@@ -7625,10 +7625,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "16열",
         "Seat_Number": 6,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 6,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "6",
+        "X": 11.22,
+        "Y": 32.235,
+        "Z": 0.6,
         "View_ID": "View_1F_C_16_6"
     },
     {
@@ -7637,10 +7637,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "16열",
         "Seat_Number": 7,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 7,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "7",
+        "X": 10.684,
+        "Y": 32.125,
+        "Z": 0.6,
         "View_ID": "View_1F_C_16_7"
     },
     {
@@ -7649,10 +7649,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "16열",
         "Seat_Number": 8,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 8,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "8",
+        "X": 10.148,
+        "Y": 32.016,
+        "Z": 0.6,
         "View_ID": "View_1F_C_16_8"
     },
     {
@@ -7661,10 +7661,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "16열",
         "Seat_Number": 9,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 9,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "9",
+        "X": 9.612,
+        "Y": 31.906,
+        "Z": 0.6,
         "View_ID": "View_1F_C_16_9"
     },
     {
@@ -7673,10 +7673,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "16열",
         "Seat_Number": 10,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 10,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "10",
+        "X": 9.076,
+        "Y": 31.796,
+        "Z": 0.6,
         "View_ID": "View_1F_C_16_10"
     },
     {
@@ -7685,10 +7685,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "17열",
         "Seat_Number": 1,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 1,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "1",
+        "X": 13.9,
+        "Y": 33.688,
+        "Z": 0.75,
         "View_ID": "View_1F_C_17_1"
     },
     {
@@ -7697,10 +7697,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "17열",
         "Seat_Number": 2,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 2,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "2",
+        "X": 13.363,
+        "Y": 33.58,
+        "Z": 0.75,
         "View_ID": "View_1F_C_17_2"
     },
     {
@@ -7709,10 +7709,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "17열",
         "Seat_Number": 3,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 3,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "3",
+        "X": 12.826,
+        "Y": 33.473,
+        "Z": 0.75,
         "View_ID": "View_1F_C_17_3"
     },
     {
@@ -7721,10 +7721,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "17열",
         "Seat_Number": 4,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 4,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "4",
+        "X": 12.289,
+        "Y": 33.365,
+        "Z": 0.75,
         "View_ID": "View_1F_C_17_4"
     },
     {
@@ -7733,10 +7733,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "17열",
         "Seat_Number": 5,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 5,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "5",
+        "X": 11.752,
+        "Y": 33.257,
+        "Z": 0.75,
         "View_ID": "View_1F_C_17_5"
     },
     {
@@ -7745,10 +7745,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "17열",
         "Seat_Number": 6,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 6,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "6",
+        "X": 11.215,
+        "Y": 33.149,
+        "Z": 0.75,
         "View_ID": "View_1F_C_17_6"
     },
     {
@@ -7757,10 +7757,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "17열",
         "Seat_Number": 7,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 7,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "7",
+        "X": 10.678,
+        "Y": 33.041,
+        "Z": 0.75,
         "View_ID": "View_1F_C_17_7"
     },
     {
@@ -7769,10 +7769,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "17열",
         "Seat_Number": 8,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 8,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "8",
+        "X": 10.142,
+        "Y": 32.933,
+        "Z": 0.75,
         "View_ID": "View_1F_C_17_8"
     },
     {
@@ -7781,10 +7781,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "17열",
         "Seat_Number": 9,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 9,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "9",
+        "X": 9.605,
+        "Y": 32.825,
+        "Z": 0.75,
         "View_ID": "View_1F_C_17_9"
     },
     {
@@ -7793,10 +7793,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "17열",
         "Seat_Number": 10,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 10,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "10",
+        "X": 9.068,
+        "Y": 32.718,
+        "Z": 0.75,
         "View_ID": "View_1F_C_17_10"
     },
     {
@@ -7805,10 +7805,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "18열",
         "Seat_Number": 1,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 1,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "1",
+        "X": 13.9,
+        "Y": 34.594,
+        "Z": 0.9,
         "View_ID": "View_1F_C_18_1"
     },
     {
@@ -7817,10 +7817,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "18열",
         "Seat_Number": 2,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 2,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "2",
+        "X": 13.362,
+        "Y": 34.488,
+        "Z": 0.9,
         "View_ID": "View_1F_C_18_2"
     },
     {
@@ -7829,10 +7829,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "18열",
         "Seat_Number": 3,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 3,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "3",
+        "X": 12.824,
+        "Y": 34.382,
+        "Z": 0.9,
         "View_ID": "View_1F_C_18_3"
     },
     {
@@ -7841,10 +7841,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "18열",
         "Seat_Number": 4,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 4,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "4",
+        "X": 12.286,
+        "Y": 34.276,
+        "Z": 0.9,
         "View_ID": "View_1F_C_18_4"
     },
     {
@@ -7853,10 +7853,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "18열",
         "Seat_Number": 5,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 5,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "5",
+        "X": 11.748,
+        "Y": 34.17,
+        "Z": 0.9,
         "View_ID": "View_1F_C_18_5"
     },
     {
@@ -7865,10 +7865,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "18열",
         "Seat_Number": 6,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 6,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "6",
+        "X": 11.21,
+        "Y": 34.063,
+        "Z": 0.9,
         "View_ID": "View_1F_C_18_6"
     },
     {
@@ -7877,10 +7877,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "18열",
         "Seat_Number": 7,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 7,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "7",
+        "X": 10.673,
+        "Y": 33.957,
+        "Z": 0.9,
         "View_ID": "View_1F_C_18_7"
     },
     {
@@ -7889,10 +7889,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "18열",
         "Seat_Number": 8,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 8,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "8",
+        "X": 10.135,
+        "Y": 33.851,
+        "Z": 0.9,
         "View_ID": "View_1F_C_18_8"
     },
     {
@@ -7901,10 +7901,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "18열",
         "Seat_Number": 9,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 9,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "9",
+        "X": 9.597,
+        "Y": 33.745,
+        "Z": 0.9,
         "View_ID": "View_1F_C_18_9"
     },
     {
@@ -7913,10 +7913,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "18열",
         "Seat_Number": 10,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 10,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "10",
+        "X": 9.059,
+        "Y": 33.639,
+        "Z": 0.9,
         "View_ID": "View_1F_C_18_10"
     },
     {
@@ -7925,10 +7925,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "19열",
         "Seat_Number": 1,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 1,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "1",
+        "X": 13.9,
+        "Y": 35.5,
+        "Z": 1.05,
         "View_ID": "View_1F_C_19_1"
     },
     {
@@ -7937,10 +7937,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "19열",
         "Seat_Number": 2,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 2,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "2",
+        "X": 13.361,
+        "Y": 35.396,
+        "Z": 1.05,
         "View_ID": "View_1F_C_19_2"
     },
     {
@@ -7949,10 +7949,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "19열",
         "Seat_Number": 3,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 3,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "3",
+        "X": 12.822,
+        "Y": 35.291,
+        "Z": 1.05,
         "View_ID": "View_1F_C_19_3"
     },
     {
@@ -7961,10 +7961,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "19열",
         "Seat_Number": 4,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 4,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "4",
+        "X": 12.283,
+        "Y": 35.187,
+        "Z": 1.05,
         "View_ID": "View_1F_C_19_4"
     },
     {
@@ -7973,10 +7973,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "19열",
         "Seat_Number": 5,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 5,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "5",
+        "X": 11.744,
+        "Y": 35.082,
+        "Z": 1.05,
         "View_ID": "View_1F_C_19_5"
     },
     {
@@ -7985,10 +7985,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "19열",
         "Seat_Number": 6,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 6,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "6",
+        "X": 11.206,
+        "Y": 34.978,
+        "Z": 1.05,
         "View_ID": "View_1F_C_19_6"
     },
     {
@@ -7997,10 +7997,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "19열",
         "Seat_Number": 7,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 7,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "7",
+        "X": 10.667,
+        "Y": 34.873,
+        "Z": 1.05,
         "View_ID": "View_1F_C_19_7"
     },
     {
@@ -8009,10 +8009,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "19열",
         "Seat_Number": 8,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 8,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "8",
+        "X": 10.128,
+        "Y": 34.769,
+        "Z": 1.05,
         "View_ID": "View_1F_C_19_8"
     },
     {
@@ -8021,10 +8021,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "19열",
         "Seat_Number": 9,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 9,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "9",
+        "X": 9.589,
+        "Y": 34.664,
+        "Z": 1.05,
         "View_ID": "View_1F_C_19_9"
     },
     {
@@ -8033,10 +8033,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "19열",
         "Seat_Number": 10,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 10,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "10",
+        "X": 9.05,
+        "Y": 34.56,
+        "Z": 1.05,
         "View_ID": "View_1F_C_19_10"
     },
     {
@@ -8046,9 +8046,9 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Seat_Number": 1,
         "Seat_Type": "장애인석",
         "Display_Text": "♿",
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "X": 13.7,
+        "Y": 36.35,
+        "Z": 1.31,
         "View_ID": "View_1F_C_20_1"
     },
     {
@@ -8058,9 +8058,9 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Seat_Number": 2,
         "Seat_Type": "장애인석",
         "Display_Text": "♿",
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "X": 13.09,
+        "Y": 36.31,
+        "Z": 1.31,
         "View_ID": "View_1F_C_20_2"
     },
     {
@@ -8070,9 +8070,9 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Seat_Number": 3,
         "Seat_Type": "장애인석",
         "Display_Text": "♿",
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "X": 12.59,
+        "Y": 36.27,
+        "Z": 1.31,
         "View_ID": "View_1F_C_20_3"
     },
     {
@@ -8082,9 +8082,9 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Seat_Number": 4,
         "Seat_Type": "장애인석",
         "Display_Text": "♿",
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "X": 11.99,
+        "Y": 36.22,
+        "Z": 1.31,
         "View_ID": "View_1F_C_20_4"
     },
     {
@@ -8093,10 +8093,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "20열",
         "Seat_Number": 5,
         "Seat_Type": "none",
-        "Display_Text": "",
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": NaN,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0,
         "View_ID": "View_1F_C_20_5"
     },
     {
@@ -8105,10 +8105,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "20열",
         "Seat_Number": 6,
         "Seat_Type": "none",
-        "Display_Text": "",
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": NaN,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0,
         "View_ID": "View_1F_C_20_6"
     },
     {
@@ -8117,10 +8117,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "20열",
         "Seat_Number": 7,
         "Seat_Type": "none",
-        "Display_Text": "",
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": NaN,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0,
         "View_ID": "View_1F_C_20_7"
     },
     {
@@ -8129,10 +8129,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "20열",
         "Seat_Number": 8,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 8,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "8",
+        "X": 10.47,
+        "Y": 35.99,
+        "Z": 1.31,
         "View_ID": "View_1F_C_20_8"
     },
     {
@@ -8141,10 +8141,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "20열",
         "Seat_Number": 9,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 9,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "9",
+        "X": 10.0,
+        "Y": 35.91,
+        "Z": 1.31,
         "View_ID": "View_1F_C_20_9"
     },
     {
@@ -8153,10 +8153,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "20열",
         "Seat_Number": 10,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 10,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "10",
+        "X": 9.41,
+        "Y": 35.8,
+        "Z": 1.31,
         "View_ID": "View_1F_C_20_10"
     },
     {
@@ -8165,10 +8165,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "1열",
         "Seat_Number": 1,
         "Seat_Type": "none",
-        "Display_Text": "",
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": NaN,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0,
         "View_ID": "View_2F_A_1_1"
     },
     {
@@ -8177,10 +8177,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "1열",
         "Seat_Number": 2,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 1,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "1",
+        "X": 28.3,
+        "Y": 33.3,
+        "Z": 4.0,
         "View_ID": "View_2F_A_1_2"
     },
     {
@@ -8189,10 +8189,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "1열",
         "Seat_Number": 3,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 2,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "2",
+        "X": 27.79,
+        "Y": 33.386,
+        "Z": 4.0,
         "View_ID": "View_2F_A_1_3"
     },
     {
@@ -8201,10 +8201,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "1열",
         "Seat_Number": 4,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 3,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "3",
+        "X": 27.28,
+        "Y": 33.472,
+        "Z": 4.0,
         "View_ID": "View_2F_A_1_4"
     },
     {
@@ -8213,10 +8213,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "1열",
         "Seat_Number": 5,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 4,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "4",
+        "X": 26.77,
+        "Y": 33.559,
+        "Z": 4.0,
         "View_ID": "View_2F_A_1_5"
     },
     {
@@ -8225,10 +8225,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "1열",
         "Seat_Number": 6,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 5,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "5",
+        "X": 26.26,
+        "Y": 33.645,
+        "Z": 4.0,
         "View_ID": "View_2F_A_1_6"
     },
     {
@@ -8237,10 +8237,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "1열",
         "Seat_Number": 7,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 6,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "6",
+        "X": 25.75,
+        "Y": 33.731,
+        "Z": 4.0,
         "View_ID": "View_2F_A_1_7"
     },
     {
@@ -8249,10 +8249,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "1열",
         "Seat_Number": 8,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 7,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "7",
+        "X": 25.24,
+        "Y": 33.818,
+        "Z": 4.0,
         "View_ID": "View_2F_A_1_8"
     },
     {
@@ -8261,10 +8261,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "1열",
         "Seat_Number": 9,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 8,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "8",
+        "X": 24.73,
+        "Y": 33.904,
+        "Z": 4.0,
         "View_ID": "View_2F_A_1_9"
     },
     {
@@ -8273,10 +8273,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "1열",
         "Seat_Number": 10,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 9,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "9",
+        "X": 24.22,
+        "Y": 33.99,
+        "Z": 4.0,
         "View_ID": "View_2F_A_1_10"
     },
     {
@@ -8285,10 +8285,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "2열",
         "Seat_Number": 1,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 1,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "1",
+        "X": 28.8,
+        "Y": 33.99,
+        "Z": 4.5,
         "View_ID": "View_2F_A_2_1"
     },
     {
@@ -8297,10 +8297,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "2열",
         "Seat_Number": 2,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 2,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "2",
+        "X": 28.283,
+        "Y": 34.098,
+        "Z": 4.5,
         "View_ID": "View_2F_A_2_2"
     },
     {
@@ -8309,10 +8309,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "2열",
         "Seat_Number": 3,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 3,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "3",
+        "X": 27.767,
+        "Y": 34.206,
+        "Z": 4.5,
         "View_ID": "View_2F_A_2_3"
     },
     {
@@ -8321,10 +8321,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "2열",
         "Seat_Number": 4,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 4,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "4",
+        "X": 27.25,
+        "Y": 34.313,
+        "Z": 4.5,
         "View_ID": "View_2F_A_2_4"
     },
     {
@@ -8333,10 +8333,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "2열",
         "Seat_Number": 5,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 5,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "5",
+        "X": 26.733,
+        "Y": 34.421,
+        "Z": 4.5,
         "View_ID": "View_2F_A_2_5"
     },
     {
@@ -8345,10 +8345,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "2열",
         "Seat_Number": 6,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 6,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "6",
+        "X": 26.217,
+        "Y": 34.529,
+        "Z": 4.5,
         "View_ID": "View_2F_A_2_6"
     },
     {
@@ -8357,10 +8357,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "2열",
         "Seat_Number": 7,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 7,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "7",
+        "X": 25.7,
+        "Y": 34.637,
+        "Z": 4.5,
         "View_ID": "View_2F_A_2_7"
     },
     {
@@ -8369,10 +8369,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "2열",
         "Seat_Number": 8,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 8,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "8",
+        "X": 25.183,
+        "Y": 34.744,
+        "Z": 4.5,
         "View_ID": "View_2F_A_2_8"
     },
     {
@@ -8381,10 +8381,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "2열",
         "Seat_Number": 9,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 9,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "9",
+        "X": 24.667,
+        "Y": 34.852,
+        "Z": 4.5,
         "View_ID": "View_2F_A_2_9"
     },
     {
@@ -8393,10 +8393,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "2열",
         "Seat_Number": 10,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 10,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "10",
+        "X": 24.15,
+        "Y": 34.96,
+        "Z": 4.5,
         "View_ID": "View_2F_A_2_10"
     },
     {
@@ -8405,10 +8405,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "3열",
         "Seat_Number": 1,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 1,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "1",
+        "X": 28.8,
+        "Y": 34.953,
+        "Z": 4.866,
         "View_ID": "View_2F_A_3_1"
     },
     {
@@ -8417,10 +8417,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "3열",
         "Seat_Number": 2,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 2,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "2",
+        "X": 28.285,
+        "Y": 35.057,
+        "Z": 4.866,
         "View_ID": "View_2F_A_3_2"
     },
     {
@@ -8429,10 +8429,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "3열",
         "Seat_Number": 3,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 3,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "3",
+        "X": 27.77,
+        "Y": 35.162,
+        "Z": 4.866,
         "View_ID": "View_2F_A_3_3"
     },
     {
@@ -8441,10 +8441,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "3열",
         "Seat_Number": 4,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 4,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "4",
+        "X": 27.255,
+        "Y": 35.267,
+        "Z": 4.866,
         "View_ID": "View_2F_A_3_4"
     },
     {
@@ -8453,10 +8453,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "3열",
         "Seat_Number": 5,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 5,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "5",
+        "X": 26.74,
+        "Y": 35.371,
+        "Z": 4.866,
         "View_ID": "View_2F_A_3_5"
     },
     {
@@ -8465,10 +8465,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "3열",
         "Seat_Number": 6,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 6,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "6",
+        "X": 26.225,
+        "Y": 35.476,
+        "Z": 4.866,
         "View_ID": "View_2F_A_3_6"
     },
     {
@@ -8477,10 +8477,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "3열",
         "Seat_Number": 7,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 7,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "7",
+        "X": 25.71,
+        "Y": 35.58,
+        "Z": 4.866,
         "View_ID": "View_2F_A_3_7"
     },
     {
@@ -8489,10 +8489,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "3열",
         "Seat_Number": 8,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 8,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "8",
+        "X": 25.194,
+        "Y": 35.685,
+        "Z": 4.866,
         "View_ID": "View_2F_A_3_8"
     },
     {
@@ -8501,10 +8501,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "3열",
         "Seat_Number": 9,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 9,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "9",
+        "X": 24.679,
+        "Y": 35.79,
+        "Z": 4.866,
         "View_ID": "View_2F_A_3_9"
     },
     {
@@ -8513,10 +8513,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "3열",
         "Seat_Number": 10,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 10,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "10",
+        "X": 24.164,
+        "Y": 35.894,
+        "Z": 4.866,
         "View_ID": "View_2F_A_3_10"
     },
     {
@@ -8525,10 +8525,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "4열",
         "Seat_Number": 1,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 1,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "1",
+        "X": 28.8,
+        "Y": 35.916,
+        "Z": 5.231,
         "View_ID": "View_2F_A_4_1"
     },
     {
@@ -8537,10 +8537,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "4열",
         "Seat_Number": 2,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 2,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "2",
+        "X": 28.287,
+        "Y": 36.017,
+        "Z": 5.231,
         "View_ID": "View_2F_A_4_2"
     },
     {
@@ -8549,10 +8549,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "4열",
         "Seat_Number": 3,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 3,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "3",
+        "X": 27.773,
+        "Y": 36.119,
+        "Z": 5.231,
         "View_ID": "View_2F_A_4_3"
     },
     {
@@ -8561,10 +8561,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "4열",
         "Seat_Number": 4,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 4,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "4",
+        "X": 27.26,
+        "Y": 36.22,
+        "Z": 5.231,
         "View_ID": "View_2F_A_4_4"
     },
     {
@@ -8573,10 +8573,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "4열",
         "Seat_Number": 5,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 5,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "5",
+        "X": 26.746,
+        "Y": 36.321,
+        "Z": 5.231,
         "View_ID": "View_2F_A_4_5"
     },
     {
@@ -8585,10 +8585,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "4열",
         "Seat_Number": 6,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 6,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "6",
+        "X": 26.233,
+        "Y": 36.423,
+        "Z": 5.231,
         "View_ID": "View_2F_A_4_6"
     },
     {
@@ -8597,10 +8597,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "4열",
         "Seat_Number": 7,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 7,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "7",
+        "X": 25.719,
+        "Y": 36.524,
+        "Z": 5.231,
         "View_ID": "View_2F_A_4_7"
     },
     {
@@ -8609,10 +8609,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "4열",
         "Seat_Number": 8,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 8,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "8",
+        "X": 25.206,
+        "Y": 36.626,
+        "Z": 5.231,
         "View_ID": "View_2F_A_4_8"
     },
     {
@@ -8621,10 +8621,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "4열",
         "Seat_Number": 9,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 9,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "9",
+        "X": 24.692,
+        "Y": 36.727,
+        "Z": 5.231,
         "View_ID": "View_2F_A_4_9"
     },
     {
@@ -8633,10 +8633,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "4열",
         "Seat_Number": 10,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 10,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "10",
+        "X": 24.179,
+        "Y": 36.829,
+        "Z": 5.231,
         "View_ID": "View_2F_A_4_10"
     },
     {
@@ -8645,10 +8645,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "5열",
         "Seat_Number": 1,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 1,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "1",
+        "X": 28.8,
+        "Y": 36.879,
+        "Z": 5.597,
         "View_ID": "View_2F_A_5_1"
     },
     {
@@ -8657,10 +8657,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "5열",
         "Seat_Number": 2,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 2,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "2",
+        "X": 28.288,
+        "Y": 36.977,
+        "Z": 5.597,
         "View_ID": "View_2F_A_5_2"
     },
     {
@@ -8669,10 +8669,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "5열",
         "Seat_Number": 3,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 3,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "3",
+        "X": 27.776,
+        "Y": 37.075,
+        "Z": 5.597,
         "View_ID": "View_2F_A_5_3"
     },
     {
@@ -8681,10 +8681,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "5열",
         "Seat_Number": 4,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 4,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "4",
+        "X": 27.264,
+        "Y": 37.173,
+        "Z": 5.597,
         "View_ID": "View_2F_A_5_4"
     },
     {
@@ -8693,10 +8693,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "5열",
         "Seat_Number": 5,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 5,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "5",
+        "X": 26.752,
+        "Y": 37.272,
+        "Z": 5.597,
         "View_ID": "View_2F_A_5_5"
     },
     {
@@ -8705,10 +8705,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "5열",
         "Seat_Number": 6,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 6,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "6",
+        "X": 26.24,
+        "Y": 37.37,
+        "Z": 5.597,
         "View_ID": "View_2F_A_5_6"
     },
     {
@@ -8717,10 +8717,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "5열",
         "Seat_Number": 7,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 7,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "7",
+        "X": 25.729,
+        "Y": 37.468,
+        "Z": 5.597,
         "View_ID": "View_2F_A_5_7"
     },
     {
@@ -8729,10 +8729,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "5열",
         "Seat_Number": 8,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 8,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "8",
+        "X": 25.217,
+        "Y": 37.566,
+        "Z": 5.597,
         "View_ID": "View_2F_A_5_8"
     },
     {
@@ -8741,10 +8741,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "5열",
         "Seat_Number": 9,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 9,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "9",
+        "X": 24.705,
+        "Y": 37.665,
+        "Z": 5.597,
         "View_ID": "View_2F_A_5_9"
     },
     {
@@ -8753,10 +8753,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "5열",
         "Seat_Number": 10,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 10,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "10",
+        "X": 24.193,
+        "Y": 37.763,
+        "Z": 5.597,
         "View_ID": "View_2F_A_5_10"
     },
     {
@@ -8765,10 +8765,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "6열",
         "Seat_Number": 1,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 1,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "1",
+        "X": 28.8,
+        "Y": 37.841,
+        "Z": 5.963,
         "View_ID": "View_2F_A_6_1"
     },
     {
@@ -8777,10 +8777,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "6열",
         "Seat_Number": 2,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 2,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "2",
+        "X": 28.29,
+        "Y": 37.937,
+        "Z": 5.963,
         "View_ID": "View_2F_A_6_2"
     },
     {
@@ -8789,10 +8789,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "6열",
         "Seat_Number": 3,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 3,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "3",
+        "X": 27.779,
+        "Y": 38.032,
+        "Z": 5.963,
         "View_ID": "View_2F_A_6_3"
     },
     {
@@ -8801,10 +8801,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "6열",
         "Seat_Number": 4,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 4,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "4",
+        "X": 27.269,
+        "Y": 38.127,
+        "Z": 5.963,
         "View_ID": "View_2F_A_6_4"
     },
     {
@@ -8813,10 +8813,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "6열",
         "Seat_Number": 5,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 5,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "5",
+        "X": 26.759,
+        "Y": 38.222,
+        "Z": 5.963,
         "View_ID": "View_2F_A_6_5"
     },
     {
@@ -8825,10 +8825,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "6열",
         "Seat_Number": 6,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 6,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "6",
+        "X": 26.248,
+        "Y": 38.317,
+        "Z": 5.963,
         "View_ID": "View_2F_A_6_6"
     },
     {
@@ -8837,10 +8837,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "6열",
         "Seat_Number": 7,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 7,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "7",
+        "X": 25.738,
+        "Y": 38.412,
+        "Z": 5.963,
         "View_ID": "View_2F_A_6_7"
     },
     {
@@ -8849,10 +8849,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "6열",
         "Seat_Number": 8,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 8,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "8",
+        "X": 25.228,
+        "Y": 38.507,
+        "Z": 5.963,
         "View_ID": "View_2F_A_6_8"
     },
     {
@@ -8861,10 +8861,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "6열",
         "Seat_Number": 9,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 9,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "9",
+        "X": 24.717,
+        "Y": 38.602,
+        "Z": 5.963,
         "View_ID": "View_2F_A_6_9"
     },
     {
@@ -8873,10 +8873,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "6열",
         "Seat_Number": 10,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 10,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "10",
+        "X": 24.207,
+        "Y": 38.697,
+        "Z": 5.963,
         "View_ID": "View_2F_A_6_10"
     },
     {
@@ -8885,10 +8885,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "7열",
         "Seat_Number": 1,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 1,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "1",
+        "X": 28.8,
+        "Y": 38.804,
+        "Z": 6.329,
         "View_ID": "View_2F_A_7_1"
     },
     {
@@ -8897,10 +8897,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "7열",
         "Seat_Number": 2,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 2,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "2",
+        "X": 28.291,
+        "Y": 38.896,
+        "Z": 6.329,
         "View_ID": "View_2F_A_7_2"
     },
     {
@@ -8909,10 +8909,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "7열",
         "Seat_Number": 3,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 3,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "3",
+        "X": 27.783,
+        "Y": 38.988,
+        "Z": 6.329,
         "View_ID": "View_2F_A_7_3"
     },
     {
@@ -8921,10 +8921,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "7열",
         "Seat_Number": 4,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 4,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "4",
+        "X": 27.274,
+        "Y": 39.08,
+        "Z": 6.329,
         "View_ID": "View_2F_A_7_4"
     },
     {
@@ -8933,10 +8933,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "7열",
         "Seat_Number": 5,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 5,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "5",
+        "X": 26.765,
+        "Y": 39.172,
+        "Z": 6.329,
         "View_ID": "View_2F_A_7_5"
     },
     {
@@ -8945,10 +8945,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "7열",
         "Seat_Number": 6,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 6,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "6",
+        "X": 26.256,
+        "Y": 39.264,
+        "Z": 6.329,
         "View_ID": "View_2F_A_7_6"
     },
     {
@@ -8957,10 +8957,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "7열",
         "Seat_Number": 7,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 7,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "7",
+        "X": 25.748,
+        "Y": 39.356,
+        "Z": 6.329,
         "View_ID": "View_2F_A_7_7"
     },
     {
@@ -8969,10 +8969,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "7열",
         "Seat_Number": 8,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 8,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "8",
+        "X": 25.239,
+        "Y": 39.448,
+        "Z": 6.329,
         "View_ID": "View_2F_A_7_8"
     },
     {
@@ -8981,10 +8981,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "7열",
         "Seat_Number": 9,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 9,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "9",
+        "X": 24.73,
+        "Y": 39.54,
+        "Z": 6.329,
         "View_ID": "View_2F_A_7_9"
     },
     {
@@ -8993,10 +8993,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "7열",
         "Seat_Number": 10,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 10,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "10",
+        "X": 24.221,
+        "Y": 39.631,
+        "Z": 6.329,
         "View_ID": "View_2F_A_7_10"
     },
     {
@@ -9005,10 +9005,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "8열",
         "Seat_Number": 1,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 1,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "1",
+        "X": 28.8,
+        "Y": 39.767,
+        "Z": 6.694,
         "View_ID": "View_2F_A_8_1"
     },
     {
@@ -9017,10 +9017,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "8열",
         "Seat_Number": 2,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 2,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "2",
+        "X": 28.293,
+        "Y": 39.856,
+        "Z": 6.694,
         "View_ID": "View_2F_A_8_2"
     },
     {
@@ -9029,10 +9029,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "8열",
         "Seat_Number": 3,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 3,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "3",
+        "X": 27.786,
+        "Y": 39.945,
+        "Z": 6.694,
         "View_ID": "View_2F_A_8_3"
     },
     {
@@ -9041,10 +9041,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "8열",
         "Seat_Number": 4,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 4,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "4",
+        "X": 27.279,
+        "Y": 40.033,
+        "Z": 6.694,
         "View_ID": "View_2F_A_8_4"
     },
     {
@@ -9053,10 +9053,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "8열",
         "Seat_Number": 5,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 5,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "5",
+        "X": 26.771,
+        "Y": 40.122,
+        "Z": 6.694,
         "View_ID": "View_2F_A_8_5"
     },
     {
@@ -9065,10 +9065,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "8열",
         "Seat_Number": 6,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 6,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "6",
+        "X": 26.264,
+        "Y": 40.211,
+        "Z": 6.694,
         "View_ID": "View_2F_A_8_6"
     },
     {
@@ -9077,10 +9077,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "8열",
         "Seat_Number": 7,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 7,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "7",
+        "X": 25.757,
+        "Y": 40.3,
+        "Z": 6.694,
         "View_ID": "View_2F_A_8_7"
     },
     {
@@ -9089,10 +9089,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "8열",
         "Seat_Number": 8,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 8,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "8",
+        "X": 25.25,
+        "Y": 40.388,
+        "Z": 6.694,
         "View_ID": "View_2F_A_8_8"
     },
     {
@@ -9101,10 +9101,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "8열",
         "Seat_Number": 9,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 9,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "9",
+        "X": 24.743,
+        "Y": 40.477,
+        "Z": 6.694,
         "View_ID": "View_2F_A_8_9"
     },
     {
@@ -9113,10 +9113,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "8열",
         "Seat_Number": 10,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 10,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "10",
+        "X": 24.236,
+        "Y": 40.566,
+        "Z": 6.694,
         "View_ID": "View_2F_A_8_10"
     },
     {
@@ -9125,10 +9125,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "9열",
         "Seat_Number": 1,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 1,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "1",
+        "X": 28.8,
+        "Y": 40.73,
+        "Z": 7.06,
         "View_ID": "View_2F_A_9_1"
     },
     {
@@ -9137,10 +9137,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "9열",
         "Seat_Number": 2,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 2,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "2",
+        "X": 28.294,
+        "Y": 40.816,
+        "Z": 7.06,
         "View_ID": "View_2F_A_9_2"
     },
     {
@@ -9149,10 +9149,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "9열",
         "Seat_Number": 3,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 3,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "3",
+        "X": 27.789,
+        "Y": 40.901,
+        "Z": 7.06,
         "View_ID": "View_2F_A_9_3"
     },
     {
@@ -9161,10 +9161,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "9열",
         "Seat_Number": 4,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 4,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "4",
+        "X": 27.283,
+        "Y": 40.987,
+        "Z": 7.06,
         "View_ID": "View_2F_A_9_4"
     },
     {
@@ -9173,10 +9173,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "9열",
         "Seat_Number": 5,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 5,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "5",
+        "X": 26.778,
+        "Y": 41.072,
+        "Z": 7.06,
         "View_ID": "View_2F_A_9_5"
     },
     {
@@ -9185,10 +9185,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "9열",
         "Seat_Number": 6,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 6,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "6",
+        "X": 26.272,
+        "Y": 41.158,
+        "Z": 7.06,
         "View_ID": "View_2F_A_9_6"
     },
     {
@@ -9197,10 +9197,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "9열",
         "Seat_Number": 7,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 7,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "7",
+        "X": 25.767,
+        "Y": 41.243,
+        "Z": 7.06,
         "View_ID": "View_2F_A_9_7"
     },
     {
@@ -9209,10 +9209,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "9열",
         "Seat_Number": 8,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 8,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "8",
+        "X": 25.261,
+        "Y": 41.329,
+        "Z": 7.06,
         "View_ID": "View_2F_A_9_8"
     },
     {
@@ -9221,10 +9221,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "9열",
         "Seat_Number": 9,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 9,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "9",
+        "X": 24.756,
+        "Y": 41.414,
+        "Z": 7.06,
         "View_ID": "View_2F_A_9_9"
     },
     {
@@ -9233,10 +9233,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "9열",
         "Seat_Number": 10,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 10,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "10",
+        "X": 24.25,
+        "Y": 41.5,
+        "Z": 7.06,
         "View_ID": "View_2F_A_9_10"
     },
     {
@@ -9245,10 +9245,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "1열",
         "Seat_Number": 1,
         "Seat_Type": "확장좌석27",
-        "Display_Text": 1,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "1",
+        "X": 22.39,
+        "Y": 34.27,
+        "Z": 3.93,
         "View_ID": "View_2F_B_1_1"
     },
     {
@@ -9257,10 +9257,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "1열",
         "Seat_Number": 2,
         "Seat_Type": "확장좌석27",
-        "Display_Text": 2,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "2",
+        "X": 21.702,
+        "Y": 34.262,
+        "Z": 3.93,
         "View_ID": "View_2F_B_1_2"
     },
     {
@@ -9269,10 +9269,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "1열",
         "Seat_Number": 3,
         "Seat_Type": "확장좌석27",
-        "Display_Text": 3,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "3",
+        "X": 21.014,
+        "Y": 34.254,
+        "Z": 3.93,
         "View_ID": "View_2F_B_1_3"
     },
     {
@@ -9281,10 +9281,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "1열",
         "Seat_Number": 4,
         "Seat_Type": "확장좌석27",
-        "Display_Text": 4,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "4",
+        "X": 20.326,
+        "Y": 34.246,
+        "Z": 3.93,
         "View_ID": "View_2F_B_1_4"
     },
     {
@@ -9293,10 +9293,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "1열",
         "Seat_Number": 5,
         "Seat_Type": "확장좌석27",
-        "Display_Text": 5,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "5",
+        "X": 19.638,
+        "Y": 34.238,
+        "Z": 3.93,
         "View_ID": "View_2F_B_1_5"
     },
     {
@@ -9305,10 +9305,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "1열",
         "Seat_Number": 6,
         "Seat_Type": "확장좌석27",
-        "Display_Text": 6,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "6",
+        "X": 18.95,
+        "Y": 34.23,
+        "Z": 3.93,
         "View_ID": "View_2F_B_1_6"
     },
     {
@@ -9317,10 +9317,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "1열",
         "Seat_Number": 7,
         "Seat_Type": "확장좌석27",
-        "Display_Text": 7,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "7",
+        "X": 18.262,
+        "Y": 34.222,
+        "Z": 3.93,
         "View_ID": "View_2F_B_1_7"
     },
     {
@@ -9329,10 +9329,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "1열",
         "Seat_Number": 8,
         "Seat_Type": "확장좌석27",
-        "Display_Text": 8,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "8",
+        "X": 17.574,
+        "Y": 34.214,
+        "Z": 3.93,
         "View_ID": "View_2F_B_1_8"
     },
     {
@@ -9341,10 +9341,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "1열",
         "Seat_Number": 9,
         "Seat_Type": "확장좌석27",
-        "Display_Text": 9,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "9",
+        "X": 16.886,
+        "Y": 34.206,
+        "Z": 3.93,
         "View_ID": "View_2F_B_1_9"
     },
     {
@@ -9353,10 +9353,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "1열",
         "Seat_Number": 10,
         "Seat_Type": "확장좌석27",
-        "Display_Text": 10,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "10",
+        "X": 16.198,
+        "Y": 34.198,
+        "Z": 3.93,
         "View_ID": "View_2F_B_1_10"
     },
     {
@@ -9365,10 +9365,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "1열",
         "Seat_Number": 11,
         "Seat_Type": "확장좌석27",
-        "Display_Text": 11,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "11",
+        "X": 15.51,
+        "Y": 34.19,
+        "Z": 3.93,
         "View_ID": "View_2F_B_1_11"
     },
     {
@@ -9377,10 +9377,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "1열",
         "Seat_Number": 12,
         "Seat_Type": "none",
-        "Display_Text": "",
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": NaN,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0,
         "View_ID": "View_2F_B_1_12"
     },
     {
@@ -9389,10 +9389,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "1열",
         "Seat_Number": 13,
         "Seat_Type": "none",
-        "Display_Text": "",
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": NaN,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0,
         "View_ID": "View_2F_B_1_13"
     },
     {
@@ -9401,10 +9401,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "1열",
         "Seat_Number": 14,
         "Seat_Type": "none",
-        "Display_Text": "",
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": NaN,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0,
         "View_ID": "View_2F_B_1_14"
     },
     {
@@ -9413,10 +9413,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "2열",
         "Seat_Number": 1,
         "Seat_Type": "확장좌석17",
-        "Display_Text": 1,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "1",
+        "X": 22.29,
+        "Y": 35.12,
+        "Z": 4.33,
         "View_ID": "View_2F_B_2_1"
     },
     {
@@ -9425,10 +9425,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "2열",
         "Seat_Number": 2,
         "Seat_Type": "확장좌석17",
-        "Display_Text": 2,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "2",
+        "X": 21.685,
+        "Y": 35.123,
+        "Z": 4.33,
         "View_ID": "View_2F_B_2_2"
     },
     {
@@ -9437,10 +9437,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "2열",
         "Seat_Number": 3,
         "Seat_Type": "확장좌석17",
-        "Display_Text": 3,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "3",
+        "X": 21.079,
+        "Y": 35.125,
+        "Z": 4.33,
         "View_ID": "View_2F_B_2_3"
     },
     {
@@ -9449,10 +9449,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "2열",
         "Seat_Number": 4,
         "Seat_Type": "확장좌석17",
-        "Display_Text": 4,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "4",
+        "X": 20.474,
+        "Y": 35.128,
+        "Z": 4.33,
         "View_ID": "View_2F_B_2_4"
     },
     {
@@ -9461,10 +9461,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "2열",
         "Seat_Number": 5,
         "Seat_Type": "확장좌석17",
-        "Display_Text": 5,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "5",
+        "X": 19.868,
+        "Y": 35.131,
+        "Z": 4.33,
         "View_ID": "View_2F_B_2_5"
     },
     {
@@ -9473,10 +9473,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "2열",
         "Seat_Number": 6,
         "Seat_Type": "확장좌석17",
-        "Display_Text": 6,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "6",
+        "X": 19.263,
+        "Y": 35.134,
+        "Z": 4.33,
         "View_ID": "View_2F_B_2_6"
     },
     {
@@ -9485,10 +9485,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "2열",
         "Seat_Number": 7,
         "Seat_Type": "확장좌석17",
-        "Display_Text": 7,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "7",
+        "X": 18.657,
+        "Y": 35.136,
+        "Z": 4.33,
         "View_ID": "View_2F_B_2_7"
     },
     {
@@ -9497,10 +9497,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "2열",
         "Seat_Number": 8,
         "Seat_Type": "확장좌석17",
-        "Display_Text": 8,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "8",
+        "X": 18.052,
+        "Y": 35.139,
+        "Z": 4.33,
         "View_ID": "View_2F_B_2_8"
     },
     {
@@ -9509,10 +9509,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "2열",
         "Seat_Number": 9,
         "Seat_Type": "확장좌석17",
-        "Display_Text": 9,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "9",
+        "X": 17.446,
+        "Y": 35.142,
+        "Z": 4.33,
         "View_ID": "View_2F_B_2_9"
     },
     {
@@ -9521,10 +9521,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "2열",
         "Seat_Number": 10,
         "Seat_Type": "확장좌석17",
-        "Display_Text": 10,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "10",
+        "X": 16.841,
+        "Y": 35.145,
+        "Z": 4.33,
         "View_ID": "View_2F_B_2_10"
     },
     {
@@ -9533,10 +9533,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "2열",
         "Seat_Number": 11,
         "Seat_Type": "확장좌석17",
-        "Display_Text": 11,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "11",
+        "X": 16.235,
+        "Y": 35.147,
+        "Z": 4.33,
         "View_ID": "View_2F_B_2_11"
     },
     {
@@ -9545,10 +9545,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "2열",
         "Seat_Number": 12,
         "Seat_Type": "확장좌석17",
-        "Display_Text": 12,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "12",
+        "X": 15.63,
+        "Y": 35.15,
+        "Z": 4.33,
         "View_ID": "View_2F_B_2_12"
     },
     {
@@ -9557,10 +9557,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "2열",
         "Seat_Number": 13,
         "Seat_Type": "none",
-        "Display_Text": "",
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": NaN,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0,
         "View_ID": "View_2F_B_2_13"
     },
     {
@@ -9569,10 +9569,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "2열",
         "Seat_Number": 14,
         "Seat_Type": "none",
-        "Display_Text": "",
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": NaN,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0,
         "View_ID": "View_2F_B_2_14"
     },
     {
@@ -9581,10 +9581,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "3열",
         "Seat_Number": 1,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 1,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "1",
+        "X": 22.4,
+        "Y": 36.01,
+        "Z": 4.8,
         "View_ID": "View_2F_B_3_1"
     },
     {
@@ -9593,10 +9593,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "3열",
         "Seat_Number": 2,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 2,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "2",
+        "X": 21.877,
+        "Y": 36.012,
+        "Z": 4.8,
         "View_ID": "View_2F_B_3_2"
     },
     {
@@ -9605,10 +9605,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "3열",
         "Seat_Number": 3,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 3,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "3",
+        "X": 21.354,
+        "Y": 36.013,
+        "Z": 4.8,
         "View_ID": "View_2F_B_3_3"
     },
     {
@@ -9617,10 +9617,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "3열",
         "Seat_Number": 4,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 4,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "4",
+        "X": 20.831,
+        "Y": 36.015,
+        "Z": 4.8,
         "View_ID": "View_2F_B_3_4"
     },
     {
@@ -9629,10 +9629,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "3열",
         "Seat_Number": 5,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 5,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "5",
+        "X": 20.308,
+        "Y": 36.016,
+        "Z": 4.8,
         "View_ID": "View_2F_B_3_5"
     },
     {
@@ -9641,10 +9641,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "3열",
         "Seat_Number": 6,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 6,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "6",
+        "X": 19.785,
+        "Y": 36.018,
+        "Z": 4.8,
         "View_ID": "View_2F_B_3_6"
     },
     {
@@ -9653,10 +9653,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "3열",
         "Seat_Number": 7,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 7,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "7",
+        "X": 19.262,
+        "Y": 36.019,
+        "Z": 4.8,
         "View_ID": "View_2F_B_3_7"
     },
     {
@@ -9665,10 +9665,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "3열",
         "Seat_Number": 8,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 8,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "8",
+        "X": 18.738,
+        "Y": 36.021,
+        "Z": 4.8,
         "View_ID": "View_2F_B_3_8"
     },
     {
@@ -9677,10 +9677,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "3열",
         "Seat_Number": 9,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 9,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "9",
+        "X": 18.215,
+        "Y": 36.022,
+        "Z": 4.8,
         "View_ID": "View_2F_B_3_9"
     },
     {
@@ -9689,10 +9689,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "3열",
         "Seat_Number": 10,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 10,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "10",
+        "X": 17.692,
+        "Y": 36.024,
+        "Z": 4.8,
         "View_ID": "View_2F_B_3_10"
     },
     {
@@ -9701,10 +9701,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "3열",
         "Seat_Number": 11,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 11,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "11",
+        "X": 17.169,
+        "Y": 36.025,
+        "Z": 4.8,
         "View_ID": "View_2F_B_3_11"
     },
     {
@@ -9713,10 +9713,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "3열",
         "Seat_Number": 12,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 12,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "12",
+        "X": 16.646,
+        "Y": 36.027,
+        "Z": 4.8,
         "View_ID": "View_2F_B_3_12"
     },
     {
@@ -9725,10 +9725,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "3열",
         "Seat_Number": 13,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 13,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "13",
+        "X": 16.123,
+        "Y": 36.028,
+        "Z": 4.8,
         "View_ID": "View_2F_B_3_13"
     },
     {
@@ -9737,10 +9737,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "3열",
         "Seat_Number": 14,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 14,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "14",
+        "X": 15.6,
+        "Y": 36.03,
+        "Z": 4.8,
         "View_ID": "View_2F_B_3_14"
     },
     {
@@ -9749,10 +9749,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "4열",
         "Seat_Number": 1,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 1,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "1",
+        "X": 22.418,
+        "Y": 36.958,
+        "Z": 5.22,
         "View_ID": "View_2F_B_4_1"
     },
     {
@@ -9761,10 +9761,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "4열",
         "Seat_Number": 2,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 2,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "2",
+        "X": 21.894,
+        "Y": 36.959,
+        "Z": 5.22,
         "View_ID": "View_2F_B_4_2"
     },
     {
@@ -9773,10 +9773,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "4열",
         "Seat_Number": 3,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 3,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "3",
+        "X": 21.369,
+        "Y": 36.96,
+        "Z": 5.22,
         "View_ID": "View_2F_B_4_3"
     },
     {
@@ -9785,10 +9785,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "4열",
         "Seat_Number": 4,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 4,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "4",
+        "X": 20.845,
+        "Y": 36.961,
+        "Z": 5.22,
         "View_ID": "View_2F_B_4_4"
     },
     {
@@ -9797,10 +9797,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "4열",
         "Seat_Number": 5,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 5,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "5",
+        "X": 20.321,
+        "Y": 36.962,
+        "Z": 5.22,
         "View_ID": "View_2F_B_4_5"
     },
     {
@@ -9809,10 +9809,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "4열",
         "Seat_Number": 6,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 6,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "6",
+        "X": 19.796,
+        "Y": 36.963,
+        "Z": 5.22,
         "View_ID": "View_2F_B_4_6"
     },
     {
@@ -9821,10 +9821,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "4열",
         "Seat_Number": 7,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 7,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "7",
+        "X": 19.272,
+        "Y": 36.964,
+        "Z": 5.22,
         "View_ID": "View_2F_B_4_7"
     },
     {
@@ -9833,10 +9833,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "4열",
         "Seat_Number": 8,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 8,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "8",
+        "X": 18.748,
+        "Y": 36.964,
+        "Z": 5.22,
         "View_ID": "View_2F_B_4_8"
     },
     {
@@ -9845,10 +9845,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "4열",
         "Seat_Number": 9,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 9,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "9",
+        "X": 18.224,
+        "Y": 36.965,
+        "Z": 5.22,
         "View_ID": "View_2F_B_4_9"
     },
     {
@@ -9857,10 +9857,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "4열",
         "Seat_Number": 10,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 10,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "10",
+        "X": 17.699,
+        "Y": 36.966,
+        "Z": 5.22,
         "View_ID": "View_2F_B_4_10"
     },
     {
@@ -9869,10 +9869,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "4열",
         "Seat_Number": 11,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 11,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "11",
+        "X": 17.175,
+        "Y": 36.967,
+        "Z": 5.22,
         "View_ID": "View_2F_B_4_11"
     },
     {
@@ -9881,10 +9881,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "4열",
         "Seat_Number": 12,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 12,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "12",
+        "X": 16.651,
+        "Y": 36.968,
+        "Z": 5.22,
         "View_ID": "View_2F_B_4_12"
     },
     {
@@ -9893,10 +9893,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "4열",
         "Seat_Number": 13,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 13,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "13",
+        "X": 16.126,
+        "Y": 36.969,
+        "Z": 5.22,
         "View_ID": "View_2F_B_4_13"
     },
     {
@@ -9905,10 +9905,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "4열",
         "Seat_Number": 14,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 14,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "14",
+        "X": 15.602,
+        "Y": 36.97,
+        "Z": 5.22,
         "View_ID": "View_2F_B_4_14"
     },
     {
@@ -9917,10 +9917,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "5열",
         "Seat_Number": 1,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 1,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "1",
+        "X": 22.436,
+        "Y": 37.906,
+        "Z": 5.64,
         "View_ID": "View_2F_B_5_1"
     },
     {
@@ -9929,10 +9929,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "5열",
         "Seat_Number": 2,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 2,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "2",
+        "X": 21.91,
+        "Y": 37.906,
+        "Z": 5.64,
         "View_ID": "View_2F_B_5_2"
     },
     {
@@ -9941,10 +9941,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "5열",
         "Seat_Number": 3,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 3,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "3",
+        "X": 21.385,
+        "Y": 37.907,
+        "Z": 5.64,
         "View_ID": "View_2F_B_5_3"
     },
     {
@@ -9953,10 +9953,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "5열",
         "Seat_Number": 4,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 4,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "4",
+        "X": 20.859,
+        "Y": 37.907,
+        "Z": 5.64,
         "View_ID": "View_2F_B_5_4"
     },
     {
@@ -9965,10 +9965,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "5열",
         "Seat_Number": 5,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 5,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "5",
+        "X": 20.334,
+        "Y": 37.907,
+        "Z": 5.64,
         "View_ID": "View_2F_B_5_5"
     },
     {
@@ -9977,10 +9977,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "5열",
         "Seat_Number": 6,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 6,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "6",
+        "X": 19.808,
+        "Y": 37.908,
+        "Z": 5.64,
         "View_ID": "View_2F_B_5_6"
     },
     {
@@ -9989,10 +9989,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "5열",
         "Seat_Number": 7,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 7,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "7",
+        "X": 19.283,
+        "Y": 37.908,
+        "Z": 5.64,
         "View_ID": "View_2F_B_5_7"
     },
     {
@@ -10001,10 +10001,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "5열",
         "Seat_Number": 8,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 8,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "8",
+        "X": 18.757,
+        "Y": 37.908,
+        "Z": 5.64,
         "View_ID": "View_2F_B_5_8"
     },
     {
@@ -10013,10 +10013,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "5열",
         "Seat_Number": 9,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 9,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "9",
+        "X": 18.232,
+        "Y": 37.908,
+        "Z": 5.64,
         "View_ID": "View_2F_B_5_9"
     },
     {
@@ -10025,10 +10025,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "5열",
         "Seat_Number": 10,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 10,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "10",
+        "X": 17.706,
+        "Y": 37.909,
+        "Z": 5.64,
         "View_ID": "View_2F_B_5_10"
     },
     {
@@ -10037,10 +10037,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "5열",
         "Seat_Number": 11,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 11,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "11",
+        "X": 17.181,
+        "Y": 37.909,
+        "Z": 5.64,
         "View_ID": "View_2F_B_5_11"
     },
     {
@@ -10049,10 +10049,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "5열",
         "Seat_Number": 12,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 12,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "12",
+        "X": 16.655,
+        "Y": 37.909,
+        "Z": 5.64,
         "View_ID": "View_2F_B_5_12"
     },
     {
@@ -10061,10 +10061,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "5열",
         "Seat_Number": 13,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 13,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "13",
+        "X": 16.13,
+        "Y": 37.91,
+        "Z": 5.64,
         "View_ID": "View_2F_B_5_13"
     },
     {
@@ -10073,10 +10073,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "5열",
         "Seat_Number": 14,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 14,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "14",
+        "X": 15.604,
+        "Y": 37.91,
+        "Z": 5.64,
         "View_ID": "View_2F_B_5_14"
     },
     {
@@ -10085,10 +10085,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "6열",
         "Seat_Number": 1,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 1,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "1",
+        "X": 22.454,
+        "Y": 38.854,
+        "Z": 6.06,
         "View_ID": "View_2F_B_6_1"
     },
     {
@@ -10097,10 +10097,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "6열",
         "Seat_Number": 2,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 2,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "2",
+        "X": 21.927,
+        "Y": 38.854,
+        "Z": 6.06,
         "View_ID": "View_2F_B_6_2"
     },
     {
@@ -10109,10 +10109,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "6열",
         "Seat_Number": 3,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 3,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "3",
+        "X": 21.4,
+        "Y": 38.853,
+        "Z": 6.06,
         "View_ID": "View_2F_B_6_3"
     },
     {
@@ -10121,10 +10121,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "6열",
         "Seat_Number": 4,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 4,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "4",
+        "X": 20.874,
+        "Y": 38.853,
+        "Z": 6.06,
         "View_ID": "View_2F_B_6_4"
     },
     {
@@ -10133,10 +10133,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "6열",
         "Seat_Number": 5,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 5,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "5",
+        "X": 20.347,
+        "Y": 38.853,
+        "Z": 6.06,
         "View_ID": "View_2F_B_6_5"
     },
     {
@@ -10145,10 +10145,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "6열",
         "Seat_Number": 6,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 6,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "6",
+        "X": 19.82,
+        "Y": 38.852,
+        "Z": 6.06,
         "View_ID": "View_2F_B_6_6"
     },
     {
@@ -10157,10 +10157,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "6열",
         "Seat_Number": 7,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 7,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "7",
+        "X": 19.293,
+        "Y": 38.852,
+        "Z": 6.06,
         "View_ID": "View_2F_B_6_7"
     },
     {
@@ -10169,10 +10169,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "6열",
         "Seat_Number": 8,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 8,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "8",
+        "X": 18.767,
+        "Y": 38.852,
+        "Z": 6.06,
         "View_ID": "View_2F_B_6_8"
     },
     {
@@ -10181,10 +10181,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "6열",
         "Seat_Number": 9,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 9,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "9",
+        "X": 18.24,
+        "Y": 38.852,
+        "Z": 6.06,
         "View_ID": "View_2F_B_6_9"
     },
     {
@@ -10193,10 +10193,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "6열",
         "Seat_Number": 10,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 10,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "10",
+        "X": 17.713,
+        "Y": 38.851,
+        "Z": 6.06,
         "View_ID": "View_2F_B_6_10"
     },
     {
@@ -10205,10 +10205,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "6열",
         "Seat_Number": 11,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 11,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "11",
+        "X": 17.186,
+        "Y": 38.851,
+        "Z": 6.06,
         "View_ID": "View_2F_B_6_11"
     },
     {
@@ -10217,10 +10217,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "6열",
         "Seat_Number": 12,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 12,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "12",
+        "X": 16.66,
+        "Y": 38.851,
+        "Z": 6.06,
         "View_ID": "View_2F_B_6_12"
     },
     {
@@ -10229,10 +10229,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "6열",
         "Seat_Number": 13,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 13,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "13",
+        "X": 16.133,
+        "Y": 38.85,
+        "Z": 6.06,
         "View_ID": "View_2F_B_6_13"
     },
     {
@@ -10241,10 +10241,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "6열",
         "Seat_Number": 14,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 14,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "14",
+        "X": 15.606,
+        "Y": 38.85,
+        "Z": 6.06,
         "View_ID": "View_2F_B_6_14"
     },
     {
@@ -10253,10 +10253,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "7열",
         "Seat_Number": 1,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 1,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "1",
+        "X": 22.472,
+        "Y": 39.802,
+        "Z": 6.48,
         "View_ID": "View_2F_B_7_1"
     },
     {
@@ -10265,10 +10265,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "7열",
         "Seat_Number": 2,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 2,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "2",
+        "X": 21.944,
+        "Y": 39.801,
+        "Z": 6.48,
         "View_ID": "View_2F_B_7_2"
     },
     {
@@ -10277,10 +10277,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "7열",
         "Seat_Number": 3,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 3,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "3",
+        "X": 21.416,
+        "Y": 39.8,
+        "Z": 6.48,
         "View_ID": "View_2F_B_7_3"
     },
     {
@@ -10289,10 +10289,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "7열",
         "Seat_Number": 4,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 4,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "4",
+        "X": 20.888,
+        "Y": 39.799,
+        "Z": 6.48,
         "View_ID": "View_2F_B_7_4"
     },
     {
@@ -10301,10 +10301,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "7열",
         "Seat_Number": 5,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 5,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "5",
+        "X": 20.36,
+        "Y": 39.798,
+        "Z": 6.48,
         "View_ID": "View_2F_B_7_5"
     },
     {
@@ -10313,10 +10313,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "7열",
         "Seat_Number": 6,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 6,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "6",
+        "X": 19.832,
+        "Y": 39.797,
+        "Z": 6.48,
         "View_ID": "View_2F_B_7_6"
     },
     {
@@ -10325,10 +10325,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "7열",
         "Seat_Number": 7,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 7,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "7",
+        "X": 19.304,
+        "Y": 39.796,
+        "Z": 6.48,
         "View_ID": "View_2F_B_7_7"
     },
     {
@@ -10337,10 +10337,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "7열",
         "Seat_Number": 8,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 8,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "8",
+        "X": 18.776,
+        "Y": 39.796,
+        "Z": 6.48,
         "View_ID": "View_2F_B_7_8"
     },
     {
@@ -10349,10 +10349,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "7열",
         "Seat_Number": 9,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 9,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "9",
+        "X": 18.248,
+        "Y": 39.795,
+        "Z": 6.48,
         "View_ID": "View_2F_B_7_9"
     },
     {
@@ -10361,10 +10361,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "7열",
         "Seat_Number": 10,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 10,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "10",
+        "X": 17.72,
+        "Y": 39.794,
+        "Z": 6.48,
         "View_ID": "View_2F_B_7_10"
     },
     {
@@ -10373,10 +10373,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "7열",
         "Seat_Number": 11,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 11,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "11",
+        "X": 17.192,
+        "Y": 39.793,
+        "Z": 6.48,
         "View_ID": "View_2F_B_7_11"
     },
     {
@@ -10385,10 +10385,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "7열",
         "Seat_Number": 12,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 12,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "12",
+        "X": 16.664,
+        "Y": 39.792,
+        "Z": 6.48,
         "View_ID": "View_2F_B_7_12"
     },
     {
@@ -10397,10 +10397,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "7열",
         "Seat_Number": 13,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 13,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "13",
+        "X": 16.136,
+        "Y": 39.791,
+        "Z": 6.48,
         "View_ID": "View_2F_B_7_13"
     },
     {
@@ -10409,10 +10409,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "7열",
         "Seat_Number": 14,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 14,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "14",
+        "X": 15.608,
+        "Y": 39.79,
+        "Z": 6.48,
         "View_ID": "View_2F_B_7_14"
     },
     {
@@ -10421,10 +10421,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "8열",
         "Seat_Number": 1,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 1,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "1",
+        "X": 22.49,
+        "Y": 40.75,
+        "Z": 6.9,
         "View_ID": "View_2F_B_8_1"
     },
     {
@@ -10433,10 +10433,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "8열",
         "Seat_Number": 2,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 2,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "2",
+        "X": 21.961,
+        "Y": 40.748,
+        "Z": 6.9,
         "View_ID": "View_2F_B_8_2"
     },
     {
@@ -10445,10 +10445,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "8열",
         "Seat_Number": 3,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 3,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "3",
+        "X": 21.432,
+        "Y": 40.747,
+        "Z": 6.9,
         "View_ID": "View_2F_B_8_3"
     },
     {
@@ -10457,10 +10457,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "8열",
         "Seat_Number": 4,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 4,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "4",
+        "X": 20.902,
+        "Y": 40.745,
+        "Z": 6.9,
         "View_ID": "View_2F_B_8_4"
     },
     {
@@ -10469,10 +10469,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "8열",
         "Seat_Number": 5,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 5,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "5",
+        "X": 20.373,
+        "Y": 40.744,
+        "Z": 6.9,
         "View_ID": "View_2F_B_8_5"
     },
     {
@@ -10481,10 +10481,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "8열",
         "Seat_Number": 6,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 6,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "6",
+        "X": 19.844,
+        "Y": 40.742,
+        "Z": 6.9,
         "View_ID": "View_2F_B_8_6"
     },
     {
@@ -10493,10 +10493,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "8열",
         "Seat_Number": 7,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 7,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "7",
+        "X": 19.315,
+        "Y": 40.741,
+        "Z": 6.9,
         "View_ID": "View_2F_B_8_7"
     },
     {
@@ -10505,10 +10505,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "8열",
         "Seat_Number": 8,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 8,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "8",
+        "X": 18.785,
+        "Y": 40.739,
+        "Z": 6.9,
         "View_ID": "View_2F_B_8_8"
     },
     {
@@ -10517,10 +10517,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "8열",
         "Seat_Number": 9,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 9,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "9",
+        "X": 18.256,
+        "Y": 40.738,
+        "Z": 6.9,
         "View_ID": "View_2F_B_8_9"
     },
     {
@@ -10529,10 +10529,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "8열",
         "Seat_Number": 10,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 10,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "10",
+        "X": 17.727,
+        "Y": 40.736,
+        "Z": 6.9,
         "View_ID": "View_2F_B_8_10"
     },
     {
@@ -10541,10 +10541,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "8열",
         "Seat_Number": 11,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 11,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "11",
+        "X": 17.198,
+        "Y": 40.735,
+        "Z": 6.9,
         "View_ID": "View_2F_B_8_11"
     },
     {
@@ -10553,10 +10553,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "8열",
         "Seat_Number": 12,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 12,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "12",
+        "X": 16.668,
+        "Y": 40.733,
+        "Z": 6.9,
         "View_ID": "View_2F_B_8_12"
     },
     {
@@ -10565,10 +10565,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "8열",
         "Seat_Number": 13,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 13,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "13",
+        "X": 16.139,
+        "Y": 40.732,
+        "Z": 6.9,
         "View_ID": "View_2F_B_8_13"
     },
     {
@@ -10577,10 +10577,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "8열",
         "Seat_Number": 14,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 14,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "14",
+        "X": 15.61,
+        "Y": 40.73,
+        "Z": 6.9,
         "View_ID": "View_2F_B_8_14"
     },
     {
@@ -10589,10 +10589,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "9열",
         "Seat_Number": 1,
         "Seat_Type": "none",
-        "Display_Text": "",
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": NaN,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0,
         "View_ID": "View_2F_B_9_1"
     },
     {
@@ -10601,10 +10601,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "9열",
         "Seat_Number": 2,
         "Seat_Type": "none",
-        "Display_Text": "",
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": NaN,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0,
         "View_ID": "View_2F_B_9_2"
     },
     {
@@ -10613,10 +10613,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "9열",
         "Seat_Number": 3,
         "Seat_Type": "none",
-        "Display_Text": "",
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": NaN,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0,
         "View_ID": "View_2F_B_9_3"
     },
     {
@@ -10625,10 +10625,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "9열",
         "Seat_Number": 4,
         "Seat_Type": "none",
-        "Display_Text": "",
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": NaN,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0,
         "View_ID": "View_2F_B_9_4"
     },
     {
@@ -10637,10 +10637,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "9열",
         "Seat_Number": 5,
         "Seat_Type": "none",
-        "Display_Text": "",
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": NaN,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0,
         "View_ID": "View_2F_B_9_5"
     },
     {
@@ -10649,10 +10649,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "9열",
         "Seat_Number": 6,
         "Seat_Type": "none",
-        "Display_Text": "",
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": NaN,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0,
         "View_ID": "View_2F_B_9_6"
     },
     {
@@ -10661,10 +10661,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "9열",
         "Seat_Number": 7,
         "Seat_Type": "none",
-        "Display_Text": "",
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": NaN,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0,
         "View_ID": "View_2F_B_9_7"
     },
     {
@@ -10673,10 +10673,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "9열",
         "Seat_Number": 8,
         "Seat_Type": "none",
-        "Display_Text": "",
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": NaN,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0,
         "View_ID": "View_2F_B_9_8"
     },
     {
@@ -10685,10 +10685,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "9열",
         "Seat_Number": 9,
         "Seat_Type": "none",
-        "Display_Text": "",
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": NaN,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0,
         "View_ID": "View_2F_B_9_9"
     },
     {
@@ -10697,10 +10697,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "9열",
         "Seat_Number": 10,
         "Seat_Type": "none",
-        "Display_Text": "",
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": NaN,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0,
         "View_ID": "View_2F_B_9_10"
     },
     {
@@ -10709,10 +10709,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "9열",
         "Seat_Number": 11,
         "Seat_Type": "none",
-        "Display_Text": "",
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": NaN,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0,
         "View_ID": "View_2F_B_9_11"
     },
     {
@@ -10721,10 +10721,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "9열",
         "Seat_Number": 12,
         "Seat_Type": "none",
-        "Display_Text": "",
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": NaN,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0,
         "View_ID": "View_2F_B_9_12"
     },
     {
@@ -10733,10 +10733,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "9열",
         "Seat_Number": 13,
         "Seat_Type": "none",
-        "Display_Text": "",
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": NaN,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0,
         "View_ID": "View_2F_B_9_13"
     },
     {
@@ -10745,10 +10745,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "9열",
         "Seat_Number": 14,
         "Seat_Type": "none",
-        "Display_Text": "",
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": NaN,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0,
         "View_ID": "View_2F_B_9_14"
     },
     {
@@ -10757,10 +10757,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "1열",
         "Seat_Number": 1,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 1,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "1",
+        "X": 13.8,
+        "Y": 34.03,
+        "Z": 4.0,
         "View_ID": "View_2F_C_1_1"
     },
     {
@@ -10769,10 +10769,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "1열",
         "Seat_Number": 2,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 2,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "2",
+        "X": 13.3,
+        "Y": 33.919,
+        "Z": 4.0,
         "View_ID": "View_2F_C_1_2"
     },
     {
@@ -10781,10 +10781,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "1열",
         "Seat_Number": 3,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 3,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "3",
+        "X": 12.8,
+        "Y": 33.808,
+        "Z": 4.0,
         "View_ID": "View_2F_C_1_3"
     },
     {
@@ -10793,10 +10793,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "1열",
         "Seat_Number": 4,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 4,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "4",
+        "X": 12.3,
+        "Y": 33.696,
+        "Z": 4.0,
         "View_ID": "View_2F_C_1_4"
     },
     {
@@ -10805,10 +10805,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "1열",
         "Seat_Number": 5,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 5,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "5",
+        "X": 11.8,
+        "Y": 33.585,
+        "Z": 4.0,
         "View_ID": "View_2F_C_1_5"
     },
     {
@@ -10817,10 +10817,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "1열",
         "Seat_Number": 6,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 6,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "6",
+        "X": 11.3,
+        "Y": 33.474,
+        "Z": 4.0,
         "View_ID": "View_2F_C_1_6"
     },
     {
@@ -10829,10 +10829,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "1열",
         "Seat_Number": 7,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 7,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "7",
+        "X": 10.8,
+        "Y": 33.362,
+        "Z": 4.0,
         "View_ID": "View_2F_C_1_7"
     },
     {
@@ -10841,10 +10841,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "1열",
         "Seat_Number": 8,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 8,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "8",
+        "X": 10.3,
+        "Y": 33.251,
+        "Z": 4.0,
         "View_ID": "View_2F_C_1_8"
     },
     {
@@ -10853,10 +10853,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "1열",
         "Seat_Number": 9,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 9,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "9",
+        "X": 9.8,
+        "Y": 33.14,
+        "Z": 4.0,
         "View_ID": "View_2F_C_1_9"
     },
     {
@@ -10865,10 +10865,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "1열",
         "Seat_Number": 10,
         "Seat_Type": "none",
-        "Display_Text": "",
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": NaN,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0,
         "View_ID": "View_2F_C_1_10"
     },
     {
@@ -10877,10 +10877,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "2열",
         "Seat_Number": 1,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 1,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "1",
+        "X": 13.8,
+        "Y": 34.88,
+        "Z": 4.3,
         "View_ID": "View_2F_C_2_1"
     },
     {
@@ -10889,10 +10889,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "2열",
         "Seat_Number": 2,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 2,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "2",
+        "X": 13.3,
+        "Y": 34.781,
+        "Z": 4.3,
         "View_ID": "View_2F_C_2_2"
     },
     {
@@ -10901,10 +10901,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "2열",
         "Seat_Number": 3,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 3,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "3",
+        "X": 12.8,
+        "Y": 34.682,
+        "Z": 4.3,
         "View_ID": "View_2F_C_2_3"
     },
     {
@@ -10913,10 +10913,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "2열",
         "Seat_Number": 4,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 4,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "4",
+        "X": 12.3,
+        "Y": 34.583,
+        "Z": 4.3,
         "View_ID": "View_2F_C_2_4"
     },
     {
@@ -10925,10 +10925,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "2열",
         "Seat_Number": 5,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 5,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "5",
+        "X": 11.8,
+        "Y": 34.484,
+        "Z": 4.3,
         "View_ID": "View_2F_C_2_5"
     },
     {
@@ -10937,10 +10937,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "2열",
         "Seat_Number": 6,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 6,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "6",
+        "X": 11.3,
+        "Y": 34.386,
+        "Z": 4.3,
         "View_ID": "View_2F_C_2_6"
     },
     {
@@ -10949,10 +10949,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "2열",
         "Seat_Number": 7,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 7,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "7",
+        "X": 10.8,
+        "Y": 34.287,
+        "Z": 4.3,
         "View_ID": "View_2F_C_2_7"
     },
     {
@@ -10961,10 +10961,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "2열",
         "Seat_Number": 8,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 8,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "8",
+        "X": 10.3,
+        "Y": 34.188,
+        "Z": 4.3,
         "View_ID": "View_2F_C_2_8"
     },
     {
@@ -10973,10 +10973,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "2열",
         "Seat_Number": 9,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 9,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "9",
+        "X": 9.8,
+        "Y": 34.089,
+        "Z": 4.3,
         "View_ID": "View_2F_C_2_9"
     },
     {
@@ -10985,10 +10985,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "2열",
         "Seat_Number": 10,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 10,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "10",
+        "X": 9.3,
+        "Y": 33.99,
+        "Z": 4.3,
         "View_ID": "View_2F_C_2_10"
     },
     {
@@ -10997,10 +10997,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "3열",
         "Seat_Number": 1,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 1,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "1",
+        "X": 13.776,
+        "Y": 35.821,
+        "Z": 4.694,
         "View_ID": "View_2F_C_3_1"
     },
     {
@@ -11009,10 +11009,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "3열",
         "Seat_Number": 2,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 2,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "2",
+        "X": 13.277,
+        "Y": 35.725,
+        "Z": 4.694,
         "View_ID": "View_2F_C_3_2"
     },
     {
@@ -11021,10 +11021,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "3열",
         "Seat_Number": 3,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 3,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "3",
+        "X": 12.778,
+        "Y": 35.628,
+        "Z": 4.694,
         "View_ID": "View_2F_C_3_3"
     },
     {
@@ -11033,10 +11033,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "3열",
         "Seat_Number": 4,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 4,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "4",
+        "X": 12.279,
+        "Y": 35.531,
+        "Z": 4.694,
         "View_ID": "View_2F_C_3_4"
     },
     {
@@ -11045,10 +11045,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "3열",
         "Seat_Number": 5,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 5,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "5",
+        "X": 11.78,
+        "Y": 35.434,
+        "Z": 4.694,
         "View_ID": "View_2F_C_3_5"
     },
     {
@@ -11057,10 +11057,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "3열",
         "Seat_Number": 6,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 6,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "6",
+        "X": 11.28,
+        "Y": 35.337,
+        "Z": 4.694,
         "View_ID": "View_2F_C_3_6"
     },
     {
@@ -11069,10 +11069,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "3열",
         "Seat_Number": 7,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 7,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "7",
+        "X": 10.781,
+        "Y": 35.24,
+        "Z": 4.694,
         "View_ID": "View_2F_C_3_7"
     },
     {
@@ -11081,10 +11081,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "3열",
         "Seat_Number": 8,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 8,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "8",
+        "X": 10.282,
+        "Y": 35.144,
+        "Z": 4.694,
         "View_ID": "View_2F_C_3_8"
     },
     {
@@ -11093,10 +11093,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "3열",
         "Seat_Number": 9,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 9,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "9",
+        "X": 9.783,
+        "Y": 35.047,
+        "Z": 4.694,
         "View_ID": "View_2F_C_3_9"
     },
     {
@@ -11105,10 +11105,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "3열",
         "Seat_Number": 10,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 10,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "10",
+        "X": 9.284,
+        "Y": 34.95,
+        "Z": 4.694,
         "View_ID": "View_2F_C_3_10"
     },
     {
@@ -11117,10 +11117,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "4열",
         "Seat_Number": 1,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 1,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "1",
+        "X": 13.751,
+        "Y": 36.763,
+        "Z": 5.089,
         "View_ID": "View_2F_C_4_1"
     },
     {
@@ -11129,10 +11129,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "4열",
         "Seat_Number": 2,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 2,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "2",
+        "X": 13.253,
+        "Y": 36.668,
+        "Z": 5.089,
         "View_ID": "View_2F_C_4_2"
     },
     {
@@ -11141,10 +11141,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "4열",
         "Seat_Number": 3,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 3,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "3",
+        "X": 12.755,
+        "Y": 36.573,
+        "Z": 5.089,
         "View_ID": "View_2F_C_4_3"
     },
     {
@@ -11153,10 +11153,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "4열",
         "Seat_Number": 4,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 4,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "4",
+        "X": 12.257,
+        "Y": 36.479,
+        "Z": 5.089,
         "View_ID": "View_2F_C_4_4"
     },
     {
@@ -11165,10 +11165,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "4열",
         "Seat_Number": 5,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 5,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "5",
+        "X": 11.759,
+        "Y": 36.384,
+        "Z": 5.089,
         "View_ID": "View_2F_C_4_5"
     },
     {
@@ -11177,10 +11177,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "4열",
         "Seat_Number": 6,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 6,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "6",
+        "X": 11.261,
+        "Y": 36.289,
+        "Z": 5.089,
         "View_ID": "View_2F_C_4_6"
     },
     {
@@ -11189,10 +11189,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "4열",
         "Seat_Number": 7,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 7,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "7",
+        "X": 10.763,
+        "Y": 36.194,
+        "Z": 5.089,
         "View_ID": "View_2F_C_4_7"
     },
     {
@@ -11201,10 +11201,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "4열",
         "Seat_Number": 8,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 8,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "8",
+        "X": 10.265,
+        "Y": 36.1,
+        "Z": 5.089,
         "View_ID": "View_2F_C_4_8"
     },
     {
@@ -11213,10 +11213,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "4열",
         "Seat_Number": 9,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 9,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "9",
+        "X": 9.767,
+        "Y": 36.005,
+        "Z": 5.089,
         "View_ID": "View_2F_C_4_9"
     },
     {
@@ -11225,10 +11225,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "4열",
         "Seat_Number": 10,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 10,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "10",
+        "X": 9.269,
+        "Y": 35.91,
+        "Z": 5.089,
         "View_ID": "View_2F_C_4_10"
     },
     {
@@ -11237,10 +11237,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "5열",
         "Seat_Number": 1,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 1,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "1",
+        "X": 13.727,
+        "Y": 37.704,
+        "Z": 5.483,
         "View_ID": "View_2F_C_5_1"
     },
     {
@@ -11249,10 +11249,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "5열",
         "Seat_Number": 2,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 2,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "2",
+        "X": 13.23,
+        "Y": 37.612,
+        "Z": 5.483,
         "View_ID": "View_2F_C_5_2"
     },
     {
@@ -11261,10 +11261,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "5열",
         "Seat_Number": 3,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 3,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "3",
+        "X": 12.733,
+        "Y": 37.519,
+        "Z": 5.483,
         "View_ID": "View_2F_C_5_3"
     },
     {
@@ -11273,10 +11273,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "5열",
         "Seat_Number": 4,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 4,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "4",
+        "X": 12.236,
+        "Y": 37.426,
+        "Z": 5.483,
         "View_ID": "View_2F_C_5_4"
     },
     {
@@ -11285,10 +11285,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "5열",
         "Seat_Number": 5,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 5,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "5",
+        "X": 11.739,
+        "Y": 37.333,
+        "Z": 5.483,
         "View_ID": "View_2F_C_5_5"
     },
     {
@@ -11297,10 +11297,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "5열",
         "Seat_Number": 6,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 6,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "6",
+        "X": 11.241,
+        "Y": 37.241,
+        "Z": 5.483,
         "View_ID": "View_2F_C_5_6"
     },
     {
@@ -11309,10 +11309,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "5열",
         "Seat_Number": 7,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 7,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "7",
+        "X": 10.744,
+        "Y": 37.148,
+        "Z": 5.483,
         "View_ID": "View_2F_C_5_7"
     },
     {
@@ -11321,10 +11321,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "5열",
         "Seat_Number": 8,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 8,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "8",
+        "X": 10.247,
+        "Y": 37.055,
+        "Z": 5.483,
         "View_ID": "View_2F_C_5_8"
     },
     {
@@ -11333,10 +11333,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "5열",
         "Seat_Number": 9,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 9,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "9",
+        "X": 9.75,
+        "Y": 36.963,
+        "Z": 5.483,
         "View_ID": "View_2F_C_5_9"
     },
     {
@@ -11345,10 +11345,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "5열",
         "Seat_Number": 10,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 10,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "10",
+        "X": 9.253,
+        "Y": 36.87,
+        "Z": 5.483,
         "View_ID": "View_2F_C_5_10"
     },
     {
@@ -11357,10 +11357,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "6열",
         "Seat_Number": 1,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 1,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "1",
+        "X": 13.703,
+        "Y": 38.646,
+        "Z": 5.877,
         "View_ID": "View_2F_C_6_1"
     },
     {
@@ -11369,10 +11369,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "6열",
         "Seat_Number": 2,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 2,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "2",
+        "X": 13.207,
+        "Y": 38.555,
+        "Z": 5.877,
         "View_ID": "View_2F_C_6_2"
     },
     {
@@ -11381,10 +11381,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "6열",
         "Seat_Number": 3,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 3,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "3",
+        "X": 12.71,
+        "Y": 38.464,
+        "Z": 5.877,
         "View_ID": "View_2F_C_6_3"
     },
     {
@@ -11393,10 +11393,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "6열",
         "Seat_Number": 4,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 4,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "4",
+        "X": 12.214,
+        "Y": 38.374,
+        "Z": 5.877,
         "View_ID": "View_2F_C_6_4"
     },
     {
@@ -11405,10 +11405,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "6열",
         "Seat_Number": 5,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 5,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "5",
+        "X": 11.718,
+        "Y": 38.283,
+        "Z": 5.877,
         "View_ID": "View_2F_C_6_5"
     },
     {
@@ -11417,10 +11417,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "6열",
         "Seat_Number": 6,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 6,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "6",
+        "X": 11.222,
+        "Y": 38.193,
+        "Z": 5.877,
         "View_ID": "View_2F_C_6_6"
     },
     {
@@ -11429,10 +11429,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "6열",
         "Seat_Number": 7,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 7,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "7",
+        "X": 10.726,
+        "Y": 38.102,
+        "Z": 5.877,
         "View_ID": "View_2F_C_6_7"
     },
     {
@@ -11441,10 +11441,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "6열",
         "Seat_Number": 8,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 8,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "8",
+        "X": 10.23,
+        "Y": 38.011,
+        "Z": 5.877,
         "View_ID": "View_2F_C_6_8"
     },
     {
@@ -11453,10 +11453,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "6열",
         "Seat_Number": 9,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 9,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "9",
+        "X": 9.733,
+        "Y": 37.921,
+        "Z": 5.877,
         "View_ID": "View_2F_C_6_9"
     },
     {
@@ -11465,10 +11465,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "6열",
         "Seat_Number": 10,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 10,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "10",
+        "X": 9.237,
+        "Y": 37.83,
+        "Z": 5.877,
         "View_ID": "View_2F_C_6_10"
     },
     {
@@ -11477,10 +11477,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "7열",
         "Seat_Number": 1,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 1,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "1",
+        "X": 13.679,
+        "Y": 39.587,
+        "Z": 6.271,
         "View_ID": "View_2F_C_7_1"
     },
     {
@@ -11489,10 +11489,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "7열",
         "Seat_Number": 2,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 2,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "2",
+        "X": 13.183,
+        "Y": 39.499,
+        "Z": 6.271,
         "View_ID": "View_2F_C_7_2"
     },
     {
@@ -11501,10 +11501,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "7열",
         "Seat_Number": 3,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 3,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "3",
+        "X": 12.688,
+        "Y": 39.41,
+        "Z": 6.271,
         "View_ID": "View_2F_C_7_3"
     },
     {
@@ -11513,10 +11513,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "7열",
         "Seat_Number": 4,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 4,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "4",
+        "X": 12.193,
+        "Y": 39.321,
+        "Z": 6.271,
         "View_ID": "View_2F_C_7_4"
     },
     {
@@ -11525,10 +11525,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "7열",
         "Seat_Number": 5,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 5,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "5",
+        "X": 11.698,
+        "Y": 39.233,
+        "Z": 6.271,
         "View_ID": "View_2F_C_7_5"
     },
     {
@@ -11537,10 +11537,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "7열",
         "Seat_Number": 6,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 6,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "6",
+        "X": 11.202,
+        "Y": 39.144,
+        "Z": 6.271,
         "View_ID": "View_2F_C_7_6"
     },
     {
@@ -11549,10 +11549,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "7열",
         "Seat_Number": 7,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 7,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "7",
+        "X": 10.707,
+        "Y": 39.056,
+        "Z": 6.271,
         "View_ID": "View_2F_C_7_7"
     },
     {
@@ -11561,10 +11561,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "7열",
         "Seat_Number": 8,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 8,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "8",
+        "X": 10.212,
+        "Y": 38.967,
+        "Z": 6.271,
         "View_ID": "View_2F_C_7_8"
     },
     {
@@ -11573,10 +11573,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "7열",
         "Seat_Number": 9,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 9,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "9",
+        "X": 9.717,
+        "Y": 38.879,
+        "Z": 6.271,
         "View_ID": "View_2F_C_7_9"
     },
     {
@@ -11585,10 +11585,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "7열",
         "Seat_Number": 10,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 10,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "10",
+        "X": 9.221,
+        "Y": 38.79,
+        "Z": 6.271,
         "View_ID": "View_2F_C_7_10"
     },
     {
@@ -11597,10 +11597,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "8열",
         "Seat_Number": 1,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 1,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "1",
+        "X": 13.654,
+        "Y": 40.529,
+        "Z": 6.666,
         "View_ID": "View_2F_C_8_1"
     },
     {
@@ -11609,10 +11609,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "8열",
         "Seat_Number": 2,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 2,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "2",
+        "X": 13.16,
+        "Y": 40.442,
+        "Z": 6.666,
         "View_ID": "View_2F_C_8_2"
     },
     {
@@ -11621,10 +11621,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "8열",
         "Seat_Number": 3,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 3,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "3",
+        "X": 12.666,
+        "Y": 40.356,
+        "Z": 6.666,
         "View_ID": "View_2F_C_8_3"
     },
     {
@@ -11633,10 +11633,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "8열",
         "Seat_Number": 4,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 4,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "4",
+        "X": 12.171,
+        "Y": 40.269,
+        "Z": 6.666,
         "View_ID": "View_2F_C_8_4"
     },
     {
@@ -11645,10 +11645,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "8열",
         "Seat_Number": 5,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 5,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "5",
+        "X": 11.677,
+        "Y": 40.183,
+        "Z": 6.666,
         "View_ID": "View_2F_C_8_5"
     },
     {
@@ -11657,10 +11657,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "8열",
         "Seat_Number": 6,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 6,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "6",
+        "X": 11.183,
+        "Y": 40.096,
+        "Z": 6.666,
         "View_ID": "View_2F_C_8_6"
     },
     {
@@ -11669,10 +11669,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "8열",
         "Seat_Number": 7,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 7,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "7",
+        "X": 10.689,
+        "Y": 40.01,
+        "Z": 6.666,
         "View_ID": "View_2F_C_8_7"
     },
     {
@@ -11681,10 +11681,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "8열",
         "Seat_Number": 8,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 8,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "8",
+        "X": 10.194,
+        "Y": 39.923,
+        "Z": 6.666,
         "View_ID": "View_2F_C_8_8"
     },
     {
@@ -11693,10 +11693,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "8열",
         "Seat_Number": 9,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 9,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "9",
+        "X": 9.7,
+        "Y": 39.837,
+        "Z": 6.666,
         "View_ID": "View_2F_C_8_9"
     },
     {
@@ -11705,10 +11705,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "8열",
         "Seat_Number": 10,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 10,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "10",
+        "X": 9.206,
+        "Y": 39.75,
+        "Z": 6.666,
         "View_ID": "View_2F_C_8_10"
     },
     {
@@ -11717,10 +11717,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "9열",
         "Seat_Number": 1,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 1,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "1",
+        "X": 13.63,
+        "Y": 41.47,
+        "Z": 7.06,
         "View_ID": "View_2F_C_9_1"
     },
     {
@@ -11729,10 +11729,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "9열",
         "Seat_Number": 2,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 2,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "2",
+        "X": 13.137,
+        "Y": 41.386,
+        "Z": 7.06,
         "View_ID": "View_2F_C_9_2"
     },
     {
@@ -11741,10 +11741,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "9열",
         "Seat_Number": 3,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 3,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "3",
+        "X": 12.643,
+        "Y": 41.301,
+        "Z": 7.06,
         "View_ID": "View_2F_C_9_3"
     },
     {
@@ -11753,10 +11753,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "9열",
         "Seat_Number": 4,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 4,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "4",
+        "X": 12.15,
+        "Y": 41.217,
+        "Z": 7.06,
         "View_ID": "View_2F_C_9_4"
     },
     {
@@ -11765,10 +11765,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "9열",
         "Seat_Number": 5,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 5,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "5",
+        "X": 11.657,
+        "Y": 41.132,
+        "Z": 7.06,
         "View_ID": "View_2F_C_9_5"
     },
     {
@@ -11777,10 +11777,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "9열",
         "Seat_Number": 6,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 6,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "6",
+        "X": 11.163,
+        "Y": 41.048,
+        "Z": 7.06,
         "View_ID": "View_2F_C_9_6"
     },
     {
@@ -11789,10 +11789,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "9열",
         "Seat_Number": 7,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 7,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "7",
+        "X": 10.67,
+        "Y": 40.963,
+        "Z": 7.06,
         "View_ID": "View_2F_C_9_7"
     },
     {
@@ -11801,10 +11801,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "9열",
         "Seat_Number": 8,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 8,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "8",
+        "X": 10.177,
+        "Y": 40.879,
+        "Z": 7.06,
         "View_ID": "View_2F_C_9_8"
     },
     {
@@ -11813,10 +11813,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "9열",
         "Seat_Number": 9,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 9,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "9",
+        "X": 9.683,
+        "Y": 40.794,
+        "Z": 7.06,
         "View_ID": "View_2F_C_9_9"
     },
     {
@@ -11825,10 +11825,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "9열",
         "Seat_Number": 10,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 10,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "10",
+        "X": 9.19,
+        "Y": 40.71,
+        "Z": 7.06,
         "View_ID": "View_2F_C_9_10"
     },
     {
@@ -11837,10 +11837,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "1열",
         "Seat_Number": 1,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 1,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "1",
+        "X": 27.7,
+        "Y": 36.46,
+        "Z": 8.5,
         "View_ID": "View_3F_A_1_1"
     },
     {
@@ -11849,10 +11849,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "1열",
         "Seat_Number": 2,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 2,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "2",
+        "X": 27.189,
+        "Y": 36.556,
+        "Z": 8.5,
         "View_ID": "View_3F_A_1_2"
     },
     {
@@ -11861,10 +11861,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "1열",
         "Seat_Number": 3,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 3,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "3",
+        "X": 26.677,
+        "Y": 36.651,
+        "Z": 8.5,
         "View_ID": "View_3F_A_1_3"
     },
     {
@@ -11873,10 +11873,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "1열",
         "Seat_Number": 4,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 4,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "4",
+        "X": 26.166,
+        "Y": 36.747,
+        "Z": 8.5,
         "View_ID": "View_3F_A_1_4"
     },
     {
@@ -11885,10 +11885,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "1열",
         "Seat_Number": 5,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 5,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "5",
+        "X": 25.654,
+        "Y": 36.843,
+        "Z": 8.5,
         "View_ID": "View_3F_A_1_5"
     },
     {
@@ -11897,10 +11897,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "1열",
         "Seat_Number": 6,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 6,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "6",
+        "X": 25.143,
+        "Y": 36.939,
+        "Z": 8.5,
         "View_ID": "View_3F_A_1_6"
     },
     {
@@ -11909,10 +11909,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "1열",
         "Seat_Number": 7,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 7,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "7",
+        "X": 24.631,
+        "Y": 37.034,
+        "Z": 8.5,
         "View_ID": "View_3F_A_1_7"
     },
     {
@@ -11921,10 +11921,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "1열",
         "Seat_Number": 8,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 8,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "8",
+        "X": 24.12,
+        "Y": 37.13,
+        "Z": 8.5,
         "View_ID": "View_3F_A_1_8"
     },
     {
@@ -11933,10 +11933,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "2열",
         "Seat_Number": 1,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 1,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "1",
+        "X": 27.702,
+        "Y": 37.456,
+        "Z": 9.12,
         "View_ID": "View_3F_A_2_1"
     },
     {
@@ -11945,10 +11945,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "2열",
         "Seat_Number": 2,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 2,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "2",
+        "X": 27.19,
+        "Y": 37.549,
+        "Z": 9.12,
         "View_ID": "View_3F_A_2_2"
     },
     {
@@ -11957,10 +11957,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "2열",
         "Seat_Number": 3,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 3,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "3",
+        "X": 26.679,
+        "Y": 37.641,
+        "Z": 9.12,
         "View_ID": "View_3F_A_2_3"
     },
     {
@@ -11969,10 +11969,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "2열",
         "Seat_Number": 4,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 4,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "4",
+        "X": 26.167,
+        "Y": 37.734,
+        "Z": 9.12,
         "View_ID": "View_3F_A_2_4"
     },
     {
@@ -11981,10 +11981,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "2열",
         "Seat_Number": 5,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 5,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "5",
+        "X": 25.655,
+        "Y": 37.826,
+        "Z": 9.12,
         "View_ID": "View_3F_A_2_5"
     },
     {
@@ -11993,10 +11993,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "2열",
         "Seat_Number": 6,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 6,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "6",
+        "X": 25.143,
+        "Y": 37.919,
+        "Z": 9.12,
         "View_ID": "View_3F_A_2_6"
     },
     {
@@ -12005,10 +12005,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "2열",
         "Seat_Number": 7,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 7,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "7",
+        "X": 24.632,
+        "Y": 38.011,
+        "Z": 9.12,
         "View_ID": "View_3F_A_2_7"
     },
     {
@@ -12017,10 +12017,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "2열",
         "Seat_Number": 8,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 8,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "8",
+        "X": 24.12,
+        "Y": 38.104,
+        "Z": 9.12,
         "View_ID": "View_3F_A_2_8"
     },
     {
@@ -12029,10 +12029,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "3열",
         "Seat_Number": 1,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 1,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "1",
+        "X": 27.704,
+        "Y": 38.452,
+        "Z": 9.74,
         "View_ID": "View_3F_A_3_1"
     },
     {
@@ -12041,10 +12041,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "3열",
         "Seat_Number": 2,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 2,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "2",
+        "X": 27.192,
+        "Y": 38.541,
+        "Z": 9.74,
         "View_ID": "View_3F_A_3_2"
     },
     {
@@ -12053,10 +12053,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "3열",
         "Seat_Number": 3,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 3,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "3",
+        "X": 26.68,
+        "Y": 38.631,
+        "Z": 9.74,
         "View_ID": "View_3F_A_3_3"
     },
     {
@@ -12065,10 +12065,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "3열",
         "Seat_Number": 4,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 4,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "4",
+        "X": 26.168,
+        "Y": 38.72,
+        "Z": 9.74,
         "View_ID": "View_3F_A_3_4"
     },
     {
@@ -12077,10 +12077,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "3열",
         "Seat_Number": 5,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 5,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "5",
+        "X": 25.656,
+        "Y": 38.81,
+        "Z": 9.74,
         "View_ID": "View_3F_A_3_5"
     },
     {
@@ -12089,10 +12089,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "3열",
         "Seat_Number": 6,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 6,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "6",
+        "X": 25.144,
+        "Y": 38.899,
+        "Z": 9.74,
         "View_ID": "View_3F_A_3_6"
     },
     {
@@ -12101,10 +12101,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "3열",
         "Seat_Number": 7,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 7,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "7",
+        "X": 24.632,
+        "Y": 38.989,
+        "Z": 9.74,
         "View_ID": "View_3F_A_3_7"
     },
     {
@@ -12113,10 +12113,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "3열",
         "Seat_Number": 8,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 8,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "8",
+        "X": 24.12,
+        "Y": 39.078,
+        "Z": 9.74,
         "View_ID": "View_3F_A_3_8"
     },
     {
@@ -12125,10 +12125,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "4열",
         "Seat_Number": 1,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 1,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "1",
+        "X": 27.706,
+        "Y": 39.448,
+        "Z": 10.36,
         "View_ID": "View_3F_A_4_1"
     },
     {
@@ -12137,10 +12137,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "4열",
         "Seat_Number": 2,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 2,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "2",
+        "X": 27.194,
+        "Y": 39.534,
+        "Z": 10.36,
         "View_ID": "View_3F_A_4_2"
     },
     {
@@ -12149,10 +12149,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "4열",
         "Seat_Number": 3,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 3,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "3",
+        "X": 26.681,
+        "Y": 39.621,
+        "Z": 10.36,
         "View_ID": "View_3F_A_4_3"
     },
     {
@@ -12161,10 +12161,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "4열",
         "Seat_Number": 4,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 4,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "4",
+        "X": 26.169,
+        "Y": 39.707,
+        "Z": 10.36,
         "View_ID": "View_3F_A_4_4"
     },
     {
@@ -12173,10 +12173,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "4열",
         "Seat_Number": 5,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 5,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "5",
+        "X": 25.657,
+        "Y": 39.793,
+        "Z": 10.36,
         "View_ID": "View_3F_A_4_5"
     },
     {
@@ -12185,10 +12185,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "4열",
         "Seat_Number": 6,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 6,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "6",
+        "X": 25.145,
+        "Y": 39.879,
+        "Z": 10.36,
         "View_ID": "View_3F_A_4_6"
     },
     {
@@ -12197,10 +12197,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "4열",
         "Seat_Number": 7,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 7,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "7",
+        "X": 24.632,
+        "Y": 39.966,
+        "Z": 10.36,
         "View_ID": "View_3F_A_4_7"
     },
     {
@@ -12209,10 +12209,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "4열",
         "Seat_Number": 8,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 8,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "8",
+        "X": 24.12,
+        "Y": 40.052,
+        "Z": 10.36,
         "View_ID": "View_3F_A_4_8"
     },
     {
@@ -12221,10 +12221,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "5열",
         "Seat_Number": 1,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 1,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "1",
+        "X": 27.708,
+        "Y": 40.444,
+        "Z": 10.98,
         "View_ID": "View_3F_A_5_1"
     },
     {
@@ -12233,10 +12233,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "5열",
         "Seat_Number": 2,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 2,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "2",
+        "X": 27.195,
+        "Y": 40.527,
+        "Z": 10.98,
         "View_ID": "View_3F_A_5_2"
     },
     {
@@ -12245,10 +12245,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "5열",
         "Seat_Number": 3,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 3,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "3",
+        "X": 26.683,
+        "Y": 40.61,
+        "Z": 10.98,
         "View_ID": "View_3F_A_5_3"
     },
     {
@@ -12257,10 +12257,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "5열",
         "Seat_Number": 4,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 4,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "4",
+        "X": 26.17,
+        "Y": 40.693,
+        "Z": 10.98,
         "View_ID": "View_3F_A_5_4"
     },
     {
@@ -12269,10 +12269,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "5열",
         "Seat_Number": 5,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 5,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "5",
+        "X": 25.658,
+        "Y": 40.777,
+        "Z": 10.98,
         "View_ID": "View_3F_A_5_5"
     },
     {
@@ -12281,10 +12281,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "5열",
         "Seat_Number": 6,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 6,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "6",
+        "X": 25.145,
+        "Y": 40.86,
+        "Z": 10.98,
         "View_ID": "View_3F_A_5_6"
     },
     {
@@ -12293,10 +12293,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "5열",
         "Seat_Number": 7,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 7,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "7",
+        "X": 24.633,
+        "Y": 40.943,
+        "Z": 10.98,
         "View_ID": "View_3F_A_5_7"
     },
     {
@@ -12305,10 +12305,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "5열",
         "Seat_Number": 8,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 8,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "8",
+        "X": 24.12,
+        "Y": 41.026,
+        "Z": 10.98,
         "View_ID": "View_3F_A_5_8"
     },
     {
@@ -12317,10 +12317,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "6열",
         "Seat_Number": 1,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 1,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "1",
+        "X": 27.71,
+        "Y": 41.44,
+        "Z": 11.6,
         "View_ID": "View_3F_A_6_1"
     },
     {
@@ -12329,10 +12329,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "6열",
         "Seat_Number": 2,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 2,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "2",
+        "X": 27.197,
+        "Y": 41.52,
+        "Z": 11.6,
         "View_ID": "View_3F_A_6_2"
     },
     {
@@ -12341,10 +12341,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "6열",
         "Seat_Number": 3,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 3,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "3",
+        "X": 26.684,
+        "Y": 41.6,
+        "Z": 11.6,
         "View_ID": "View_3F_A_6_3"
     },
     {
@@ -12353,10 +12353,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "6열",
         "Seat_Number": 4,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 4,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "4",
+        "X": 26.171,
+        "Y": 41.68,
+        "Z": 11.6,
         "View_ID": "View_3F_A_6_4"
     },
     {
@@ -12365,10 +12365,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "6열",
         "Seat_Number": 5,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 5,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "5",
+        "X": 25.659,
+        "Y": 41.76,
+        "Z": 11.6,
         "View_ID": "View_3F_A_6_5"
     },
     {
@@ -12377,10 +12377,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "6열",
         "Seat_Number": 6,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 6,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "6",
+        "X": 25.146,
+        "Y": 41.84,
+        "Z": 11.6,
         "View_ID": "View_3F_A_6_6"
     },
     {
@@ -12389,10 +12389,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "6열",
         "Seat_Number": 7,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 7,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "7",
+        "X": 24.633,
+        "Y": 41.92,
+        "Z": 11.6,
         "View_ID": "View_3F_A_6_7"
     },
     {
@@ -12401,10 +12401,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "6열",
         "Seat_Number": 8,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 8,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "8",
+        "X": 24.12,
+        "Y": 42.0,
+        "Z": 11.6,
         "View_ID": "View_3F_A_6_8"
     },
     {
@@ -12413,10 +12413,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "7열",
         "Seat_Number": 1,
         "Seat_Type": "none",
-        "Display_Text": "",
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": NaN,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0,
         "View_ID": "View_3F_A_7_1"
     },
     {
@@ -12425,10 +12425,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "7열",
         "Seat_Number": 2,
         "Seat_Type": "none",
-        "Display_Text": "",
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": NaN,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0,
         "View_ID": "View_3F_A_7_2"
     },
     {
@@ -12437,10 +12437,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "7열",
         "Seat_Number": 3,
         "Seat_Type": "none",
-        "Display_Text": "",
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": NaN,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0,
         "View_ID": "View_3F_A_7_3"
     },
     {
@@ -12449,10 +12449,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "7열",
         "Seat_Number": 4,
         "Seat_Type": "none",
-        "Display_Text": "",
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": NaN,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0,
         "View_ID": "View_3F_A_7_4"
     },
     {
@@ -12461,10 +12461,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "7열",
         "Seat_Number": 5,
         "Seat_Type": "none",
-        "Display_Text": "",
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": NaN,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0,
         "View_ID": "View_3F_A_7_5"
     },
     {
@@ -12473,10 +12473,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "7열",
         "Seat_Number": 6,
         "Seat_Type": "none",
-        "Display_Text": "",
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": NaN,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0,
         "View_ID": "View_3F_A_7_6"
     },
     {
@@ -12485,10 +12485,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "7열",
         "Seat_Number": 7,
         "Seat_Type": "none",
-        "Display_Text": "",
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": NaN,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0,
         "View_ID": "View_3F_A_7_7"
     },
     {
@@ -12497,10 +12497,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "7열",
         "Seat_Number": 8,
         "Seat_Type": "none",
-        "Display_Text": "",
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": NaN,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0,
         "View_ID": "View_3F_A_7_8"
     },
     {
@@ -12509,10 +12509,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "8열",
         "Seat_Number": 1,
         "Seat_Type": "none",
-        "Display_Text": "",
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": NaN,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0,
         "View_ID": "View_3F_A_8_1"
     },
     {
@@ -12521,10 +12521,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "8열",
         "Seat_Number": 2,
         "Seat_Type": "none",
-        "Display_Text": "",
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": NaN,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0,
         "View_ID": "View_3F_A_8_2"
     },
     {
@@ -12533,10 +12533,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "8열",
         "Seat_Number": 3,
         "Seat_Type": "none",
-        "Display_Text": "",
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": NaN,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0,
         "View_ID": "View_3F_A_8_3"
     },
     {
@@ -12545,10 +12545,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "8열",
         "Seat_Number": 4,
         "Seat_Type": "none",
-        "Display_Text": "",
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": NaN,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0,
         "View_ID": "View_3F_A_8_4"
     },
     {
@@ -12557,10 +12557,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "8열",
         "Seat_Number": 5,
         "Seat_Type": "none",
-        "Display_Text": "",
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": NaN,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0,
         "View_ID": "View_3F_A_8_5"
     },
     {
@@ -12569,10 +12569,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "8열",
         "Seat_Number": 6,
         "Seat_Type": "none",
-        "Display_Text": "",
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": NaN,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0,
         "View_ID": "View_3F_A_8_6"
     },
     {
@@ -12581,10 +12581,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "8열",
         "Seat_Number": 7,
         "Seat_Type": "none",
-        "Display_Text": "",
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": NaN,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0,
         "View_ID": "View_3F_A_8_7"
     },
     {
@@ -12593,10 +12593,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "8열",
         "Seat_Number": 8,
         "Seat_Type": "none",
-        "Display_Text": "",
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": NaN,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0,
         "View_ID": "View_3F_A_8_8"
     },
     {
@@ -12605,10 +12605,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "1열",
         "Seat_Number": 1,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 1,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "1",
+        "X": 22.35,
+        "Y": 37.3,
+        "Z": 8.5,
         "View_ID": "View_3F_B_1_1"
     },
     {
@@ -12617,10 +12617,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "1열",
         "Seat_Number": 2,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 2,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "2",
+        "X": 21.831,
+        "Y": 37.3,
+        "Z": 8.5,
         "View_ID": "View_3F_B_1_2"
     },
     {
@@ -12629,10 +12629,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "1열",
         "Seat_Number": 3,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 3,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "3",
+        "X": 21.312,
+        "Y": 37.3,
+        "Z": 8.5,
         "View_ID": "View_3F_B_1_3"
     },
     {
@@ -12641,10 +12641,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "1열",
         "Seat_Number": 4,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 4,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "4",
+        "X": 20.792,
+        "Y": 37.3,
+        "Z": 8.5,
         "View_ID": "View_3F_B_1_4"
     },
     {
@@ -12653,10 +12653,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "1열",
         "Seat_Number": 5,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 5,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "5",
+        "X": 20.273,
+        "Y": 37.3,
+        "Z": 8.5,
         "View_ID": "View_3F_B_1_5"
     },
     {
@@ -12665,10 +12665,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "1열",
         "Seat_Number": 6,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 6,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "6",
+        "X": 19.754,
+        "Y": 37.3,
+        "Z": 8.5,
         "View_ID": "View_3F_B_1_6"
     },
     {
@@ -12677,10 +12677,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "1열",
         "Seat_Number": 7,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 7,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "7",
+        "X": 19.235,
+        "Y": 37.3,
+        "Z": 8.5,
         "View_ID": "View_3F_B_1_7"
     },
     {
@@ -12689,10 +12689,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "1열",
         "Seat_Number": 8,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 8,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "8",
+        "X": 18.715,
+        "Y": 37.3,
+        "Z": 8.5,
         "View_ID": "View_3F_B_1_8"
     },
     {
@@ -12701,10 +12701,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "1열",
         "Seat_Number": 9,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 9,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "9",
+        "X": 18.196,
+        "Y": 37.3,
+        "Z": 8.5,
         "View_ID": "View_3F_B_1_9"
     },
     {
@@ -12713,10 +12713,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "1열",
         "Seat_Number": 10,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 10,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "10",
+        "X": 17.677,
+        "Y": 37.3,
+        "Z": 8.5,
         "View_ID": "View_3F_B_1_10"
     },
     {
@@ -12725,10 +12725,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "1열",
         "Seat_Number": 11,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 11,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "11",
+        "X": 17.158,
+        "Y": 37.3,
+        "Z": 8.5,
         "View_ID": "View_3F_B_1_11"
     },
     {
@@ -12737,10 +12737,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "1열",
         "Seat_Number": 12,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 12,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "12",
+        "X": 16.638,
+        "Y": 37.3,
+        "Z": 8.5,
         "View_ID": "View_3F_B_1_12"
     },
     {
@@ -12749,10 +12749,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "1열",
         "Seat_Number": 13,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 13,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "13",
+        "X": 16.119,
+        "Y": 37.3,
+        "Z": 8.5,
         "View_ID": "View_3F_B_1_13"
     },
     {
@@ -12761,10 +12761,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "1열",
         "Seat_Number": 14,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 14,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "14",
+        "X": 15.6,
+        "Y": 37.3,
+        "Z": 8.5,
         "View_ID": "View_3F_B_1_14"
     },
     {
@@ -12773,10 +12773,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "2열",
         "Seat_Number": 1,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 1,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "1",
+        "X": 22.35,
+        "Y": 38.299,
+        "Z": 9.129,
         "View_ID": "View_3F_B_2_1"
     },
     {
@@ -12785,10 +12785,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "2열",
         "Seat_Number": 2,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 2,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "2",
+        "X": 21.83,
+        "Y": 38.298,
+        "Z": 9.129,
         "View_ID": "View_3F_B_2_2"
     },
     {
@@ -12797,10 +12797,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "2열",
         "Seat_Number": 3,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 3,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "3",
+        "X": 21.309,
+        "Y": 38.298,
+        "Z": 9.129,
         "View_ID": "View_3F_B_2_3"
     },
     {
@@ -12809,10 +12809,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "2열",
         "Seat_Number": 4,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 4,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "4",
+        "X": 20.789,
+        "Y": 38.297,
+        "Z": 9.129,
         "View_ID": "View_3F_B_2_4"
     },
     {
@@ -12821,10 +12821,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "2열",
         "Seat_Number": 5,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 5,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "5",
+        "X": 20.269,
+        "Y": 38.297,
+        "Z": 9.129,
         "View_ID": "View_3F_B_2_5"
     },
     {
@@ -12833,10 +12833,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "2열",
         "Seat_Number": 6,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 6,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "6",
+        "X": 19.748,
+        "Y": 38.296,
+        "Z": 9.129,
         "View_ID": "View_3F_B_2_6"
     },
     {
@@ -12845,10 +12845,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "2열",
         "Seat_Number": 7,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 7,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "7",
+        "X": 19.228,
+        "Y": 38.296,
+        "Z": 9.129,
         "View_ID": "View_3F_B_2_7"
     },
     {
@@ -12857,10 +12857,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "2열",
         "Seat_Number": 8,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 8,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "8",
+        "X": 18.708,
+        "Y": 38.295,
+        "Z": 9.129,
         "View_ID": "View_3F_B_2_8"
     },
     {
@@ -12869,10 +12869,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "2열",
         "Seat_Number": 9,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 9,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "9",
+        "X": 18.187,
+        "Y": 38.295,
+        "Z": 9.129,
         "View_ID": "View_3F_B_2_9"
     },
     {
@@ -12881,10 +12881,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "2열",
         "Seat_Number": 10,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 10,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "10",
+        "X": 17.667,
+        "Y": 38.295,
+        "Z": 9.129,
         "View_ID": "View_3F_B_2_10"
     },
     {
@@ -12893,10 +12893,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "2열",
         "Seat_Number": 11,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 11,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "11",
+        "X": 17.147,
+        "Y": 38.294,
+        "Z": 9.129,
         "View_ID": "View_3F_B_2_11"
     },
     {
@@ -12905,10 +12905,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "2열",
         "Seat_Number": 12,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 12,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "12",
+        "X": 16.626,
+        "Y": 38.294,
+        "Z": 9.129,
         "View_ID": "View_3F_B_2_12"
     },
     {
@@ -12917,10 +12917,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "2열",
         "Seat_Number": 13,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 13,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "13",
+        "X": 16.106,
+        "Y": 38.293,
+        "Z": 9.129,
         "View_ID": "View_3F_B_2_13"
     },
     {
@@ -12929,10 +12929,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "2열",
         "Seat_Number": 14,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 14,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "14",
+        "X": 15.586,
+        "Y": 38.293,
+        "Z": 9.129,
         "View_ID": "View_3F_B_2_14"
     },
     {
@@ -12941,10 +12941,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "3열",
         "Seat_Number": 1,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 1,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "1",
+        "X": 22.35,
+        "Y": 39.297,
+        "Z": 9.757,
         "View_ID": "View_3F_B_3_1"
     },
     {
@@ -12953,10 +12953,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "3열",
         "Seat_Number": 2,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 2,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "2",
+        "X": 21.829,
+        "Y": 39.296,
+        "Z": 9.757,
         "View_ID": "View_3F_B_3_2"
     },
     {
@@ -12965,10 +12965,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "3열",
         "Seat_Number": 3,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 3,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "3",
+        "X": 21.307,
+        "Y": 39.295,
+        "Z": 9.757,
         "View_ID": "View_3F_B_3_3"
     },
     {
@@ -12977,10 +12977,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "3열",
         "Seat_Number": 4,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 4,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "4",
+        "X": 20.786,
+        "Y": 39.295,
+        "Z": 9.757,
         "View_ID": "View_3F_B_3_4"
     },
     {
@@ -12989,10 +12989,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "3열",
         "Seat_Number": 5,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 5,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "5",
+        "X": 20.264,
+        "Y": 39.294,
+        "Z": 9.757,
         "View_ID": "View_3F_B_3_5"
     },
     {
@@ -13001,10 +13001,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "3열",
         "Seat_Number": 6,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 6,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "6",
+        "X": 19.743,
+        "Y": 39.293,
+        "Z": 9.757,
         "View_ID": "View_3F_B_3_6"
     },
     {
@@ -13013,10 +13013,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "3열",
         "Seat_Number": 7,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 7,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "7",
+        "X": 19.221,
+        "Y": 39.292,
+        "Z": 9.757,
         "View_ID": "View_3F_B_3_7"
     },
     {
@@ -13025,10 +13025,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "3열",
         "Seat_Number": 8,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 8,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "8",
+        "X": 18.7,
+        "Y": 39.291,
+        "Z": 9.757,
         "View_ID": "View_3F_B_3_8"
     },
     {
@@ -13037,10 +13037,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "3열",
         "Seat_Number": 9,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 9,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "9",
+        "X": 18.179,
+        "Y": 39.29,
+        "Z": 9.757,
         "View_ID": "View_3F_B_3_9"
     },
     {
@@ -13049,10 +13049,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "3열",
         "Seat_Number": 10,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 10,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "10",
+        "X": 17.657,
+        "Y": 39.289,
+        "Z": 9.757,
         "View_ID": "View_3F_B_3_10"
     },
     {
@@ -13061,10 +13061,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "3열",
         "Seat_Number": 11,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 11,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "11",
+        "X": 17.136,
+        "Y": 39.288,
+        "Z": 9.757,
         "View_ID": "View_3F_B_3_11"
     },
     {
@@ -13073,10 +13073,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "3열",
         "Seat_Number": 12,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 12,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "12",
+        "X": 16.614,
+        "Y": 39.287,
+        "Z": 9.757,
         "View_ID": "View_3F_B_3_12"
     },
     {
@@ -13085,10 +13085,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "3열",
         "Seat_Number": 13,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 13,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "13",
+        "X": 16.093,
+        "Y": 39.287,
+        "Z": 9.757,
         "View_ID": "View_3F_B_3_13"
     },
     {
@@ -13097,10 +13097,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "3열",
         "Seat_Number": 14,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 14,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "14",
+        "X": 15.571,
+        "Y": 39.286,
+        "Z": 9.757,
         "View_ID": "View_3F_B_3_14"
     },
     {
@@ -13109,10 +13109,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "4열",
         "Seat_Number": 1,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 1,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "1",
+        "X": 22.35,
+        "Y": 40.296,
+        "Z": 10.386,
         "View_ID": "View_3F_B_4_1"
     },
     {
@@ -13121,10 +13121,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "4열",
         "Seat_Number": 2,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 2,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "2",
+        "X": 21.827,
+        "Y": 40.294,
+        "Z": 10.386,
         "View_ID": "View_3F_B_4_2"
     },
     {
@@ -13133,10 +13133,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "4열",
         "Seat_Number": 3,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 3,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "3",
+        "X": 21.305,
+        "Y": 40.293,
+        "Z": 10.386,
         "View_ID": "View_3F_B_4_3"
     },
     {
@@ -13145,10 +13145,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "4열",
         "Seat_Number": 4,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 4,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "4",
+        "X": 20.782,
+        "Y": 40.292,
+        "Z": 10.386,
         "View_ID": "View_3F_B_4_4"
     },
     {
@@ -13157,10 +13157,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "4열",
         "Seat_Number": 5,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 5,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "5",
+        "X": 20.26,
+        "Y": 40.29,
+        "Z": 10.386,
         "View_ID": "View_3F_B_4_5"
     },
     {
@@ -13169,10 +13169,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "4열",
         "Seat_Number": 6,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 6,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "6",
+        "X": 19.737,
+        "Y": 40.289,
+        "Z": 10.386,
         "View_ID": "View_3F_B_4_6"
     },
     {
@@ -13181,10 +13181,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "4열",
         "Seat_Number": 7,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 7,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "7",
+        "X": 19.215,
+        "Y": 40.288,
+        "Z": 10.386,
         "View_ID": "View_3F_B_4_7"
     },
     {
@@ -13193,10 +13193,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "4열",
         "Seat_Number": 8,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 8,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "8",
+        "X": 18.692,
+        "Y": 40.286,
+        "Z": 10.386,
         "View_ID": "View_3F_B_4_8"
     },
     {
@@ -13205,10 +13205,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "4열",
         "Seat_Number": 9,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 9,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "9",
+        "X": 18.17,
+        "Y": 40.285,
+        "Z": 10.386,
         "View_ID": "View_3F_B_4_9"
     },
     {
@@ -13217,10 +13217,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "4열",
         "Seat_Number": 10,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 10,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "10",
+        "X": 17.647,
+        "Y": 40.284,
+        "Z": 10.386,
         "View_ID": "View_3F_B_4_10"
     },
     {
@@ -13229,10 +13229,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "4열",
         "Seat_Number": 11,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 11,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "11",
+        "X": 17.125,
+        "Y": 40.283,
+        "Z": 10.386,
         "View_ID": "View_3F_B_4_11"
     },
     {
@@ -13241,10 +13241,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "4열",
         "Seat_Number": 12,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 12,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "12",
+        "X": 16.602,
+        "Y": 40.281,
+        "Z": 10.386,
         "View_ID": "View_3F_B_4_12"
     },
     {
@@ -13253,10 +13253,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "4열",
         "Seat_Number": 13,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 13,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "13",
+        "X": 16.08,
+        "Y": 40.28,
+        "Z": 10.386,
         "View_ID": "View_3F_B_4_13"
     },
     {
@@ -13265,10 +13265,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "4열",
         "Seat_Number": 14,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 14,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "14",
+        "X": 15.557,
+        "Y": 40.279,
+        "Z": 10.386,
         "View_ID": "View_3F_B_4_14"
     },
     {
@@ -13277,10 +13277,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "5열",
         "Seat_Number": 1,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 1,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "1",
+        "X": 22.35,
+        "Y": 41.294,
+        "Z": 11.014,
         "View_ID": "View_3F_B_5_1"
     },
     {
@@ -13289,10 +13289,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "5열",
         "Seat_Number": 2,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 2,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "2",
+        "X": 21.826,
+        "Y": 41.293,
+        "Z": 11.014,
         "View_ID": "View_3F_B_5_2"
     },
     {
@@ -13301,10 +13301,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "5열",
         "Seat_Number": 3,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 3,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "3",
+        "X": 21.303,
+        "Y": 41.291,
+        "Z": 11.014,
         "View_ID": "View_3F_B_5_3"
     },
     {
@@ -13313,10 +13313,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "5열",
         "Seat_Number": 4,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 4,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "4",
+        "X": 20.779,
+        "Y": 41.289,
+        "Z": 11.014,
         "View_ID": "View_3F_B_5_4"
     },
     {
@@ -13325,10 +13325,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "5열",
         "Seat_Number": 5,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 5,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "5",
+        "X": 20.255,
+        "Y": 41.287,
+        "Z": 11.014,
         "View_ID": "View_3F_B_5_5"
     },
     {
@@ -13337,10 +13337,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "5열",
         "Seat_Number": 6,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 6,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "6",
+        "X": 19.732,
+        "Y": 41.285,
+        "Z": 11.014,
         "View_ID": "View_3F_B_5_6"
     },
     {
@@ -13349,10 +13349,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "5열",
         "Seat_Number": 7,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 7,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "7",
+        "X": 19.208,
+        "Y": 41.284,
+        "Z": 11.014,
         "View_ID": "View_3F_B_5_7"
     },
     {
@@ -13361,10 +13361,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "5열",
         "Seat_Number": 8,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 8,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "8",
+        "X": 18.685,
+        "Y": 41.282,
+        "Z": 11.014,
         "View_ID": "View_3F_B_5_8"
     },
     {
@@ -13373,10 +13373,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "5열",
         "Seat_Number": 9,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 9,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "9",
+        "X": 18.161,
+        "Y": 41.28,
+        "Z": 11.014,
         "View_ID": "View_3F_B_5_9"
     },
     {
@@ -13385,10 +13385,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "5열",
         "Seat_Number": 10,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 10,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "10",
+        "X": 17.637,
+        "Y": 41.278,
+        "Z": 11.014,
         "View_ID": "View_3F_B_5_10"
     },
     {
@@ -13397,10 +13397,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "5열",
         "Seat_Number": 11,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 11,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "11",
+        "X": 17.114,
+        "Y": 41.277,
+        "Z": 11.014,
         "View_ID": "View_3F_B_5_11"
     },
     {
@@ -13409,10 +13409,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "5열",
         "Seat_Number": 12,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 12,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "12",
+        "X": 16.59,
+        "Y": 41.275,
+        "Z": 11.014,
         "View_ID": "View_3F_B_5_12"
     },
     {
@@ -13421,10 +13421,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "5열",
         "Seat_Number": 13,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 13,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "13",
+        "X": 16.066,
+        "Y": 41.273,
+        "Z": 11.014,
         "View_ID": "View_3F_B_5_13"
     },
     {
@@ -13433,10 +13433,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "5열",
         "Seat_Number": 14,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 14,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "14",
+        "X": 15.543,
+        "Y": 41.271,
+        "Z": 11.014,
         "View_ID": "View_3F_B_5_14"
     },
     {
@@ -13445,10 +13445,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "6열",
         "Seat_Number": 1,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 1,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "1",
+        "X": 22.35,
+        "Y": 42.293,
+        "Z": 11.643,
         "View_ID": "View_3F_B_6_1"
     },
     {
@@ -13457,10 +13457,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "6열",
         "Seat_Number": 2,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 2,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "2",
+        "X": 21.825,
+        "Y": 42.291,
+        "Z": 11.643,
         "View_ID": "View_3F_B_6_2"
     },
     {
@@ -13469,10 +13469,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "6열",
         "Seat_Number": 3,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 3,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "3",
+        "X": 21.301,
+        "Y": 42.288,
+        "Z": 11.643,
         "View_ID": "View_3F_B_6_3"
     },
     {
@@ -13481,10 +13481,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "6열",
         "Seat_Number": 4,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 4,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "4",
+        "X": 20.776,
+        "Y": 42.286,
+        "Z": 11.643,
         "View_ID": "View_3F_B_6_4"
     },
     {
@@ -13493,10 +13493,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "6열",
         "Seat_Number": 5,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 5,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "5",
+        "X": 20.251,
+        "Y": 42.284,
+        "Z": 11.643,
         "View_ID": "View_3F_B_6_5"
     },
     {
@@ -13505,10 +13505,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "6열",
         "Seat_Number": 6,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 6,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "6",
+        "X": 19.726,
+        "Y": 42.282,
+        "Z": 11.643,
         "View_ID": "View_3F_B_6_6"
     },
     {
@@ -13517,10 +13517,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "6열",
         "Seat_Number": 7,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 7,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "7",
+        "X": 19.202,
+        "Y": 42.28,
+        "Z": 11.643,
         "View_ID": "View_3F_B_6_7"
     },
     {
@@ -13529,10 +13529,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "6열",
         "Seat_Number": 8,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 8,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "8",
+        "X": 18.677,
+        "Y": 42.277,
+        "Z": 11.643,
         "View_ID": "View_3F_B_6_8"
     },
     {
@@ -13541,10 +13541,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "6열",
         "Seat_Number": 9,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 9,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "9",
+        "X": 18.152,
+        "Y": 42.275,
+        "Z": 11.643,
         "View_ID": "View_3F_B_6_9"
     },
     {
@@ -13553,10 +13553,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "6열",
         "Seat_Number": 10,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 10,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "10",
+        "X": 17.627,
+        "Y": 42.273,
+        "Z": 11.643,
         "View_ID": "View_3F_B_6_10"
     },
     {
@@ -13565,10 +13565,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "6열",
         "Seat_Number": 11,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 11,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "11",
+        "X": 17.103,
+        "Y": 42.271,
+        "Z": 11.643,
         "View_ID": "View_3F_B_6_11"
     },
     {
@@ -13577,10 +13577,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "6열",
         "Seat_Number": 12,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 12,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "12",
+        "X": 16.578,
+        "Y": 42.269,
+        "Z": 11.643,
         "View_ID": "View_3F_B_6_12"
     },
     {
@@ -13589,10 +13589,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "6열",
         "Seat_Number": 13,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 13,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "13",
+        "X": 16.053,
+        "Y": 42.266,
+        "Z": 11.643,
         "View_ID": "View_3F_B_6_13"
     },
     {
@@ -13601,10 +13601,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "6열",
         "Seat_Number": 14,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 14,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "14",
+        "X": 15.529,
+        "Y": 42.264,
+        "Z": 11.643,
         "View_ID": "View_3F_B_6_14"
     },
     {
@@ -13613,10 +13613,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "7열",
         "Seat_Number": 1,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 1,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "1",
+        "X": 22.35,
+        "Y": 43.291,
+        "Z": 12.271,
         "View_ID": "View_3F_B_7_1"
     },
     {
@@ -13625,10 +13625,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "7열",
         "Seat_Number": 2,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 2,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "2",
+        "X": 21.824,
+        "Y": 43.289,
+        "Z": 12.271,
         "View_ID": "View_3F_B_7_2"
     },
     {
@@ -13637,10 +13637,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "7열",
         "Seat_Number": 3,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 3,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "3",
+        "X": 21.298,
+        "Y": 43.286,
+        "Z": 12.271,
         "View_ID": "View_3F_B_7_3"
     },
     {
@@ -13649,10 +13649,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "7열",
         "Seat_Number": 4,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 4,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "4",
+        "X": 20.773,
+        "Y": 43.284,
+        "Z": 12.271,
         "View_ID": "View_3F_B_7_4"
     },
     {
@@ -13661,10 +13661,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "7열",
         "Seat_Number": 5,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 5,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "5",
+        "X": 20.247,
+        "Y": 43.281,
+        "Z": 12.271,
         "View_ID": "View_3F_B_7_5"
     },
     {
@@ -13673,10 +13673,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "7열",
         "Seat_Number": 6,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 6,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "6",
+        "X": 19.721,
+        "Y": 43.278,
+        "Z": 12.271,
         "View_ID": "View_3F_B_7_6"
     },
     {
@@ -13685,10 +13685,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "7열",
         "Seat_Number": 7,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 7,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "7",
+        "X": 19.195,
+        "Y": 43.276,
+        "Z": 12.271,
         "View_ID": "View_3F_B_7_7"
     },
     {
@@ -13697,10 +13697,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "7열",
         "Seat_Number": 8,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 8,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "8",
+        "X": 18.669,
+        "Y": 43.273,
+        "Z": 12.271,
         "View_ID": "View_3F_B_7_8"
     },
     {
@@ -13709,10 +13709,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "7열",
         "Seat_Number": 9,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 9,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "9",
+        "X": 18.143,
+        "Y": 43.27,
+        "Z": 12.271,
         "View_ID": "View_3F_B_7_9"
     },
     {
@@ -13721,10 +13721,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "7열",
         "Seat_Number": 10,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 10,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "10",
+        "X": 17.618,
+        "Y": 43.268,
+        "Z": 12.271,
         "View_ID": "View_3F_B_7_10"
     },
     {
@@ -13733,10 +13733,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "7열",
         "Seat_Number": 11,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 11,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "11",
+        "X": 17.092,
+        "Y": 43.265,
+        "Z": 12.271,
         "View_ID": "View_3F_B_7_11"
     },
     {
@@ -13745,10 +13745,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "7열",
         "Seat_Number": 12,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 12,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "12",
+        "X": 16.566,
+        "Y": 43.262,
+        "Z": 12.271,
         "View_ID": "View_3F_B_7_12"
     },
     {
@@ -13757,10 +13757,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "7열",
         "Seat_Number": 13,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 13,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "13",
+        "X": 16.04,
+        "Y": 43.26,
+        "Z": 12.271,
         "View_ID": "View_3F_B_7_13"
     },
     {
@@ -13769,10 +13769,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "7열",
         "Seat_Number": 14,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 14,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "14",
+        "X": 15.514,
+        "Y": 43.257,
+        "Z": 12.271,
         "View_ID": "View_3F_B_7_14"
     },
     {
@@ -13781,10 +13781,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "8열",
         "Seat_Number": 1,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 1,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "1",
+        "X": 22.35,
+        "Y": 44.29,
+        "Z": 12.9,
         "View_ID": "View_3F_B_8_1"
     },
     {
@@ -13793,10 +13793,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "8열",
         "Seat_Number": 2,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 2,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "2",
+        "X": 21.823,
+        "Y": 44.287,
+        "Z": 12.9,
         "View_ID": "View_3F_B_8_2"
     },
     {
@@ -13805,10 +13805,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "8열",
         "Seat_Number": 3,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 3,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "3",
+        "X": 21.296,
+        "Y": 44.284,
+        "Z": 12.9,
         "View_ID": "View_3F_B_8_3"
     },
     {
@@ -13817,10 +13817,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "8열",
         "Seat_Number": 4,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 4,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "4",
+        "X": 20.769,
+        "Y": 44.281,
+        "Z": 12.9,
         "View_ID": "View_3F_B_8_4"
     },
     {
@@ -13829,10 +13829,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "8열",
         "Seat_Number": 5,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 5,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "5",
+        "X": 20.242,
+        "Y": 44.278,
+        "Z": 12.9,
         "View_ID": "View_3F_B_8_5"
     },
     {
@@ -13841,10 +13841,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "8열",
         "Seat_Number": 6,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 6,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "6",
+        "X": 19.715,
+        "Y": 44.275,
+        "Z": 12.9,
         "View_ID": "View_3F_B_8_6"
     },
     {
@@ -13853,10 +13853,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "8열",
         "Seat_Number": 7,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 7,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "7",
+        "X": 19.188,
+        "Y": 44.272,
+        "Z": 12.9,
         "View_ID": "View_3F_B_8_7"
     },
     {
@@ -13865,10 +13865,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "8열",
         "Seat_Number": 8,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 8,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "8",
+        "X": 18.662,
+        "Y": 44.268,
+        "Z": 12.9,
         "View_ID": "View_3F_B_8_8"
     },
     {
@@ -13877,10 +13877,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "8열",
         "Seat_Number": 9,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 9,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "9",
+        "X": 18.135,
+        "Y": 44.265,
+        "Z": 12.9,
         "View_ID": "View_3F_B_8_9"
     },
     {
@@ -13889,10 +13889,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "8열",
         "Seat_Number": 10,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 10,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "10",
+        "X": 17.608,
+        "Y": 44.262,
+        "Z": 12.9,
         "View_ID": "View_3F_B_8_10"
     },
     {
@@ -13901,10 +13901,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "8열",
         "Seat_Number": 11,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 11,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "11",
+        "X": 17.081,
+        "Y": 44.259,
+        "Z": 12.9,
         "View_ID": "View_3F_B_8_11"
     },
     {
@@ -13913,10 +13913,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "8열",
         "Seat_Number": 12,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 12,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "12",
+        "X": 16.554,
+        "Y": 44.256,
+        "Z": 12.9,
         "View_ID": "View_3F_B_8_12"
     },
     {
@@ -13925,10 +13925,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "8열",
         "Seat_Number": 13,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 13,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "13",
+        "X": 16.027,
+        "Y": 44.253,
+        "Z": 12.9,
         "View_ID": "View_3F_B_8_13"
     },
     {
@@ -13937,10 +13937,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "8열",
         "Seat_Number": 14,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 14,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "14",
+        "X": 15.5,
+        "Y": 44.25,
+        "Z": 12.9,
         "View_ID": "View_3F_B_8_14"
     },
     {
@@ -13949,10 +13949,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "1열",
         "Seat_Number": 1,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 1,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "1",
+        "X": 13.66,
+        "Y": 37.08,
+        "Z": 8.5,
         "View_ID": "View_3F_C_1_1"
     },
     {
@@ -13961,10 +13961,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "1열",
         "Seat_Number": 2,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 2,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "2",
+        "X": 13.159,
+        "Y": 36.994,
+        "Z": 8.5,
         "View_ID": "View_3F_C_1_2"
     },
     {
@@ -13973,10 +13973,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "1열",
         "Seat_Number": 3,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 3,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "3",
+        "X": 12.657,
+        "Y": 36.909,
+        "Z": 8.5,
         "View_ID": "View_3F_C_1_3"
     },
     {
@@ -13985,10 +13985,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "1열",
         "Seat_Number": 4,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 4,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "4",
+        "X": 12.156,
+        "Y": 36.823,
+        "Z": 8.5,
         "View_ID": "View_3F_C_1_4"
     },
     {
@@ -13997,10 +13997,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "1열",
         "Seat_Number": 5,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 5,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "5",
+        "X": 11.654,
+        "Y": 36.737,
+        "Z": 8.5,
         "View_ID": "View_3F_C_1_5"
     },
     {
@@ -14009,10 +14009,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "1열",
         "Seat_Number": 6,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 6,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "6",
+        "X": 11.153,
+        "Y": 36.651,
+        "Z": 8.5,
         "View_ID": "View_3F_C_1_6"
     },
     {
@@ -14021,10 +14021,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "1열",
         "Seat_Number": 7,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 7,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "7",
+        "X": 10.651,
+        "Y": 36.566,
+        "Z": 8.5,
         "View_ID": "View_3F_C_1_7"
     },
     {
@@ -14033,10 +14033,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "1열",
         "Seat_Number": 8,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 8,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "8",
+        "X": 10.15,
+        "Y": 36.48,
+        "Z": 8.5,
         "View_ID": "View_3F_C_1_8"
     },
     {
@@ -14045,10 +14045,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "2열",
         "Seat_Number": 1,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 1,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "1",
+        "X": 13.66,
+        "Y": 38.066,
+        "Z": 9.12,
         "View_ID": "View_3F_C_2_1"
     },
     {
@@ -14057,10 +14057,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "2열",
         "Seat_Number": 2,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 2,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "2",
+        "X": 13.161,
+        "Y": 37.981,
+        "Z": 9.12,
         "View_ID": "View_3F_C_2_2"
     },
     {
@@ -14069,10 +14069,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "2열",
         "Seat_Number": 3,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 3,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "3",
+        "X": 12.662,
+        "Y": 37.896,
+        "Z": 9.12,
         "View_ID": "View_3F_C_2_3"
     },
     {
@@ -14081,10 +14081,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "2열",
         "Seat_Number": 4,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 4,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "4",
+        "X": 12.163,
+        "Y": 37.811,
+        "Z": 9.12,
         "View_ID": "View_3F_C_2_4"
     },
     {
@@ -14093,10 +14093,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "2열",
         "Seat_Number": 5,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 5,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "5",
+        "X": 11.663,
+        "Y": 37.725,
+        "Z": 9.12,
         "View_ID": "View_3F_C_2_5"
     },
     {
@@ -14105,10 +14105,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "2열",
         "Seat_Number": 6,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 6,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "6",
+        "X": 11.164,
+        "Y": 37.64,
+        "Z": 9.12,
         "View_ID": "View_3F_C_2_6"
     },
     {
@@ -14117,10 +14117,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "2열",
         "Seat_Number": 7,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 7,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "7",
+        "X": 10.665,
+        "Y": 37.555,
+        "Z": 9.12,
         "View_ID": "View_3F_C_2_7"
     },
     {
@@ -14129,10 +14129,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "2열",
         "Seat_Number": 8,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 8,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "8",
+        "X": 10.166,
+        "Y": 37.47,
+        "Z": 9.12,
         "View_ID": "View_3F_C_2_8"
     },
     {
@@ -14141,10 +14141,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "3열",
         "Seat_Number": 1,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 1,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "1",
+        "X": 13.66,
+        "Y": 39.052,
+        "Z": 9.74,
         "View_ID": "View_3F_C_3_1"
     },
     {
@@ -14153,10 +14153,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "3열",
         "Seat_Number": 2,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 2,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "2",
+        "X": 13.163,
+        "Y": 38.967,
+        "Z": 9.74,
         "View_ID": "View_3F_C_3_2"
     },
     {
@@ -14165,10 +14165,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "3열",
         "Seat_Number": 3,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 3,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "3",
+        "X": 12.666,
+        "Y": 38.883,
+        "Z": 9.74,
         "View_ID": "View_3F_C_3_3"
     },
     {
@@ -14177,10 +14177,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "3열",
         "Seat_Number": 4,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 4,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "4",
+        "X": 12.169,
+        "Y": 38.798,
+        "Z": 9.74,
         "View_ID": "View_3F_C_3_4"
     },
     {
@@ -14189,10 +14189,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "3열",
         "Seat_Number": 5,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 5,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "5",
+        "X": 11.673,
+        "Y": 38.714,
+        "Z": 9.74,
         "View_ID": "View_3F_C_3_5"
     },
     {
@@ -14201,10 +14201,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "3열",
         "Seat_Number": 6,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 6,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "6",
+        "X": 11.176,
+        "Y": 38.629,
+        "Z": 9.74,
         "View_ID": "View_3F_C_3_6"
     },
     {
@@ -14213,10 +14213,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "3열",
         "Seat_Number": 7,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 7,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "7",
+        "X": 10.679,
+        "Y": 38.545,
+        "Z": 9.74,
         "View_ID": "View_3F_C_3_7"
     },
     {
@@ -14225,10 +14225,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "3열",
         "Seat_Number": 8,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 8,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "8",
+        "X": 10.182,
+        "Y": 38.46,
+        "Z": 9.74,
         "View_ID": "View_3F_C_3_8"
     },
     {
@@ -14237,10 +14237,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "4열",
         "Seat_Number": 1,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 1,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "1",
+        "X": 13.66,
+        "Y": 40.038,
+        "Z": 10.36,
         "View_ID": "View_3F_C_4_1"
     },
     {
@@ -14249,10 +14249,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "4열",
         "Seat_Number": 2,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 2,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "2",
+        "X": 13.165,
+        "Y": 39.954,
+        "Z": 10.36,
         "View_ID": "View_3F_C_4_2"
     },
     {
@@ -14261,10 +14261,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "4열",
         "Seat_Number": 3,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 3,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "3",
+        "X": 12.671,
+        "Y": 39.87,
+        "Z": 10.36,
         "View_ID": "View_3F_C_4_3"
     },
     {
@@ -14273,10 +14273,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "4열",
         "Seat_Number": 4,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 4,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "4",
+        "X": 12.176,
+        "Y": 39.786,
+        "Z": 10.36,
         "View_ID": "View_3F_C_4_4"
     },
     {
@@ -14285,10 +14285,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "4열",
         "Seat_Number": 5,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 5,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "5",
+        "X": 11.682,
+        "Y": 39.702,
+        "Z": 10.36,
         "View_ID": "View_3F_C_4_5"
     },
     {
@@ -14297,10 +14297,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "4열",
         "Seat_Number": 6,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 6,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "6",
+        "X": 11.187,
+        "Y": 39.618,
+        "Z": 10.36,
         "View_ID": "View_3F_C_4_6"
     },
     {
@@ -14309,10 +14309,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "4열",
         "Seat_Number": 7,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 7,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "7",
+        "X": 10.693,
+        "Y": 39.534,
+        "Z": 10.36,
         "View_ID": "View_3F_C_4_7"
     },
     {
@@ -14321,10 +14321,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "4열",
         "Seat_Number": 8,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 8,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "8",
+        "X": 10.198,
+        "Y": 39.45,
+        "Z": 10.36,
         "View_ID": "View_3F_C_4_8"
     },
     {
@@ -14333,10 +14333,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "5열",
         "Seat_Number": 1,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 1,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "1",
+        "X": 13.66,
+        "Y": 41.024,
+        "Z": 10.98,
         "View_ID": "View_3F_C_5_1"
     },
     {
@@ -14345,10 +14345,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "5열",
         "Seat_Number": 2,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 2,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "2",
+        "X": 13.168,
+        "Y": 40.941,
+        "Z": 10.98,
         "View_ID": "View_3F_C_5_2"
     },
     {
@@ -14357,10 +14357,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "5열",
         "Seat_Number": 3,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 3,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "3",
+        "X": 12.675,
+        "Y": 40.857,
+        "Z": 10.98,
         "View_ID": "View_3F_C_5_3"
     },
     {
@@ -14369,10 +14369,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "5열",
         "Seat_Number": 4,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 4,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "4",
+        "X": 12.183,
+        "Y": 40.774,
+        "Z": 10.98,
         "View_ID": "View_3F_C_5_4"
     },
     {
@@ -14381,10 +14381,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "5열",
         "Seat_Number": 5,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 5,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "5",
+        "X": 11.691,
+        "Y": 40.69,
+        "Z": 10.98,
         "View_ID": "View_3F_C_5_5"
     },
     {
@@ -14393,10 +14393,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "5열",
         "Seat_Number": 6,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 6,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "6",
+        "X": 11.199,
+        "Y": 40.607,
+        "Z": 10.98,
         "View_ID": "View_3F_C_5_6"
     },
     {
@@ -14405,10 +14405,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "5열",
         "Seat_Number": 7,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 7,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "7",
+        "X": 10.706,
+        "Y": 40.523,
+        "Z": 10.98,
         "View_ID": "View_3F_C_5_7"
     },
     {
@@ -14417,10 +14417,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "5열",
         "Seat_Number": 8,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 8,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "8",
+        "X": 10.214,
+        "Y": 40.44,
+        "Z": 10.98,
         "View_ID": "View_3F_C_5_8"
     },
     {
@@ -14429,10 +14429,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "6열",
         "Seat_Number": 1,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 1,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "1",
+        "X": 13.66,
+        "Y": 42.01,
+        "Z": 11.6,
         "View_ID": "View_3F_C_6_1"
     },
     {
@@ -14441,10 +14441,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "6열",
         "Seat_Number": 2,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 2,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "2",
+        "X": 13.17,
+        "Y": 41.927,
+        "Z": 11.6,
         "View_ID": "View_3F_C_6_2"
     },
     {
@@ -14453,10 +14453,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "6열",
         "Seat_Number": 3,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 3,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "3",
+        "X": 12.68,
+        "Y": 41.844,
+        "Z": 11.6,
         "View_ID": "View_3F_C_6_3"
     },
     {
@@ -14465,10 +14465,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "6열",
         "Seat_Number": 4,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 4,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "4",
+        "X": 12.19,
+        "Y": 41.761,
+        "Z": 11.6,
         "View_ID": "View_3F_C_6_4"
     },
     {
@@ -14477,10 +14477,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "6열",
         "Seat_Number": 5,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 5,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "5",
+        "X": 11.7,
+        "Y": 41.679,
+        "Z": 11.6,
         "View_ID": "View_3F_C_6_5"
     },
     {
@@ -14489,10 +14489,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "6열",
         "Seat_Number": 6,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 6,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "6",
+        "X": 11.21,
+        "Y": 41.596,
+        "Z": 11.6,
         "View_ID": "View_3F_C_6_6"
     },
     {
@@ -14501,10 +14501,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "6열",
         "Seat_Number": 7,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 7,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "7",
+        "X": 10.72,
+        "Y": 41.513,
+        "Z": 11.6,
         "View_ID": "View_3F_C_6_7"
     },
     {
@@ -14513,10 +14513,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "6열",
         "Seat_Number": 8,
         "Seat_Type": "일반 좌석",
-        "Display_Text": 8,
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": "8",
+        "X": 10.23,
+        "Y": 41.43,
+        "Z": 11.6,
         "View_ID": "View_3F_C_6_8"
     },
     {
@@ -14525,10 +14525,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "7열",
         "Seat_Number": 1,
         "Seat_Type": "none",
-        "Display_Text": "",
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": NaN,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0,
         "View_ID": "View_3F_C_7_1"
     },
     {
@@ -14537,10 +14537,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "7열",
         "Seat_Number": 2,
         "Seat_Type": "none",
-        "Display_Text": "",
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": NaN,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0,
         "View_ID": "View_3F_C_7_2"
     },
     {
@@ -14549,10 +14549,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "7열",
         "Seat_Number": 3,
         "Seat_Type": "none",
-        "Display_Text": "",
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": NaN,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0,
         "View_ID": "View_3F_C_7_3"
     },
     {
@@ -14561,10 +14561,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "7열",
         "Seat_Number": 4,
         "Seat_Type": "none",
-        "Display_Text": "",
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": NaN,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0,
         "View_ID": "View_3F_C_7_4"
     },
     {
@@ -14573,10 +14573,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "7열",
         "Seat_Number": 5,
         "Seat_Type": "none",
-        "Display_Text": "",
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": NaN,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0,
         "View_ID": "View_3F_C_7_5"
     },
     {
@@ -14585,10 +14585,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "7열",
         "Seat_Number": 6,
         "Seat_Type": "none",
-        "Display_Text": "",
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": NaN,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0,
         "View_ID": "View_3F_C_7_6"
     },
     {
@@ -14597,10 +14597,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "7열",
         "Seat_Number": 7,
         "Seat_Type": "none",
-        "Display_Text": "",
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": NaN,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0,
         "View_ID": "View_3F_C_7_7"
     },
     {
@@ -14609,10 +14609,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "7열",
         "Seat_Number": 8,
         "Seat_Type": "none",
-        "Display_Text": "",
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": NaN,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0,
         "View_ID": "View_3F_C_7_8"
     },
     {
@@ -14621,10 +14621,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "8열",
         "Seat_Number": 1,
         "Seat_Type": "none",
-        "Display_Text": "",
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": NaN,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0,
         "View_ID": "View_3F_C_8_1"
     },
     {
@@ -14633,10 +14633,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "8열",
         "Seat_Number": 2,
         "Seat_Type": "none",
-        "Display_Text": "",
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": NaN,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0,
         "View_ID": "View_3F_C_8_2"
     },
     {
@@ -14645,10 +14645,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "8열",
         "Seat_Number": 3,
         "Seat_Type": "none",
-        "Display_Text": "",
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": NaN,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0,
         "View_ID": "View_3F_C_8_3"
     },
     {
@@ -14657,10 +14657,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "8열",
         "Seat_Number": 4,
         "Seat_Type": "none",
-        "Display_Text": "",
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": NaN,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0,
         "View_ID": "View_3F_C_8_4"
     },
     {
@@ -14669,10 +14669,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "8열",
         "Seat_Number": 5,
         "Seat_Type": "none",
-        "Display_Text": "",
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": NaN,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0,
         "View_ID": "View_3F_C_8_5"
     },
     {
@@ -14681,10 +14681,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "8열",
         "Seat_Number": 6,
         "Seat_Type": "none",
-        "Display_Text": "",
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": NaN,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0,
         "View_ID": "View_3F_C_8_6"
     },
     {
@@ -14693,10 +14693,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "8열",
         "Seat_Number": 7,
         "Seat_Type": "none",
-        "Display_Text": "",
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": NaN,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0,
         "View_ID": "View_3F_C_8_7"
     },
     {
@@ -14705,10 +14705,10 @@ const GS_ARTS_CENTER_SEAT_MAP_DATA = [
         "Row": "8열",
         "Seat_Number": 8,
         "Seat_Type": "none",
-        "Display_Text": "",
-        "X": 0,
-        "Y": 0,
-        "Z": 0,
+        "Display_Text": NaN,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0,
         "View_ID": "View_3F_C_8_8"
     }
 ]

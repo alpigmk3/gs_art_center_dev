@@ -1338,11 +1338,20 @@
       //const ty = parseFloat(document.getElementById('target_y').value) || 0;
       //const tz = parseFloat(document.getElementById('target_z').value) || 0;
 
-      const view = new WALK.View();
+      var viewer = WALK.getViewer();
+      var pos = viewer.getCameraPosition();
+      var rot = viewer.getCameraRotation();
+
+
+      var view = new WALK.View();
+      view.rotation.yawDeg = rot.yawDeg;
+      view.rotation.pitchDeg = rot.pitchDeg;
+
       view.position.x = x;
       view.position.y = y;
       view.position.z = z;
-
+      viewer.switchToView(view);
+      /*
       var targetVec = new THREE.Vector3(-17.29, 14.14, 3.06)
       //const targetVec = new THREE.Vector3(tx, ty, tz);
 
@@ -1353,6 +1362,7 @@
       view.rotation.z = ves.z;
 
       viewer.switchToView(view);
+      */
     }
 
   </script>
